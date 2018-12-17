@@ -1,0 +1,40 @@
+\makeatletter
+\begin{titlepage}
+\color{namecolor}
+
+\pagecolor{titlepagecolor}
+
+\noindent
+\makebox[0pt][l]{\rule{1.4\textwidth}{1pt}}
+\par
+
+\noindent
+\textbf{\sffamily{Palacký University}} \textcolor{namecolor}{\sffamily{ Olomouc}}\par \vskip\baselineskip 
+
+\noindent\sffamily{Dipartimento di Lingue Romanze, Facoltà di Filosofia} \par\vskip\baselineskip
+
+\vspace{2em}
+
+\begin{flushleft}
+
+\noindent
+{\HUGE \sf \@title  \par}\vskip\baselineskip
+
+\noindent
+{\Large \sf \@subtitle \par} \vskip\baselineskip
+\end{flushleft}
+
+\noindent
+{\large{\sffamily\MakeTextUppercase{\@author}}\par} 
+\vspace{4em}
+\par \vskip\baselineskip
+\vspace{3em}
+
+ {\footnotesize   \ttfamily{draft : : \today   : :  \currenttime} \par}
+
+\color{black}
+
+\end{titlepage}
+\makeatother
+\nopagecolor% Use this to restore the color pages to white
+\pagecolor{white}

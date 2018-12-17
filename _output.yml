@@ -1,0 +1,28 @@
+bookdown::gitbook:
+  pandoc_args:
+    - --filter
+    - pangloss
+  split_by: chapter
+  css: html/style.css
+  config:
+    sharing: no
+    toc:
+      toc_float:
+      collapsed: false
+      smooth_scroll: true
+      before: 
+      after: 
+    edit: https://github.com/p-marco/sintassiIta2/edit/master/%s
+    download: ["pdf", "docx", "epub", "tex" ]
+bookdown::pdf_book:
+  template: null
+  pandoc_args:
+    - --filter
+    - pangloss
+  includes: 
+    in_header: latex/preamble.tex
+    before_body: latex/frontmatter.tex
+  latex_engine: xelatex
+  citation_package: natbib
+  keep_tex: yes
+bookdown::epub_book: default

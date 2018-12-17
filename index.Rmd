@@ -1,0 +1,27 @@
+--- 
+title: "Sintassi Italiana 2"
+subtitle: ""
+author: "Marco Petolicchio"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: scrbook
+lot: yes
+lof: yes
+classoption: [a4paper,twoside,12pt,chapterprefix=false, bibliography=totocnumbered,listof=flat]
+bibliography: [bibliography.bib]
+biblio-style: apa
+link-citations: yes
+github-repo: p-marco.github.io/sintassiIta2
+description: "sintassiIta2"
+always_allow_html: yes
+---
+
+# Introduzione {-}
+
+Corso di Sintassi Italiana 2.
+
+
+
+
+
