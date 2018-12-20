@@ -1,6 +1,6 @@
 --- 
 title: "Sintassi Italiana 2"
-subtitle: ""
+subtitle: "Dispense per gli studenti del corso KRI/SYNT2"
 author: "Marco Petolicchio"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -19,9 +19,11 @@ always_allow_html: yes
 
 # Introduzione {-}
 
-Corso di Sintassi Italiana 2.
+Questa dispensa nasce come materiale di studio per l'esame di Sintassi Italiana 2 per gli studenti triennali dell'Università Palacky di Olomouc, pensata in maniera specifica per studenti non madrelingua. Si fa riferimento a nozioni *tradizionali* della linguistica e degli studi sintattici rimandando, laddove si è ritenuto più pertinente, a degli studi più recenti in maniera da poter stimolare ulteriormente lo studente.  
 
+Per qualsiasi informazione è possibile scrivere direttamente all'autore all'indirizzo `marco.petolicchio01@upol.cz`.
 
+Quest'opera è rilasciata con licenza Creative Commons BY 4.0. Il codice sorgente è disponibile all'indirizzo `http://github.com/p-marco/sintassiIta2` e le versioni del progetto sono rilasciate in DOI attraverso la piattaforma Zenodo (DOI:10.5281/zenodo.2355707).
 
 
 
