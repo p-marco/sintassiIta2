@@ -1,7 +1,4 @@
 bookdown::gitbook:
-  pandoc_args:
-    - --filter
-    - pangloss
   split_by: chapter
   css: html/style.css
   config:

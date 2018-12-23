@@ -1,0 +1,81 @@
+
+# Le parti del discorso
+
+Le parole di una lingua vengono divise all'interno di categorie grammaticali. In italiano --una lingua flessiva come buona parte delle lingue indoeuropee [@graffiScalise2009]-- queste suddivisioni avvengono per criteri di natura sintattica, ovvero la posizione ed il ruolo delle parole all'interno della frase. Tradizionalmente possiamo riconoscere 9 diverse **parti del discorso** [@salvi2013], tra cui possiamo operare una ulteriore suddivisione: quelle (parti) *variabili* e quelle *invariabili*.  
+
+
+## Le parti variabili
+
+In italiano si definiscono parti **variabili** del discorso quelle che hanno la possibilità di modificarsi sulla base di alcuni *tratti* o *categorie grammaticali* [@simone1995 Cap.9] come il Genere, il Numero, la Persona, il Caso, il Tempo, l'Aspetto, il Modo ecc.. 
+
+### Aggettivo  
+
+L'aggettivo è un *modificatore* di altri elementi del discorso, soprattutto del sostantivo, con cui instaura un rapporto sintattico che si manifesta, nella maggior parte dei casi, nella concordanza grammaticale (Brutto *stamani il* tempo *e ancora più* pestifero *il* Tempo [@montale-satura], *Le* lasagne scaldate *nel micro che da solo mi sento* cattivo [@fibra2017]).
+
+
+Tradizionalmente possiamo suddividere la classe di aggettivi in due categorie:
+
+* Determinativi:
+    * Possessivi (*mia, vostre, suo*)
+    * Numerali:
+        * Cardinali (*due, trentatré*) 
+        * Ordinali (*primo, quarantatreesimo*)
+    * Dimostrativi (*questo, quello*)
+    * Indefiniti (*alcuni, tutti, nessuna*)
+    * Interrogativi ed esclamativi (*quale?, quanti?, quale gioia!, ma che onore!*)
+* Qualificativi (*forte, grande, bello, rettangolare, goloso, verde, vecchio*)
+
+I determinativi esprimono alcune funzioni della referenza (per esempio il possesso), mentre i qualificativi esprimono dei caratteri quali il colore, la forma, l'aspetto, le qualità. Quella dei determinativi è una classe *chiusa*, mentre quella dei qualificativi è una classe *aperta* che prevede cioè la possibilità di espandersi in maniera indefinita.
+
+### Articolo
+
+L'articolo è quella particella che si accompagna al nome o ad altre parti del discorso in funzione sostantivata. In italiano esso concorda nei tratti di Numero, Persona, Genere con il sostantivo di riferimento [@grandi2010].
+Le lingue del mondo non presentano tutte lo stesso comportamento nei riguardi della posizione e/o della presenza dell'articolo e possiamo trovare:
+
+* Lingue senza articoli (*ceco, slovacco*)
+* Lingue con articoli
+    * Proclitici (*italiano, inglese*)
+    * Enclitici (*bulgaro, macedone*)
+
+In una lingua come l'italiano, la presenza dell'articolo è lo *standard*, ovvero non ha una funzione specifica mentre la sua assenza assume significato. Così, per esempio, in **italiano standard**^[Alcune varietà di italiano, quali i dialetti settentrionali, hanno invece gli articoli in questi contesti [@loporcaro2009].] i nomi propri escludono l'articolo (*Marta va in città* vs. *\*La Marta va in città*) così come è esclusa la possibilità di trovare l'articolo in combinazione con il possessivo nei nomi di famiglia (*mio figlio si chiama Luigi* vs. *\* Il mio figlio si chiama Luigi*). 
+
+\begin{table}[]
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+      & \multicolumn{2}{c}{Definito} & \multicolumn{2}{c}{Indefinito} & \multicolumn{2}{c}{Partitivo} \\ \midrule
+      & Sing          & Plur         & Sing           & Plur          & Sing          & Plur          \\
+Masch & il            & i            & un             & -             & del           & dei           \\
+Masch & lo            & gli          & uno            & -             & dello         & degli         \\
+Fem   & la            & le           & una            & -             & della         & delle         \\ \bottomrule
+\end{tabular}
+\caption{Tabella riassuntiva degli articoli in italiano}
+\end{table}
+
+
+
+
+
+#### Definito
+
+L'articolo definito o *determinativo* può indicare un referente determinato, ovvero noto (*Sto cercando il libro*, *hai visto la mia maglietta?*).
+
+
+#### Indefinito
+
+Quello indefinito o indeterminativo può essere usato per indicare un sostantivo indefinito specifico (*non trovo un libro che avevo lasciato a casa*) oppure non specifico (*per la nuova casa vorrei trovare un inquilino simpatico*). Gli articoli indefiniti non possono essere usati al plurale e la loro forma è la stessa del numero "uno" (1). 
+
+
+#### Partitivo
+
+L'articolo partitivo si usa per indicare quantità indefinite o parti di un insieme (*vorrei del pane*, *sto cercando dei libri*, *la maggior parte dei ragazzi pensa solo a una cosa*). Si forma dall'unione delle forme "di" con l'articolo definito (*del*, *dello*, *della*, *dei*, *degli*, *delle*).
+
+### Nome
+### Pronome
+### Verbo
+
+## Le parti invariabili
+
+### Avverbio
+### Congiunzione
+### Interiezione
+### Preposizione
