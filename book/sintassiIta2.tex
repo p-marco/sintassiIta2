@@ -1,6 +1,3 @@
-\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
-\PassOptionsToPackage{hyphens}{url}
-%
 \documentclass[a4paper,twoside,11pt,chapterprefix=false,bibliography=totocnumbered,listof=flat]{scrbook}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
@@ -9,9 +6,12 @@
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provides euro and other symbols
 \else % if luatex or xelatex
-  \usepackage{unicode-math}
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 \fi
 % use upquote if available, for straight quotes in verbatim environments
@@ -21,22 +21,25 @@
 \usepackage[]{microtype}
 \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\usepackage{hyperref}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true]{hyperref}
 \hypersetup{
             pdftitle={Sintassi Italiana 2},
             pdfauthor={Marco Petolicchio},
             pdfborder={0 0 0},
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
+\usepackage{natbib}
+\bibliographystyle{apa}
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -295,14 +298,12 @@
 \let\eachwordone=\it
 
 \frontmatter
-\usepackage[]{natbib}
-\bibliographystyle{apa}
 
 \title{Sintassi Italiana 2}
 \providecommand{\subtitle}[1]{}
 \subtitle{Dispense per gli studenti del corso KRI/SYNT2}
 \author{Marco Petolicchio}
-\date{2018-12-22}
+\date{2018-12-25}
 
 \begin{document}
 \maketitle
@@ -354,8 +355,7 @@
 }
 \listoftables
 \listoffigures
-\hypertarget{introduzione}{%
-\chapter*{Introduzione}\label{introduzione}}
+\chapter*{Introduzione}\label{introduzione}
 \addcontentsline{toc}{chapter}{Introduzione}
 
 Questa dispensa nasce come materiale di studio per l'esame di Sintassi
@@ -379,8 +379,7 @@ progetto sono rilasciate in DOI attraverso la piattaforma Zenodo
 
 \part*{Parte I. \\\ Questioni preliminari}
 
-\hypertarget{le-parti-del-discorso}{%
-\chapter{Le parti del discorso}\label{le-parti-del-discorso}}
+\chapter{Le parti del discorso}\label{le-parti-del-discorso}
 
 Le parole di una lingua vengono divise all'interno di categorie
 grammaticali. In italiano --una lingua flessiva come buona parte delle
@@ -391,8 +390,7 @@ riconoscere 9 diverse \textbf{parti del discorso} \citep{salvi2013}, tra
 cui possiamo operare una ulteriore suddivisione: quelle (parti)
 \emph{variabili} e quelle \emph{invariabili}.
 
-\hypertarget{le-parti-variabili}{%
-\section{Le parti variabili}\label{le-parti-variabili}}
+\section{Le parti variabili}\label{le-parti-variabili}
 
 In italiano si definiscono parti \textbf{variabili} del discorso quelle
 che hanno la possibilità di modificarsi sulla base di alcuni
@@ -400,16 +398,14 @@ che hanno la possibilità di modificarsi sulla base di alcuni
 come il Genere, il Numero, la Persona, il Caso, il Tempo, l'Aspetto, il
 Modo ecc..
 
-\hypertarget{aggettivo}{%
-\subsection{Aggettivo}\label{aggettivo}}
+\subsection{Aggettivo}\label{aggettivo}
 
 L'aggettivo è un \emph{modificatore} di altri elementi del discorso,
 soprattutto del sostantivo, con cui instaura un rapporto sintattico che
 si manifesta, nella maggior parte dei casi, nella concordanza
-grammaticale (Brutto \emph{stamani il} tempo \emph{e ancora più}
-pestifero \emph{il} Tempo \citep{montale-satura}, \emph{Le} lasagne
-scaldate \emph{nel micro che da solo mi sento} cattivo
-\citep{fibra2017}).
+grammaticale (\emph{Brutto stamani il tempo e ancora più pestifero il
+Tempo} \citep{montale-satura}, \emph{Le lasagne scaldate nel micro che
+da solo mi sento cattivo} \citep{fibra2017}).
 
 Tradizionalmente possiamo suddividere la classe di aggettivi in due
 categorie:
@@ -453,8 +449,7 @@ classe \emph{chiusa}, mentre quella dei qualificativi è una classe
 \emph{aperta} che prevede cioè la possibilità di espandersi in maniera
 indefinita.
 
-\hypertarget{articolo}{%
-\subsection{Articolo}\label{articolo}}
+\subsection{Articolo}\label{articolo}
 
 L'articolo è quella particella che si accompagna al nome o ad altre
 parti del discorso in funzione sostantivata. In italiano esso concorda
@@ -485,10 +480,10 @@ assenza assume significato. Così, per esempio, in \textbf{italiano
 standard}\footnote{Alcune varietà di italiano, quali i dialetti
   settentrionali, hanno invece gli articoli in questi contesti
   \citep{loporcaro2009}.} i nomi propri escludono l'articolo
-(\emph{Marta va in città} vs.~\emph{*La Marta va in città}) così come è
+(\emph{Marta va in città} vs. \emph{*La Marta va in città}) così come è
 esclusa la possibilità di trovare l'articolo in combinazione con il
-possessivo nei nomi di famiglia (\emph{mio figlio si chiama Luigi}
-vs.~\emph{* Il mio figlio si chiama Luigi}).
+possessivo nei nomi di famiglia (\emph{mio figlio si chiama Luigi} vs.
+\emph{* Il mio figlio si chiama Luigi}).
 
 \begin{table}[]
 \begin{tabular}{@{}lrrrrrr@{}}
@@ -502,15 +497,13 @@ Fem   & la            & le           & una            & -             & della   
 \caption{Tabella riassuntiva degli articoli in italiano}
 \end{table}
 
-\hypertarget{definito}{%
-\subsubsection{Definito}\label{definito}}
+\subsubsection{Definito}\label{definito}
 
 L'articolo definito o \emph{determinativo} può indicare un referente
 determinato, ovvero noto (\emph{Sto cercando il libro}, \emph{hai visto
-la mia maglietta?}):
+la mia maglietta?}).
 
-\hypertarget{indefinito}{%
-\subsubsection{Indefinito}\label{indefinito}}
+\subsubsection{Indefinito}\label{indefinito}
 
 Quello indefinito o indeterminativo può essere usato per indicare un
 sostantivo indefinito specifico (\emph{non trovo un libro che avevo
@@ -519,8 +512,7 @@ trovare un inquilino simpatico}). Gli articoli indefiniti non possono
 essere usati al plurale e la loro forma è la stessa del numero
 \enquote{uno} (1).
 
-\hypertarget{partitivo}{%
-\subsubsection{Partitivo}\label{partitivo}}
+\subsubsection{Partitivo}\label{partitivo}
 
 L'articolo partitivo si usa per indicare quantità indefinite o parti di
 un insieme (\emph{vorrei del pane}, \emph{sto cercando dei libri},
@@ -529,180 +521,189 @@ dall'unione delle forme \enquote{di} con l'articolo definito
 (\emph{del}, \emph{dello}, \emph{della}, \emph{dei}, \emph{degli},
 \emph{delle}).
 
-\hypertarget{nome}{%
-\subsection{Nome}\label{nome}}
+\subsection{Nome}\label{nome}
 
-\hypertarget{pronome}{%
-\subsection{Pronome}\label{pronome}}
+Il nome o \emph{sostantivo} è la parte del discorso che designa entità,
+persone, oggetti, idee, fatti ecc. Il nome è una parte variabile, che
+modifica la sua flessione (\emph{morfologia flessionale}) in conseguenza
+di alcuni tratti della parola quale il Numero, il Genere e che può
+modificarsi tramite l'aggiunta di morfemi che ne codificano un
+significato diminutivo, vezzeggiativo ecc. (\emph{morfologia
+derivazionale}).
 
-\hypertarget{verbo}{%
-\subsection{Verbo}\label{verbo}}
+Dal punto di vista formale possiamo dividere il nome in base ad alcune
+categorie grammaticali:
 
-\hypertarget{le-parti-invariabili}{%
-\section{Le parti invariabili}\label{le-parti-invariabili}}
+\begin{itemize}
+\tightlist
+\item
+  Genere
 
-\hypertarget{avverbio}{%
-\subsection{Avverbio}\label{avverbio}}
+  \begin{itemize}
+  \tightlist
+  \item
+    Maschile
+  \item
+    Femminile
+  \item
+    Genere comune
+  \item
+    Genere misto (\emph{osso/ossa, uovo/uova})
+  \end{itemize}
+\item
+  Numero
 
-\hypertarget{congiunzione}{%
-\subsection{Congiunzione}\label{congiunzione}}
+  \begin{itemize}
+  \tightlist
+  \item
+    Singolare
+  \item
+    Plurale
+  \item
+    Collettivo (\emph{gregge, biblioteca})
+  \end{itemize}
+\end{itemize}
 
-\hypertarget{interiezione}{%
-\subsection{Interiezione}\label{interiezione}}
+In italiano la marca di numero e di genere è resa in un unico suffisso
+\emph{portmanteu} (cioè che testimonia diversi valori insieme), mentre
+in lingue agglutinanti di solito questi tratti possono essere realizzati
+da differenti morfemi.
 
-\hypertarget{preposizione}{%
-\subsection{Preposizione}\label{preposizione}}
+\subsection{Pronome}\label{pronome}
 
-\hypertarget{la-frase}{%
-\chapter{La frase}\label{la-frase}}
+Il pronome è quella categoria grammaticale \emph{coreferenziale} del
+nome a cui si riferisce e sostituisce: presenta cioè lo stesso
+riferimento --quale può essere la persona-- (\emph{referenza}) del
+sostantivo (\emph{Ho visto Gianni. Sì, lui}(=Gianni) \emph{sta molto
+bene}; \emph{La sigaretta, Luigi la}(=sigaretta) \emph{fuma dopo il
+caffè}).
 
-\hypertarget{coordinazione}{%
-\section{Coordinazione}\label{coordinazione}}
+I pronomi sono \textbf{personali} (\emph{io, tu, noi}),
+\textbf{possessivi} (\emph{mio, tua}), \textbf{dimostrativi}
+(\emph{questo, quello}), \textbf{riflessivi} (\emph{io mi pettino, voi
+vi amate?}), \textbf{relativi} (\emph{che, la quale}),
+\textbf{interrogativi} (\emph{non so chi tu sia}), \textbf{numerali}.
 
-\hypertarget{giustapposizione}{%
-\section{Giustapposizione}\label{giustapposizione}}
+In una frase come \enquote{\emph{la mia penna è blu, la tua?}}, la
+parola \enquote{mia} è un aggettivo mentre \enquote{tua} è pronome.
 
-\hypertarget{connettori}{%
-\section{Connettori}\label{connettori}}
+L'italiano è una lingua a soggetto nullo, che permette cioè la
+possibilità di omettere il pronome personale in alcune costruzioni
+(\emph{(Io) mangio il pane con la marmellata}).
 
-\hypertarget{esempi}{%
-\section{Esempi}\label{esempi}}
+\subsection{Verbo}\label{verbo}
+
+\section{Le parti invariabili}\label{le-parti-invariabili}
+
+\subsection{Avverbio}\label{avverbio}
+
+\subsection{Congiunzione}\label{congiunzione}
+
+\subsection{Interiezione}\label{interiezione}
+
+\subsection{Preposizione}\label{preposizione}
+
+\chapter{La frase}\label{la-frase}
+
+\section{Coordinazione}\label{coordinazione}
+
+\section{Giustapposizione}\label{giustapposizione}
+
+\section{Connettori}\label{connettori}
+
+\section{Esempi}\label{esempi}
 
 \part*{Parte II. \\\ La frase complessa}
 
-\hypertarget{frasi-soggettive}{%
-\chapter{Frasi soggettive}\label{frasi-soggettive}}
+\chapter{Frasi soggettive}\label{frasi-soggettive}
 
-\hypertarget{funzione}{%
-\section{Funzione}\label{funzione}}
+\section{Funzione}\label{funzione}
 
-\hypertarget{soggettive-esplicite}{%
-\section{Soggettive esplicite}\label{soggettive-esplicite}}
+\section{Soggettive esplicite}\label{soggettive-esplicite}
 
-\hypertarget{soggettive-implicite}{%
-\section{Soggettive implicite}\label{soggettive-implicite}}
+\section{Soggettive implicite}\label{soggettive-implicite}
 
-\hypertarget{frasi-oggettive}{%
-\chapter{Frasi oggettive}\label{frasi-oggettive}}
+\chapter{Frasi oggettive}\label{frasi-oggettive}
 
-\hypertarget{funzione-1}{%
-\section{Funzione}\label{funzione-1}}
+\section{Funzione}\label{funzione-1}
 
-\hypertarget{oggettive-esplicite}{%
-\section{Oggettive esplicite}\label{oggettive-esplicite}}
+\section{Oggettive esplicite}\label{oggettive-esplicite}
 
-\hypertarget{oggettive-implicite}{%
-\section{Oggettive implicite}\label{oggettive-implicite}}
+\section{Oggettive implicite}\label{oggettive-implicite}
 
-\hypertarget{frasi-interrogative}{%
-\chapter{Frasi Interrogative}\label{frasi-interrogative}}
+\chapter{Frasi Interrogative}\label{frasi-interrogative}
 
-\hypertarget{funzione-2}{%
-\section{Funzione}\label{funzione-2}}
+\section{Funzione}\label{funzione-2}
 
-\hypertarget{dirette}{%
-\section{Dirette}\label{dirette}}
+\section{Dirette}\label{dirette}
 
-\hypertarget{indirette}{%
-\section{Indirette}\label{indirette}}
+\section{Indirette}\label{indirette}
 
-\hypertarget{esplicite}{%
-\section{Esplicite}\label{esplicite}}
+\section{Esplicite}\label{esplicite}
 
-\hypertarget{implicite}{%
-\section{Implicite}\label{implicite}}
+\section{Implicite}\label{implicite}
 
-\hypertarget{frasi-relative}{%
-\chapter{Frasi Relative}\label{frasi-relative}}
+\chapter{Frasi Relative}\label{frasi-relative}
 
-\hypertarget{tipi}{%
-\section{Tipi}\label{tipi}}
+\section{Tipi}\label{tipi}
 
-\hypertarget{esplicite-1}{%
-\section{Esplicite}\label{esplicite-1}}
+\section{Esplicite}\label{esplicite-1}
 
-\hypertarget{implicite-1}{%
-\section{Implicite}\label{implicite-1}}
+\section{Implicite}\label{implicite-1}
 
-\hypertarget{frasi-temporali}{%
-\chapter{Frasi temporali}\label{frasi-temporali}}
+\chapter{Frasi temporali}\label{frasi-temporali}
 
-\hypertarget{definizione}{%
-\section{Definizione}\label{definizione}}
+\section{Definizione}\label{definizione}
 
-\hypertarget{tipi-1}{%
-\section{Tipi}\label{tipi-1}}
+\section{Tipi}\label{tipi-1}
 
-\hypertarget{esplicite-2}{%
-\section{Esplicite}\label{esplicite-2}}
+\section{Esplicite}\label{esplicite-2}
 
-\hypertarget{implicite-2}{%
-\section{Implicite}\label{implicite-2}}
+\section{Implicite}\label{implicite-2}
 
-\hypertarget{frasi-comparative-e-modali}{%
-\chapter{Frasi comparative e modali}\label{frasi-comparative-e-modali}}
+\chapter{Frasi comparative e modali}\label{frasi-comparative-e-modali}
 
-\hypertarget{definizione-1}{%
-\section{Definizione}\label{definizione-1}}
+\section{Definizione}\label{definizione-1}
 
-\hypertarget{tipi-2}{%
-\section{Tipi}\label{tipi-2}}
+\section{Tipi}\label{tipi-2}
 
-\hypertarget{esplicite-3}{%
-\section{Esplicite}\label{esplicite-3}}
+\section{Esplicite}\label{esplicite-3}
 
-\hypertarget{implicite-3}{%
-\section{Implicite}\label{implicite-3}}
+\section{Implicite}\label{implicite-3}
 
-\hypertarget{frasi-causali-e-finali}{%
-\chapter{Frasi causali e finali}\label{frasi-causali-e-finali}}
+\chapter{Frasi causali e finali}\label{frasi-causali-e-finali}
 
-\hypertarget{definizione-2}{%
-\section{Definizione}\label{definizione-2}}
+\section{Definizione}\label{definizione-2}
 
-\hypertarget{esplicite-4}{%
-\section{Esplicite}\label{esplicite-4}}
+\section{Esplicite}\label{esplicite-4}
 
-\hypertarget{implicite-4}{%
-\section{Implicite}\label{implicite-4}}
+\section{Implicite}\label{implicite-4}
 
-\hypertarget{frasi-consecutive-e-concessive}{%
 \chapter{Frasi consecutive e
-concessive}\label{frasi-consecutive-e-concessive}}
+concessive}\label{frasi-consecutive-e-concessive}
 
-\hypertarget{definizione-3}{%
-\section{Definizione}\label{definizione-3}}
+\section{Definizione}\label{definizione-3}
 
-\hypertarget{esplicite-5}{%
-\section{Esplicite}\label{esplicite-5}}
+\section{Esplicite}\label{esplicite-5}
 
-\hypertarget{implicite-5}{%
-\section{Implicite}\label{implicite-5}}
+\section{Implicite}\label{implicite-5}
 
-\hypertarget{frasi-codizionali}{%
-\chapter{Frasi codizionali}\label{frasi-codizionali}}
+\chapter{Frasi codizionali}\label{frasi-codizionali}
 
-\hypertarget{definizione-4}{%
-\section{Definizione}\label{definizione-4}}
+\section{Definizione}\label{definizione-4}
 
-\hypertarget{esplicite-6}{%
-\section{Esplicite}\label{esplicite-6}}
+\section{Esplicite}\label{esplicite-6}
 
-\hypertarget{implicite-6}{%
-\section{Implicite}\label{implicite-6}}
+\section{Implicite}\label{implicite-6}
 
-\hypertarget{discorso-diretto-e-indiretto}{%
 \chapter{Discorso diretto e
-indiretto}\label{discorso-diretto-e-indiretto}}
+indiretto}\label{discorso-diretto-e-indiretto}
 
-\hypertarget{definizione-5}{%
-\section{Definizione}\label{definizione-5}}
+\section{Definizione}\label{definizione-5}
 
-\hypertarget{esplicite-7}{%
-\section{Esplicite}\label{esplicite-7}}
+\section{Esplicite}\label{esplicite-7}
 
-\hypertarget{implicite-7}{%
-\section{Implicite}\label{implicite-7}}
+\section{Implicite}\label{implicite-7}
 
 \bibliography{bibliography.bib}
 

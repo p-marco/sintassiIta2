@@ -10,7 +10,7 @@ In italiano si definiscono parti **variabili** del discorso quelle che hanno la 
 
 ### Aggettivo  
 
-L'aggettivo è un *modificatore* di altri elementi del discorso, soprattutto del sostantivo, con cui instaura un rapporto sintattico che si manifesta, nella maggior parte dei casi, nella concordanza grammaticale (Brutto *stamani il* tempo *e ancora più* pestifero *il* Tempo [@montale-satura], *Le* lasagne scaldate *nel micro che da solo mi sento* cattivo [@fibra2017]).
+L'aggettivo è un *modificatore* di altri elementi del discorso, soprattutto del sostantivo, con cui instaura un rapporto sintattico che si manifesta, nella maggior parte dei casi, nella concordanza grammaticale (*Brutto stamani il tempo e ancora più pestifero il Tempo* [@montale-satura], *Le lasagne scaldate nel micro che da solo mi sento cattivo* [@fibra2017]).
 
 
 Tradizionalmente possiamo suddividere la classe di aggettivi in due categorie:
@@ -70,7 +70,38 @@ Quello indefinito o indeterminativo può essere usato per indicare un sostantivo
 L'articolo partitivo si usa per indicare quantità indefinite o parti di un insieme (*vorrei del pane*, *sto cercando dei libri*, *la maggior parte dei ragazzi pensa solo a una cosa*). Si forma dall'unione delle forme "di" con l'articolo definito (*del*, *dello*, *della*, *dei*, *degli*, *delle*).
 
 ### Nome
+
+Il nome o *sostantivo* è la parte del discorso che designa entità, persone, oggetti, idee, fatti ecc. 
+Il nome è una parte variabile, che modifica la sua flessione (*morfologia flessionale*) in conseguenza di alcuni tratti della parola quale il Numero, il Genere e che può modificarsi tramite l'aggiunta di morfemi che ne codificano un significato diminutivo, vezzeggiativo ecc. (*morfologia derivazionale*).
+
+Dal punto di vista formale possiamo dividere il nome in base ad alcune categorie grammaticali:
+
+* Genere
+    * Maschile 
+    * Femminile 
+    * Genere comune
+    * Genere misto (*osso/ossa, uovo/uova*)
+
+* Numero
+    * Singolare
+    * Plurale 
+    * Collettivo (*gregge, biblioteca*)
+
+
+In italiano la marca di numero e di genere è resa in un unico suffisso *portmanteu* (cioè che testimonia diversi valori insieme), mentre in lingue agglutinanti di solito questi tratti possono essere realizzati da differenti morfemi. 
+
+
 ### Pronome
+
+Il pronome è quella categoria grammaticale *coreferenziale* del nome a cui si riferisce e sostituisce: presenta cioè lo stesso riferimento --quale può essere la persona-- (*referenza*) del sostantivo (*Ho visto Gianni. Sì, lui*(=Gianni) *sta molto bene*; *La sigaretta, Luigi la*(=sigaretta) *fuma dopo il caffè*).
+
+I pronomi sono **personali** (*io, tu, noi*), **possessivi** (*mio, tua*), **dimostrativi** (*questo, quello*), **riflessivi** (*io mi pettino, voi vi amate?*), **relativi** (*che, la quale*), **interrogativi** (*non so chi tu sia*), **numerali**.
+
+In una frase come "*la mia penna è blu, la tua?*", la parola "mia" è un aggettivo mentre "tua" è pronome.
+
+L'italiano è una lingua a soggetto nullo, che permette cioè la possibilità di omettere il pronome personale in alcune costruzioni (*(Io) mangio il pane con la marmellata*).
+
+
 ### Verbo
 
 ## Le parti invariabili
