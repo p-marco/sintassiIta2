@@ -97,12 +97,36 @@ Il pronome è quella categoria grammaticale *coreferenziale* del nome a cui si r
 
 I pronomi sono **personali** (*io, tu, noi*), **possessivi** (*mio, tua*), **dimostrativi** (*questo, quello*), **riflessivi** (*io mi pettino, voi vi amate?*), **relativi** (*che, la quale*), **interrogativi** (*non so chi tu sia*), **numerali**.
 
-In una frase come "*la mia penna è blu, la tua?*", la parola "mia" è un aggettivo mentre "tua" è pronome.
+La differenza tra pronome e aggettivo in alcuni casi è esclusivamente riferibile al contesto sintattico, come dimostra l'esempio seguente:
+
+
+(@) La              mia             penna       è           blu,    la      tua             è       nera.
+    ART.DEF.F.sg    ADJ.POSS.F.1sg  NOUN.F.sg   COPULA.3sg  ADJ.    ART.    PRON.POSS.F.2sg COPULA.3sg  ADJ.
+    ''
+
 
 L'italiano è una lingua a soggetto nullo, che permette cioè la possibilità di omettere il pronome personale in alcune costruzioni (*(Io) mangio il pane con la marmellata*).
 
 
 ### Verbo
+
+Il verbo è la parte del discorso che codifica gli stati, gli eventi, le azioni ecc. 
+Possiamo distinguere in esso alcuni caratteri formali quali la classe di coniugazione (*-are, -ere, -ire*), i tratti (aspetto, modo ecc.), il numero di argomenti (verbi transitivi, intransitivi ecc.).
+
+#### Categorie del verbo
+
+Sono categorie del verbo il Tempo, l'Aspetto e il Modo (TAM).
+
+L'italiano è una lingua 
+
+
+#### Argomenti del verbo
+
+Intransitivi
+    Inergativi
+    Inaccusativi
+Transitivi
+Ditransitivi
 
 ## Le parti invariabili
 
