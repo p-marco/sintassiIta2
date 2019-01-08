@@ -100,9 +100,10 @@ I pronomi sono **personali** (*io, tu, noi*), **possessivi** (*mio, tua*), **dim
 La differenza tra pronome e aggettivo in alcuni casi è esclusivamente riferibile al contesto sintattico, come dimostra l'esempio seguente:
 
 
-(@) La              mia             penna       è           blu,    la      tua             è       nera.
-    ART.DEF.F.sg    ADJ.POSS.F.1sg  NOUN.F.sg   COPULA.3sg  ADJ.    ART.    PRON.POSS.F.2sg COPULA.3sg  ADJ.
-    ''
+(@)
+    \gll    La              mia             penna       è           blu,    la      tua             è       nera.  
+            ART.DEF.F.sg    ADJ.POSS.F.1sg  NOUN.F.sg   COPULA.3sg  ADJ.    ART.    PRON.POSS.F.2sg COPULA.3sg  ADJ.  
+    \glt    ''
 
 
 L'italiano è una lingua a soggetto nullo, che permette cioè la possibilità di omettere il pronome personale in alcune costruzioni (*(Io) mangio il pane con la marmellata*).
@@ -122,11 +123,61 @@ L'italiano è una lingua
 
 #### Argomenti del verbo
 
-Intransitivi
-    Inergativi
-    Inaccusativi
-Transitivi
-Ditransitivi
+Negli studi moderni la transitività è trattata piuttosto come un *continuum* con degli estremi che corrispondono grosso modo al numero di argomenti del verbo. 
+Possiamo distinguere i verbi sulla base del numero di argomenti di cui necessitano:
+
+* Intransitivi
+    * Inergativi
+    * Inaccusativi
+* Transitivi
+* Ditransitivi
+ 
+
+##### Intransitivi
+
+I verbi intransitivi o mono-argomentali presentano un solo argomento (*Lui cammina*, *Lei corre*) e sono divisi in due sotto-categorie. Nei verbi **inergativi** (dal greco ant.  ἔργον *érgon*, "lavoro")  il soggetto ha le proprietà sintattiche tipiche di un soggetto transitivo, mentre in quelli **inaccusativi** il soggetto si comporta più come un oggetto delle costruzioni transitive. Sono esempio della prima sottocategoria verbi quali *correre, lavorare, ridere*, mentre della seconda *scoppiare, sparire, cadere*. Un modo per distinguere tali classi di verbi gli uni dagli altri è verificare l'ausiliare nei tempi composti: quelli inergativi presentano il verbo *avere* (*ieri ho lavorato molto*), gli inaccusativi hanno *essere* (*dov'eri? sei sparito subito!*) e l'accordo del participio passato nei tratti del Numero, possibile con gli inaccusativi e non con gli inergativi: *avete lavorato duramente* vs. *siete spariti subito!*. L'argomento dei verbi intransitivi è il soggetto (S).
+
+##### Transitivi
+
+I verbi transitivi collegano prototipicamente due argomenti: il soggetto transitivo (A) e l'oggetto diretto (O) (*Mario mangia la mela*, *Gli attori recitano una commedia*). 
+
+Le costruzioni transitive possono essere regolarmente trasformate in corrispondenti frasi *passive*: in questo caso l'oggetto viene posto in posizione di soggetto e il soggetto transitivo in agente:
+
+(@)
+    \gll    Mario   mangia  la mela.  
+            A       VP      O  
+    \glt  
+
+
+(@)
+    \gll    La mela     è mangiata  da Mario.  
+            S           VP          Ag  
+    \glt  
+
+Così, spesso, le costruzioni transitive possono essere trasformate in corrispondenti intransitive (con una certa modifica nel carico semantico dell'enunciato):
+
+(@)
+    \gll    Mario   mangia.  
+            S       VP        
+    \glt  
+
+
+
+##### Ditransitivi e oltre
+
+I verbi di-transitivi reggono 3 argomenti: A,O e Oggetto Indiretto (IO), e possono essere passivizzati:
+
+(@)
+    \gll    Mario   regala  una rosa    a Luigi.  
+            A       VP      O           IO        
+    \glt  
+
+
+(@)
+    \gll    Una rosa    è regalata  a Luigi da Mario.  
+            S           VP          IO      IO        
+    \glt  
+
 
 ## Le parti invariabili
 

@@ -13,9 +13,6 @@ bookdown::gitbook:
     download: ["pdf", "docx", "epub", "tex" ]
 bookdown::pdf_book:
   template: null
-  pandoc_args:
-    - --filter
-    - pangloss
   includes: 
     in_header: latex/preamble.tex
     before_body: latex/frontmatter.tex
