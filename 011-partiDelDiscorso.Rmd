@@ -181,7 +181,46 @@ I verbi di-transitivi reggono 3 argomenti: A,O e Oggetto Indiretto (IO), e posso
 
 ## Le parti invariabili
 
+Sono parti invariabili del discorso quelle che si presentano sempre nella stessa forma, senza cambiamenti morfologici.
+
 ### Avverbio
+
+L'avverbio è un modificatore di altri elementi della frase come: aggettivi (*Gli spaghetti sono molto buoni*), verbi (*Sappiamo cucinare bene gli spaghetti*), ed altri avverbi (*Arriveremo molto presto*).
+Un'espressione formata da diverse parole con funzione di avverbio è detta *locuzione avverbiale*.
+
+Gli avverbi possono essere di **modo**--indicano cioè il modo dell'azione (*velocemente, bene*)--, di **tempo** (*ora, mai, sempre*), di **luogo** (*qui, lì, giù*), di **quantità** (*poco, molto*), **di opinione** (*sì, no, esatto, chissà, magari*), **interrogativi ed esclamativi** (*come, perché, dove, quando*), **presentativi** (*inoltre, ecco*).
+
+Gli avverbi hanno gli stessi *gradi* dell'aggettivo e in certi casi possono essere alterati da suffissi:
+
+* Gradi
+    * Positivo (*velocemente*)
+    * Comparativo
+        * Di maggioranza (*più velocemente*)
+        * Di minoranza (*meno velocemente*)
+        * Di uguaglianza (*tanto velocemente quanto*)
+    * Superlativo
+        * Relativo (*il più velocemente (possibile)*)
+        * Assoluto (*velocissimamente*)
+
+* Alterazioni
+    * Diminutivo 
+    * Vezzeggiativo
+    * Accrescitivo
+    * Dispregiativo
+
 ### Congiunzione
+
+La congiunzione è la parte del discorso che permette l'unione di sintagmi o frasi. Possono essere **positive** (*e, anche, pure*), **negative** (*né, neanche, nemmeno*), **disgiuntive** (*o, oppure, altrimenti*), **avversative** (*anzi, ma, tuttavia, nonostante*), **conclusive** (*dunque, allorché*).
+
+
 ### Interiezione
+
+L'interiezione esprime un particolare atteggiamento del parlante. Sono esempi di interiezioni **proprie** particelle quali *ah!, eh!, oh!*, **improprie** se comprendono altre parti del discorso (*zitto!, cavolo!*) e **locuzioni interiettive** se formate da più parole (*per Dio!, per amor del cielo, porca miseria*).
+Particolarmente usata nella comunicazione orale, presenta una grande varianza all'interno dei sistemi dialettali, dando luogo a espressioni particolarmente colorite(*figa, pota, cazzo, stocazzo, sticazzi, minchia, mecojoni*).
+
 ### Preposizione
+
+Le preposizioni sono poste *prima* del nome o di altri elementi (*Sono andato a Praga la settimana scorsa; Non ho mai lavorato in Germania; Vieni prima di subito*). 
+
+Sono preposizioni **proprie** *di, a, da, in, con, su, per, tra,fra*, **improprie** *dopo, tranne, salvo, verso, contro, circa*, **locuzioni prepositive** *a causa di, per mezzo di, in base a*.
+
