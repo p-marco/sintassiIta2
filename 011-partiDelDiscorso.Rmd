@@ -178,6 +178,15 @@ I verbi di-transitivi reggono 3 argomenti: A,O e Oggetto Indiretto (IO), e posso
             S           VP          IO      IO        
     \glt  
 
+Per esemplificare un verbo tetravalente, ovvero che regge 4 argomenti, possiamo riferirci a *tradurre*:
+
+(@)
+    \gll    San Girolamo    tradusse    alcuni libri della Bibbia   dal greco   al latino.  
+            A               VP          O                           IO          IO        
+    \glt 
+
+
+
 
 ## Le parti invariabili
 
@@ -224,3 +233,23 @@ Le preposizioni sono poste *prima* del nome o di altri elementi (*Sono andato a 
 
 Sono preposizioni **proprie** *di, a, da, in, con, su, per, tra,fra*, **improprie** *dopo, tranne, salvo, verso, contro, circa*, **locuzioni prepositive** *a causa di, per mezzo di, in base a*.
 
+
+## I tratti
+
+
+A questo punto possiamo trasporre alcune di queste definizioni grammaticali all'interno di una prospettiva sintattica. La prima domanda a cui possiamo tentare di dare una risposta è: *cos'è una parola? E in che modo le parole si organizzano in una grammatica?*
+Abbiamo visto infatti che le parti del discorso sono delle categorie di parole unite tra loro dal fatto che possiamo sostituire una parola da una della stessa categoria (*Il libro è sul tavolo* / *Un libro è sul tavolo*), senza cambiarne lo statuto sintattico.
+
+Rimane dunque la definizione di *parola*. Possiamo, dal punto di vista sintattico definire le parole come elementi linguistici che presentano dei *tratti*. Ad es. nel caso dei nomi, i tratti possono essere il Genere, il Numero, il Caso. Questa definizione, che non presenta complessità di natura teoretica, trova spazio in un'analisi esclusivamente sintattica e ci permette di pensare alle parole come a degli oggetti dotati di certe proprietà (i tratti). In italiano possiamo distinguere varie categorie sulla base dei tratti che presentano:
+
+| Categoria          | Tratti                                |
+|--------------------|---------------------------------------|
+| Nome (N)           | Numero, Genere, Caso                  |
+| Aggettivo (A)      | Numero, Genere                        |
+| Determinante (D)   | Numero, Genere, Caso                  |
+| (Pronome)          | Numero, Genere, Caso, Persona         |
+| Quantificatore (Q) | Numero, Genere                        |
+| Verbo (V)          | Numero, Persona, Tempo, Modo, Aspetto |
+
+
+Così, le parole sono le unità concrete della lingua, e la sintassi è quella componente che assembla le varie parti del discorso sulla base di entità più *piccole* della parola, i *tratti*.

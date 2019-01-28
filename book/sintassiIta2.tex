@@ -302,7 +302,7 @@
 \providecommand{\subtitle}[1]{}
 \subtitle{Dispense per gli studenti del corso KRI/SYNT2}
 \author{Marco Petolicchio}
-\date{2019-01-11}
+\date{2019-01-28}
 
 \begin{document}
 \maketitle
@@ -372,6 +372,26 @@ annotazioni di linguistica comparativa
 \citep[\href{http://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199549368.001.0001/oxfordhb-9780199549368}{consultabile
 online}]{boeckxListOfAbbreviations} e dello stile delle glosse \emph{di
 Lipsia} \citep{leipzigGlossingRules}.
+
+Nel testo si segue l'uso standard di definire i vari gradi di
+accettabilità di una frase attraverso le seguenti marche tipografiche:
+
+\begin{itemize}
+\item
+  ( ) Grammaticale
+\item
+  (*) Agrammaticale
+\item
+  (?) Dubbia grammaticalità
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\arabic{enumi})}
+  \tightlist
+  \item
+    Grammaticale dal punto di vista sintattico ma interpretazione
+    semantica non coerente
+  \end{enumerate}
+\end{itemize}
 
 Per qualsiasi informazione o suggerimento è possibile scrivere
 direttamente all'autore all'indirizzo
@@ -739,6 +759,20 @@ e possono essere passivizzati:
   \glt  
 \end{enumerate}
 
+Per esemplificare un verbo tetravalente, ovvero che regge 4 argomenti,
+possiamo riferirci a \emph{tradurre}:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{6}
+\tightlist
+\item
+  \gll    San Girolamo tradusse alcuni libri della Bibbia dal greco al
+  latino.\\
+  A VP O IO IO\\
+  \glt 
+\end{enumerate}
+
 \hypertarget{le-parti-invariabili}{%
 \section{Le parti invariabili}\label{le-parti-invariabili}}
 
@@ -848,8 +882,81 @@ tra,fra}, \textbf{improprie} \emph{dopo, tranne, salvo, verso, contro,
 circa}, \textbf{locuzioni prepositive} \emph{a causa di, per mezzo di,
 in base a}.
 
+\hypertarget{i-tratti}{%
+\section{I tratti}\label{i-tratti}}
+
+A questo punto possiamo trasporre alcune di queste definizioni
+grammaticali all'interno di una prospettiva sintattica. La prima domanda
+a cui possiamo tentare di dare una risposta è: \emph{cos'è una parola? E
+in che modo le parole si organizzano in una grammatica?} Abbiamo visto
+infatti che le parti del discorso sono delle categorie di parole unite
+tra loro dal fatto che possiamo sostituire una parola da una della
+stessa categoria (\emph{Il libro è sul tavolo} / \emph{Un libro è sul
+tavolo}), senza cambiarne lo statuto sintattico.
+
+Rimane dunque la definizione di \emph{parola}. Possiamo, dal punto di
+vista sintattico definire le parole come elementi linguistici che
+presentano dei \emph{tratti}. Ad es. nel caso dei nomi, i tratti possono
+essere il Genere, il Numero, il Caso. Questa definizione, che non
+presenta complessità di natura teoretica, trova spazio in un'analisi
+esclusivamente sintattica e ci permette di pensare alle parole come a
+degli oggetti dotati di certe proprietà (i tratti). In italiano possiamo
+distinguere varie categorie sulla base dei tratti che presentano:
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Categoria & Tratti\tabularnewline
+\midrule
+\endhead
+Nome (N) & Numero, Genere, Caso\tabularnewline
+Aggettivo (A) & Numero, Genere\tabularnewline
+Determinante (D) & Numero, Genere, Caso\tabularnewline
+(Pronome) & Numero, Genere, Caso, Persona\tabularnewline
+Quantificatore (Q) & Numero, Genere\tabularnewline
+Verbo (V) & Numero, Persona, Tempo, Modo, Aspetto\tabularnewline
+\bottomrule
+\end{longtable}
+
+Così, le parole sono le unità concrete della lingua, e la sintassi è
+quella componente che assembla le varie parti del discorso sulla base di
+entità più \emph{piccole} della parola, i \emph{tratti}.
+
 \hypertarget{la-frase}{%
 \chapter{La frase}\label{la-frase}}
+
+Non è facile definire cosa si intenda con il termine \emph{frase}: in
+una prima approssimazione possiamo definirla come un'espressione
+linguistica dotata di significato autonomo. Possiamo distinguere dunque
+le frasi \emph{semplici} -quelle cioè che non contengono altre frasi- da
+quelle \emph{complesse} -vale a dire frasi composte da più frasi.
+
+Le frasi sono costruzioni linguistiche che dipendono da una ben
+determinata organizzazione sintattica dei contenuti, che non dipende
+dall'ordine lineare delle parole (la vicinanza degli elementi), bensì
+dalla struttura soggiacente. Questa proprietà, tipica della sintassi, è
+definita come \textbf{dipendenza dalla struttura}. Così, per es.
+l'accordo verbale della frase seguente non è scatenato dalla vicinanza
+dell'elemento, bensì dalle proprietà di quello che, almeno per ora,
+chiameremo \emph{soggetto}, dove un soggetto plurale (\emph{gli
+studenti\ldots{}}) si accorda ad un verbo plurale:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{7}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    {[}Gli studenti bravi del professore{]} partono domani mattina
+  \item
+    (*) {[}Gli studenti bravi del professore{]} parte domani mattina
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{le-unita-sintattiche-i-sintagmi}{%
+\section{Le unità sintattiche: i
+sintagmi}\label{le-unita-sintattiche-i-sintagmi}}
 
 \hypertarget{coordinazione}{%
 \section{Coordinazione}\label{coordinazione}}
@@ -974,8 +1081,8 @@ concessive}\label{frasi-consecutive-e-concessive}}
 \hypertarget{implicite-5}{%
 \section{Implicite}\label{implicite-5}}
 
-\hypertarget{frasi-codizionali}{%
-\chapter{Frasi codizionali}\label{frasi-codizionali}}
+\hypertarget{frasi-condizionali}{%
+\chapter{Frasi condizionali}\label{frasi-condizionali}}
 
 \hypertarget{definizione-4}{%
 \section{Definizione}\label{definizione-4}}

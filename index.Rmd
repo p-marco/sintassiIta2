@@ -23,6 +23,13 @@ Questa dispensa nasce come materiale di studio per l'esame di Sintassi Italiana 
 
 Le abbreviazioni morfologiche e lo stile delle glosse interlineari aderiscono rispettivamente agli standard *de facto* delle annotazioni di linguistica comparativa [@boeckxListOfAbbreviations, [consultabile online](http://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199549368.001.0001/oxfordhb-9780199549368)] e dello stile delle glosse *di Lipsia* [@leipzigGlossingRules].
 
+Nel testo si segue l'uso standard di definire i vari gradi di accettabilità di una frase attraverso le seguenti marche tipografiche:
+
+* ( ) Grammaticale
+* (*) Agrammaticale
+* (?) Dubbia grammaticalità
+* (#) Grammaticale dal punto di vista sintattico ma interpretazione semantica non coerente
+
 Per qualsiasi informazione o suggerimento è possibile scrivere direttamente all'autore all'indirizzo `marco.petolicchio01@upol.cz` oppure aprire un issue direttamente sulla pagina del repository su [Github](http://github.com/p-marco/sintassiIta2).
 
 Quest'opera è rilasciata con licenza Creative Commons BY 4.0. Il codice sorgente è disponibile all'indirizzo `http://github.com/p-marco/sintassiIta2` e le versioni del progetto sono rilasciate in DOI attraverso la piattaforma Zenodo (DOI:10.5281/zenodo.2355707).

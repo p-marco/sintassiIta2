@@ -1,6 +1,17 @@
 
 # La frase 
 
+Non è facile definire cosa si intenda con il termine *frase*: in una prima approssimazione possiamo definirla come un'espressione linguistica dotata di significato autonomo. Possiamo distinguere dunque le frasi *semplici* -quelle cioè che non contengono altre frasi- da quelle *complesse* -vale a dire frasi composte da più frasi. 
+
+Le frasi sono costruzioni linguistiche che dipendono da una ben determinata organizzazione sintattica dei contenuti, che non dipende dall'ordine lineare delle parole (la vicinanza degli elementi), bensì dalla struttura soggiacente. Questa proprietà, tipica della sintassi, è definita come **dipendenza dalla struttura**. Così, per es. l'accordo verbale della frase seguente non è scatenato dalla vicinanza dell'elemento, bensì dalle proprietà di quello che, almeno per ora, chiameremo *soggetto*, dove un soggetto plurale (*gli studenti...*) si accorda ad un verbo plurale:
+
+(@)
+    a. [Gli studenti bravi del professore] partono domani mattina 
+    a. (*) [Gli studenti bravi del professore] parte domani mattina 
+
+## Le unità sintattiche: i sintagmi
+
+
 ## Coordinazione
 
 ## Giustapposizione
