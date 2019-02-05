@@ -28,7 +28,7 @@ Nel testo si segue l'uso standard di definire i vari gradi di accettabilità di 
 * ( ) Grammaticale
 * (*) Agrammaticale
 * (?) Dubbia grammaticalità
-* (#) Grammaticale dal punto di vista sintattico ma interpretazione semantica non coerente
+* (\#) Grammaticale dal punto di vista sintattico ma interpretazione semantica non coerente
 
 Per qualsiasi informazione o suggerimento è possibile scrivere direttamente all'autore all'indirizzo `marco.petolicchio01@upol.cz` oppure aprire un issue direttamente sulla pagina del repository su [Github](http://github.com/p-marco/sintassiIta2).
 

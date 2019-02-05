@@ -37,6 +37,15 @@
 \usepackage{longtable,booktabs}
 % Fix footnotes in tables (requires footnote package)
 \IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -294,6 +303,10 @@
 
 \let\eachwordone=\it
 
+
+
+\makeatletter\renewcommand*{\fps@figure}{!h}\makeatother
+
 \frontmatter
 \usepackage[]{natbib}
 \bibliographystyle{apa}
@@ -302,7 +315,7 @@
 \providecommand{\subtitle}[1]{}
 \subtitle{Dispense per gli studenti del corso KRI/SYNT2}
 \author{Marco Petolicchio}
-\date{2019-01-28}
+\date{2019-02-05}
 
 \begin{document}
 \maketitle
@@ -358,25 +371,14 @@
 \chapter*{Introduzione}\label{introduzione}}
 \addcontentsline{toc}{chapter}{Introduzione}
 
-Questa dispensa nasce come materiale di studio per l'esame di Sintassi
-Italiana 2 per gli studenti triennali dell'Università Palacky di
-Olomouc, pensata in maniera specifica per studenti non madrelingua. Si
-fa riferimento a nozioni \emph{tradizionali} della linguistica e degli
-studi sintattici rimandando, laddove si è ritenuto più pertinente, a
-degli studi più recenti in maniera da poter stimolare ulteriormente lo
-studente.
+Questa dispensa nasce come materiale di studio per l'esame di Sintassi Italiana 2 per gli studenti triennali dell'Università Palacky di Olomouc, pensata in maniera specifica per studenti non madrelingua. Si fa riferimento a nozioni \emph{tradizionali} della linguistica e degli studi sintattici rimandando, laddove si è ritenuto più pertinente, a degli studi più recenti in maniera da poter stimolare ulteriormente lo studente.
 
-Le abbreviazioni morfologiche e lo stile delle glosse interlineari
-aderiscono rispettivamente agli standard \emph{de facto} delle
-annotazioni di linguistica comparativa
-\citep[\href{http://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199549368.001.0001/oxfordhb-9780199549368}{consultabile
-online}]{boeckxListOfAbbreviations} e dello stile delle glosse \emph{di
-Lipsia} \citep{leipzigGlossingRules}.
+Le abbreviazioni morfologiche e lo stile delle glosse interlineari aderiscono rispettivamente agli standard \emph{de facto} delle annotazioni di linguistica comparativa \citep[\href{http://www.oxfordhandbooks.com/view/10.1093/oxfordhb/9780199549368.001.0001/oxfordhb-9780199549368}{consultabile online}]{boeckxListOfAbbreviations} e dello stile delle glosse \emph{di Lipsia} \citep{leipzigGlossingRules}.
 
-Nel testo si segue l'uso standard di definire i vari gradi di
-accettabilità di una frase attraverso le seguenti marche tipografiche:
+Nel testo si segue l'uso standard di definire i vari gradi di accettabilità di una frase attraverso le seguenti marche tipografiche:
 
 \begin{itemize}
+\tightlist
 \item
   ( ) Grammaticale
 \item
@@ -384,26 +386,12 @@ accettabilità di una frase attraverso le seguenti marche tipografiche:
 \item
   (?) Dubbia grammaticalità
 \item
-  \begin{enumerate}
-  \def\labelenumi{(\arabic{enumi})}
-  \tightlist
-  \item
-    Grammaticale dal punto di vista sintattico ma interpretazione
-    semantica non coerente
-  \end{enumerate}
+  (\#) Grammaticale dal punto di vista sintattico ma interpretazione semantica non coerente
 \end{itemize}
 
-Per qualsiasi informazione o suggerimento è possibile scrivere
-direttamente all'autore all'indirizzo
-\texttt{marco.petolicchio01@upol.cz} oppure aprire un issue direttamente
-sulla pagina del repository su
-\href{http://github.com/p-marco/sintassiIta2}{Github}.
+Per qualsiasi informazione o suggerimento è possibile scrivere direttamente all'autore all'indirizzo \texttt{marco.petolicchio01@upol.cz} oppure aprire un issue direttamente sulla pagina del repository su \href{http://github.com/p-marco/sintassiIta2}{Github}.
 
-Quest'opera è rilasciata con licenza Creative Commons BY 4.0. Il codice
-sorgente è disponibile all'indirizzo
-\texttt{http://github.com/p-marco/sintassiIta2} e le versioni del
-progetto sono rilasciate in DOI attraverso la piattaforma Zenodo
-(\url{DOI:10.5281/zenodo.2355707}).
+Quest'opera è rilasciata con licenza Creative Commons BY 4.0. Il codice sorgente è disponibile all'indirizzo \texttt{http://github.com/p-marco/sintassiIta2} e le versioni del progetto sono rilasciate in DOI attraverso la piattaforma Zenodo (\url{DOI:10.5281/zenodo.2355707}).
 
 \mainmatter
 
@@ -412,36 +400,19 @@ progetto sono rilasciate in DOI attraverso la piattaforma Zenodo
 \hypertarget{le-parti-del-discorso}{%
 \chapter{Le parti del discorso}\label{le-parti-del-discorso}}
 
-Le parole di una lingua vengono divise all'interno di categorie
-grammaticali. In italiano --una lingua flessiva come buona parte delle
-lingue indoeuropee \citep{graffiScalise2009}-- queste suddivisioni
-avvengono per criteri di natura sintattica, ovvero la posizione ed il
-ruolo delle parole all'interno della frase. Tradizionalmente possiamo
-riconoscere 9 diverse \textbf{parti del discorso} \citep{salvi2013}, tra
-cui possiamo operare una ulteriore suddivisione: quelle (parti)
-\emph{variabili} e quelle \emph{invariabili}.
+Le parole di una lingua vengono divise all'interno di categorie grammaticali. In italiano --una lingua flessiva come buona parte delle lingue indoeuropee \citep{graffiScalise2009}-- queste suddivisioni avvengono per criteri di natura sintattica, ovvero la posizione ed il ruolo delle parole all'interno della frase. Tradizionalmente possiamo riconoscere 9 diverse \textbf{parti del discorso} \citep{salvi2013}, tra cui possiamo operare una ulteriore suddivisione: quelle (parti) \emph{variabili} e quelle \emph{invariabili}.
 
 \hypertarget{le-parti-variabili}{%
 \section{Le parti variabili}\label{le-parti-variabili}}
 
-In italiano si definiscono parti \textbf{variabili} del discorso quelle
-che hanno la possibilità di modificarsi sulla base di alcuni
-\emph{tratti} o \emph{categorie grammaticali} \citep[ Cap.9]{simone1995}
-come il Genere, il Numero, la Persona, il Caso, il Tempo, l'Aspetto, il
-Modo ecc..
+In italiano si definiscono parti \textbf{variabili} del discorso quelle che hanno la possibilità di modificarsi sulla base di alcuni \emph{tratti} o \emph{categorie grammaticali} \citep[ Cap.9]{simone1995} come il Genere, il Numero, la Persona, il Caso, il Tempo, l'Aspetto, il Modo ecc..
 
 \hypertarget{aggettivo}{%
 \subsection{Aggettivo}\label{aggettivo}}
 
-L'aggettivo è un \emph{modificatore} di altri elementi del discorso,
-soprattutto del sostantivo, con cui instaura un rapporto sintattico che
-si manifesta, nella maggior parte dei casi, nella concordanza
-grammaticale (\emph{Brutto stamani il tempo e ancora più pestifero il
-Tempo} \citep{montale-satura}, \emph{Le lasagne scaldate nel micro che
-da solo mi sento cattivo} \citep{fibra2017}).
+L'aggettivo è un \emph{modificatore} di altri elementi del discorso, soprattutto del sostantivo, con cui instaura un rapporto sintattico che si manifesta, nella maggior parte dei casi, nella concordanza grammaticale (\emph{Brutto stamani il tempo e ancora più pestifero il Tempo} \citep{montale-satura}, \emph{Le lasagne scaldate nel micro che da solo mi sento cattivo} \citep{fibra2017}).
 
-Tradizionalmente possiamo suddividere la classe di aggettivi in due
-categorie:
+Tradizionalmente possiamo suddividere la classe di aggettivi in due categorie:
 
 \begin{itemize}
 \tightlist
@@ -467,30 +438,19 @@ categorie:
   \item
     Indefiniti (\emph{alcuni, tutti, nessuna})
   \item
-    Interrogativi ed esclamativi (\emph{quale?, quanti?, quale gioia!,
-    ma che onore!})
+    Interrogativi ed esclamativi (\emph{quale?, quanti?, quale gioia!, ma che onore!})
   \end{itemize}
 \item
-  Qualificativi (\emph{forte, grande, bello, rettangolare, goloso,
-  verde, vecchio})
+  Qualificativi (\emph{forte, grande, bello, rettangolare, goloso, verde, vecchio})
 \end{itemize}
 
-I determinativi esprimono alcune funzioni della referenza (per esempio
-il possesso), mentre i qualificativi esprimono dei caratteri quali il
-colore, la forma, l'aspetto, le qualità. Quella dei determinativi è una
-classe \emph{chiusa}, mentre quella dei qualificativi è una classe
-\emph{aperta} che prevede cioè la possibilità di espandersi in maniera
-indefinita.
+I determinativi esprimono alcune funzioni della referenza (per esempio il possesso), mentre i qualificativi esprimono dei caratteri quali il colore, la forma, l'aspetto, le qualità. Quella dei determinativi è una classe \emph{chiusa}, mentre quella dei qualificativi è una classe \emph{aperta} che prevede cioè la possibilità di espandersi in maniera indefinita.
 
 \hypertarget{articolo}{%
 \subsection{Articolo}\label{articolo}}
 
-L'articolo è quella particella che si accompagna al nome o ad altre
-parti del discorso in funzione sostantivata. In italiano esso concorda
-nei tratti di Numero, Persona, Genere con il sostantivo di riferimento
-\citep{grandi2010}. Le lingue del mondo non presentano tutte lo stesso
-comportamento nei riguardi della posizione e/o della presenza
-dell'articolo e possiamo trovare:
+L'articolo è quella particella che si accompagna al nome o ad altre parti del discorso in funzione sostantivata. In italiano esso concorda nei tratti di Numero, Persona, Genere con il sostantivo di riferimento \citep{grandi2010}.
+Le lingue del mondo non presentano tutte lo stesso comportamento nei riguardi della posizione e/o della presenza dell'articolo e possiamo trovare:
 
 \begin{itemize}
 \tightlist
@@ -508,16 +468,7 @@ dell'articolo e possiamo trovare:
   \end{itemize}
 \end{itemize}
 
-In una lingua come l'italiano, la presenza dell'articolo è lo
-\emph{standard}, ovvero non ha una funzione specifica mentre la sua
-assenza assume significato. Così, per esempio, in \textbf{italiano
-standard}\footnote{Alcune varietà di italiano, quali i dialetti
-  settentrionali, hanno invece gli articoli in questi contesti
-  \citep{loporcaro2009}.} i nomi propri escludono l'articolo
-(\emph{Marta va in città} vs.~\emph{*La Marta va in città}) così come è
-esclusa la possibilità di trovare l'articolo in combinazione con il
-possessivo nei nomi di famiglia (\emph{mio figlio si chiama Luigi}
-vs.~\emph{* Il mio figlio si chiama Luigi}).
+In una lingua come l'italiano, la presenza dell'articolo è lo \emph{standard}, ovvero non ha una funzione specifica mentre la sua assenza assume significato. Così, per esempio, in \textbf{italiano standard}\footnote{Alcune varietà di italiano, quali i dialetti settentrionali, hanno invece gli articoli in questi contesti \citep{loporcaro2009}.} i nomi propri escludono l'articolo (\emph{Marta va in città} vs.~\emph{*La Marta va in città}) così come è esclusa la possibilità di trovare l'articolo in combinazione con il possessivo nei nomi di famiglia (\emph{mio figlio si chiama Luigi} vs.~\emph{* Il mio figlio si chiama Luigi}).
 
 \begin{table}[]
 \begin{tabular}{@{}lrrrrrr@{}}
@@ -534,43 +485,25 @@ Fem   & la            & le           & una            & -             & della   
 \hypertarget{definito}{%
 \subsubsection{Definito}\label{definito}}
 
-L'articolo definito o \emph{determinativo} può indicare un referente
-determinato, ovvero noto (\emph{Sto cercando il libro}, \emph{hai visto
-la mia maglietta?}).
+L'articolo definito o \emph{determinativo} può indicare un referente determinato, ovvero noto (\emph{Sto cercando il libro}, \emph{hai visto la mia maglietta?}).
 
 \hypertarget{indefinito}{%
 \subsubsection{Indefinito}\label{indefinito}}
 
-Quello indefinito o indeterminativo può essere usato per indicare un
-sostantivo indefinito specifico (\emph{non trovo un libro che avevo
-lasciato a casa}) oppure non specifico (\emph{per la nuova casa vorrei
-trovare un inquilino simpatico}). Gli articoli indefiniti non possono
-essere usati al plurale e la loro forma è la stessa del numero
-\enquote{uno} (1).
+Quello indefinito o indeterminativo può essere usato per indicare un sostantivo indefinito specifico (\emph{non trovo un libro che avevo lasciato a casa}) oppure non specifico (\emph{per la nuova casa vorrei trovare un inquilino simpatico}). Gli articoli indefiniti non possono essere usati al plurale e la loro forma è la stessa del numero \enquote{uno} (1).
 
 \hypertarget{partitivo}{%
 \subsubsection{Partitivo}\label{partitivo}}
 
-L'articolo partitivo si usa per indicare quantità indefinite o parti di
-un insieme (\emph{vorrei del pane}, \emph{sto cercando dei libri},
-\emph{la maggior parte dei ragazzi pensa solo a una cosa}). Si forma
-dall'unione delle forme \enquote{di} con l'articolo definito
-(\emph{del}, \emph{dello}, \emph{della}, \emph{dei}, \emph{degli},
-\emph{delle}).
+L'articolo partitivo si usa per indicare quantità indefinite o parti di un insieme (\emph{vorrei del pane}, \emph{sto cercando dei libri}, \emph{la maggior parte dei ragazzi pensa solo a una cosa}). Si forma dall'unione delle forme \enquote{di} con l'articolo definito (\emph{del}, \emph{dello}, \emph{della}, \emph{dei}, \emph{degli}, \emph{delle}).
 
 \hypertarget{nome}{%
 \subsection{Nome}\label{nome}}
 
-Il nome o \emph{sostantivo} è la parte del discorso che designa entità,
-persone, oggetti, idee, fatti ecc. Il nome è una parte variabile, che
-modifica la sua flessione (\emph{morfologia flessionale}) in conseguenza
-di alcuni tratti della parola quale il Numero, il Genere e che può
-modificarsi tramite l'aggiunta di morfemi che ne codificano un
-significato diminutivo, vezzeggiativo ecc. (\emph{morfologia
-derivazionale}).
+Il nome o \emph{sostantivo} è la parte del discorso che designa entità, persone, oggetti, idee, fatti ecc.
+Il nome è una parte variabile, che modifica la sua flessione (\emph{morfologia flessionale}) in conseguenza di alcuni tratti della parola quale il Numero, il Genere e che può modificarsi tramite l'aggiunta di morfemi che ne codificano un significato diminutivo, vezzeggiativo ecc. (\emph{morfologia derivazionale}).
 
-Dal punto di vista formale possiamo dividere il nome in base ad alcune
-categorie grammaticali:
+Dal punto di vista formale possiamo dividere il nome in base ad alcune categorie grammaticali:
 
 \begin{itemize}
 \tightlist
@@ -602,52 +535,33 @@ categorie grammaticali:
   \end{itemize}
 \end{itemize}
 
-In italiano la marca di numero e di genere è resa in un unico suffisso
-\emph{portmanteu} (cioè che testimonia diversi valori insieme), mentre
-in lingue agglutinanti di solito questi tratti possono essere realizzati
-da differenti morfemi.
+In italiano la marca di numero e di genere è resa in un unico suffisso \emph{portmanteu} (cioè che testimonia diversi valori insieme), mentre in lingue agglutinanti di solito questi tratti possono essere realizzati da differenti morfemi.
 
 \hypertarget{pronome}{%
 \subsection{Pronome}\label{pronome}}
 
-Il pronome è quella categoria grammaticale \emph{coreferenziale} del
-nome a cui si riferisce e sostituisce: presenta cioè lo stesso
-riferimento --quale può essere la persona-- (\emph{referenza}) del
-sostantivo (\emph{Ho visto Gianni. Sì, lui}(=Gianni) \emph{sta molto
-bene}; \emph{La sigaretta, Luigi la}(=sigaretta) \emph{fuma dopo il
-caffè}).
+Il pronome è quella categoria grammaticale \emph{coreferenziale} del nome a cui si riferisce e sostituisce: presenta cioè lo stesso riferimento --quale può essere la persona-- (\emph{referenza}) del sostantivo (\emph{Ho visto Gianni. Sì, lui}(=Gianni) \emph{sta molto bene}; \emph{La sigaretta, Luigi la}(=sigaretta) \emph{fuma dopo il caffè}).
 
-I pronomi sono \textbf{personali} (\emph{io, tu, noi}),
-\textbf{possessivi} (\emph{mio, tua}), \textbf{dimostrativi}
-(\emph{questo, quello}), \textbf{riflessivi} (\emph{io mi pettino, voi
-vi amate?}), \textbf{relativi} (\emph{che, la quale}),
-\textbf{interrogativi} (\emph{non so chi tu sia}), \textbf{numerali}.
+I pronomi sono \textbf{personali} (\emph{io, tu, noi}), \textbf{possessivi} (\emph{mio, tua}), \textbf{dimostrativi} (\emph{questo, quello}), \textbf{riflessivi} (\emph{io mi pettino, voi vi amate?}), \textbf{relativi} (\emph{che, la quale}), \textbf{interrogativi} (\emph{non so chi tu sia}), \textbf{numerali}.
 
-La differenza tra pronome e aggettivo in alcuni casi è esclusivamente
-riferibile al contesto sintattico, come dimostra l'esempio seguente:
+La differenza tra pronome e aggettivo in alcuni casi è esclusivamente riferibile al contesto sintattico, come dimostra l'esempio seguente:
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
 \tightlist
 \item
   \gll    La mia penna è blu, la tua è nera.\\
-  ART.DEF.F.sg ADJ.POSS.F.1sg NOUN.F.sg COPULA.3sg ADJ. ART.
-  PRON.POSS.F.2sg COPULA.3sg ADJ.\\
+  ART.DEF.F.sg ADJ.POSS.F.1sg NOUN.F.sg COPULA.3sg ADJ. ART. PRON.POSS.F.2sg COPULA.3sg ADJ.\\
   \glt    ''
 \end{enumerate}
 
-L'italiano è una lingua a soggetto nullo, che permette cioè la
-possibilità di omettere il pronome personale in alcune costruzioni
-(\emph{(Io) mangio il pane con la marmellata}).
+L'italiano è una lingua a soggetto nullo, che permette cioè la possibilità di omettere il pronome personale in alcune costruzioni (\emph{(Io) mangio il pane con la marmellata}).
 
 \hypertarget{verbo}{%
 \subsection{Verbo}\label{verbo}}
 
-Il verbo è la parte del discorso che codifica gli stati, gli eventi, le
-azioni ecc. Possiamo distinguere in esso alcuni caratteri formali quali
-la classe di coniugazione (\emph{-are, -ere, -ire}), i tratti (aspetto,
-modo ecc.), il numero di argomenti (verbi transitivi, intransitivi
-ecc.).
+Il verbo è la parte del discorso che codifica gli stati, gli eventi, le azioni ecc.
+Possiamo distinguere in esso alcuni caratteri formali quali la classe di coniugazione (\emph{-are, -ere, -ire}), i tratti (aspetto, modo ecc.), il numero di argomenti (verbi transitivi, intransitivi ecc.).
 
 \hypertarget{categorie-del-verbo}{%
 \subsubsection{Categorie del verbo}\label{categorie-del-verbo}}
@@ -659,10 +573,8 @@ L'italiano è una lingua
 \hypertarget{argomenti-del-verbo}{%
 \subsubsection{Argomenti del verbo}\label{argomenti-del-verbo}}
 
-Negli studi moderni la transitività è trattata piuttosto come un
-\emph{continuum} con degli estremi che corrispondono grosso modo al
-numero di argomenti del verbo. Possiamo distinguere i verbi sulla base
-del numero di argomenti di cui necessitano:
+Negli studi moderni la transitività è trattata piuttosto come un \emph{continuum} con degli estremi che corrispondono grosso modo al numero di argomenti del verbo.
+Possiamo distinguere i verbi sulla base del numero di argomenti di cui necessitano:
 
 \begin{itemize}
 \tightlist
@@ -685,33 +597,14 @@ del numero di argomenti di cui necessitano:
 \hypertarget{intransitivi}{%
 \paragraph{Intransitivi}\label{intransitivi}}
 
-I verbi intransitivi o mono-argomentali presentano un solo argomento
-(\emph{Lui cammina}, \emph{Lei corre}) e sono divisi in due
-sotto-categorie. Nei verbi \textbf{inergativi} (dal greco ant. ἔργον
-\emph{érgon}, \enquote{lavoro}) il soggetto ha le proprietà sintattiche
-tipiche di un soggetto transitivo, mentre in quelli
-\textbf{inaccusativi} il soggetto si comporta più come un oggetto delle
-costruzioni transitive. Sono esempio della prima sottocategoria verbi
-quali \emph{correre, lavorare, ridere}, mentre della seconda
-\emph{scoppiare, sparire, cadere}. Un modo per distinguere tali classi
-di verbi gli uni dagli altri è verificare l'ausiliare nei tempi
-composti: quelli inergativi presentano il verbo \emph{avere} (\emph{ieri
-ho lavorato molto}), gli inaccusativi hanno \emph{essere}
-(\emph{dov'eri? sei sparito subito!}) e l'accordo del participio passato
-nei tratti del Numero, possibile con gli inaccusativi e non con gli
-inergativi: \emph{avete lavorato duramente} vs.~\emph{siete spariti
-subito!}. L'argomento dei verbi intransitivi è il soggetto (S).
+I verbi intransitivi o mono-argomentali presentano un solo argomento (\emph{Lui cammina}, \emph{Lei corre}) e sono divisi in due sotto-categorie. Nei verbi \textbf{inergativi} (dal greco ant. ἔργον \emph{érgon}, \enquote{lavoro}) il soggetto ha le proprietà sintattiche tipiche di un soggetto transitivo, mentre in quelli \textbf{inaccusativi} il soggetto si comporta più come un oggetto delle costruzioni transitive. Sono esempio della prima sottocategoria verbi quali \emph{correre, lavorare, ridere}, mentre della seconda \emph{scoppiare, sparire, cadere}. Un modo per distinguere tali classi di verbi gli uni dagli altri è verificare l'ausiliare nei tempi composti: quelli inergativi presentano il verbo \emph{avere} (\emph{ieri ho lavorato molto}), gli inaccusativi hanno \emph{essere} (\emph{dov'eri? sei sparito subito!}) e l'accordo del participio passato nei tratti del Numero, possibile con gli inaccusativi e non con gli inergativi: \emph{avete lavorato duramente} vs.~\emph{siete spariti subito!}. L'argomento dei verbi intransitivi è il soggetto (S).
 
 \hypertarget{transitivi}{%
 \paragraph{Transitivi}\label{transitivi}}
 
-I verbi transitivi collegano prototipicamente due argomenti: il soggetto
-transitivo (A) e l'oggetto diretto (O) (\emph{Mario mangia la mela},
-\emph{Gli attori recitano una commedia}).
+I verbi transitivi collegano prototipicamente due argomenti: il soggetto transitivo (A) e l'oggetto diretto (O) (\emph{Mario mangia la mela}, \emph{Gli attori recitano una commedia}).
 
-Le costruzioni transitive possono essere regolarmente trasformate in
-corrispondenti frasi \emph{passive}: in questo caso l'oggetto viene
-posto in posizione di soggetto e il soggetto transitivo in agente:
+Le costruzioni transitive possono essere regolarmente trasformate in corrispondenti frasi \emph{passive}: in questo caso l'oggetto viene posto in posizione di soggetto e il soggetto transitivo in agente:
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
@@ -726,9 +619,7 @@ posto in posizione di soggetto e il soggetto transitivo in agente:
   \glt  
 \end{enumerate}
 
-Così, spesso, le costruzioni transitive possono essere trasformate in
-corrispondenti intransitive (con una certa modifica nel carico semantico
-dell'enunciato):
+Così, spesso, le costruzioni transitive possono essere trasformate in corrispondenti intransitive (con una certa modifica nel carico semantico dell'enunciato):
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
@@ -743,8 +634,7 @@ dell'enunciato):
 \hypertarget{ditransitivi-e-oltre}{%
 \paragraph{Ditransitivi e oltre}\label{ditransitivi-e-oltre}}
 
-I verbi di-transitivi reggono 3 argomenti: A,O e Oggetto Indiretto (IO),
-e possono essere passivizzati:
+I verbi di-transitivi reggono 3 argomenti: A,O e Oggetto Indiretto (IO), e possono essere passivizzati:
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
@@ -759,16 +649,14 @@ e possono essere passivizzati:
   \glt  
 \end{enumerate}
 
-Per esemplificare un verbo tetravalente, ovvero che regge 4 argomenti,
-possiamo riferirci a \emph{tradurre}:
+Per esemplificare un verbo tetravalente, ovvero che regge 4 argomenti, possiamo riferirci a \emph{tradurre}:
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
 \setcounter{enumi}{6}
 \tightlist
 \item
-  \gll    San Girolamo tradusse alcuni libri della Bibbia dal greco al
-  latino.\\
+  \gll    San Girolamo tradusse alcuni libri della Bibbia dal greco al latino.\\
   A VP O IO IO\\
   \glt 
 \end{enumerate}
@@ -776,28 +664,17 @@ possiamo riferirci a \emph{tradurre}:
 \hypertarget{le-parti-invariabili}{%
 \section{Le parti invariabili}\label{le-parti-invariabili}}
 
-Sono parti invariabili del discorso quelle che si presentano sempre
-nella stessa forma, senza cambiamenti morfologici.
+Sono parti invariabili del discorso quelle che si presentano sempre nella stessa forma, senza cambiamenti morfologici.
 
 \hypertarget{avverbio}{%
 \subsection{Avverbio}\label{avverbio}}
 
-L'avverbio è un modificatore di altri elementi della frase come:
-aggettivi (\emph{Gli spaghetti sono molto buoni}), verbi (\emph{Sappiamo
-cucinare bene gli spaghetti}), ed altri avverbi (\emph{Arriveremo molto
-presto}). Un'espressione formata da diverse parole con funzione di
-avverbio è detta \emph{locuzione avverbiale}.
+L'avverbio è un modificatore di altri elementi della frase come: aggettivi (\emph{Gli spaghetti sono molto buoni}), verbi (\emph{Sappiamo cucinare bene gli spaghetti}), ed altri avverbi (\emph{Arriveremo molto presto}).
+Un'espressione formata da diverse parole con funzione di avverbio è detta \emph{locuzione avverbiale}.
 
-Gli avverbi possono essere di \textbf{modo}--indicano cioè il modo
-dell'azione (\emph{velocemente, bene})--, di \textbf{tempo} (\emph{ora,
-mai, sempre}), di \textbf{luogo} (\emph{qui, lì, giù}), di
-\textbf{quantità} (\emph{poco, molto}), \textbf{di opinione} (\emph{sì,
-no, esatto, chissà, magari}), \textbf{interrogativi ed esclamativi}
-(\emph{come, perché, dove, quando}), \textbf{presentativi}
-(\emph{inoltre, ecco}).
+Gli avverbi possono essere di \textbf{modo}--indicano cioè il modo dell'azione (\emph{velocemente, bene})--, di \textbf{tempo} (\emph{ora, mai, sempre}), di \textbf{luogo} (\emph{qui, lì, giù}), di \textbf{quantità} (\emph{poco, molto}), \textbf{di opinione} (\emph{sì, no, esatto, chissà, magari}), \textbf{interrogativi ed esclamativi} (\emph{come, perché, dove, quando}), \textbf{presentativi} (\emph{inoltre, ecco}).
 
-Gli avverbi hanno gli stessi \emph{gradi} dell'aggettivo e in certi casi
-possono essere alterati da suffissi:
+Gli avverbi hanno gli stessi \emph{gradi} dell'aggettivo e in certi casi possono essere alterati da suffissi:
 
 \begin{itemize}
 \tightlist
@@ -850,58 +727,28 @@ possono essere alterati da suffissi:
 \hypertarget{congiunzione}{%
 \subsection{Congiunzione}\label{congiunzione}}
 
-La congiunzione è la parte del discorso che permette l'unione di
-sintagmi o frasi. Possono essere \textbf{positive} (\emph{e, anche,
-pure}), \textbf{negative} (\emph{né, neanche, nemmeno}),
-\textbf{disgiuntive} (\emph{o, oppure, altrimenti}),
-\textbf{avversative} (\emph{anzi, ma, tuttavia, nonostante}),
-\textbf{conclusive} (\emph{dunque, allorché}).
+La congiunzione è la parte del discorso che permette l'unione di sintagmi o frasi. Possono essere \textbf{positive} (\emph{e, anche, pure}), \textbf{negative} (\emph{né, neanche, nemmeno}), \textbf{disgiuntive} (\emph{o, oppure, altrimenti}), \textbf{avversative} (\emph{anzi, ma, tuttavia, nonostante}), \textbf{conclusive} (\emph{dunque, allorché}).
 
 \hypertarget{interiezione}{%
 \subsection{Interiezione}\label{interiezione}}
 
-L'interiezione esprime un particolare atteggiamento del parlante. Sono
-esempi di interiezioni \textbf{proprie} particelle quali \emph{ah!, eh!,
-oh!}, \textbf{improprie} se comprendono altre parti del discorso
-(\emph{zitto!, cavolo!}) e \textbf{locuzioni interiettive} se formate da
-più parole (\emph{per Dio!, per amor del cielo, porca miseria}).
-Particolarmente usata nella comunicazione orale, presenta una grande
-varianza all'interno dei sistemi dialettali, dando luogo a espressioni
-particolarmente colorite(\emph{figa, pota, cazzo, stocazzo, sticazzi,
-minchia, mecojoni}).
+L'interiezione esprime un particolare atteggiamento del parlante. Sono esempi di interiezioni \textbf{proprie} particelle quali \emph{ah!, eh!, oh!}, \textbf{improprie} se comprendono altre parti del discorso (\emph{zitto!, cavolo!}) e \textbf{locuzioni interiettive} se formate da più parole (\emph{per Dio!, per amor del cielo, porca miseria}).
+Particolarmente usata nella comunicazione orale, presenta una grande varianza all'interno dei sistemi dialettali, dando luogo a espressioni particolarmente colorite(\emph{figa, pota, cazzo, stocazzo, sticazzi, minchia, mecojoni}).
 
 \hypertarget{preposizione}{%
 \subsection{Preposizione}\label{preposizione}}
 
-Le preposizioni sono poste \emph{prima} del nome o di altri elementi
-(\emph{Sono andato a Praga la settimana scorsa; Non ho mai lavorato in
-Germania; Vieni prima di subito}).
+Le preposizioni sono poste \emph{prima} del nome o di altri elementi (\emph{Sono andato a Praga la settimana scorsa; Non ho mai lavorato in Germania; Vieni prima di subito}).
 
-Sono preposizioni \textbf{proprie} \emph{di, a, da, in, con, su, per,
-tra,fra}, \textbf{improprie} \emph{dopo, tranne, salvo, verso, contro,
-circa}, \textbf{locuzioni prepositive} \emph{a causa di, per mezzo di,
-in base a}.
+Sono preposizioni \textbf{proprie} \emph{di, a, da, in, con, su, per, tra,fra}, \textbf{improprie} \emph{dopo, tranne, salvo, verso, contro, circa}, \textbf{locuzioni prepositive} \emph{a causa di, per mezzo di, in base a}.
 
 \hypertarget{i-tratti}{%
 \section{I tratti}\label{i-tratti}}
 
-A questo punto possiamo trasporre alcune di queste definizioni
-grammaticali all'interno di una prospettiva sintattica. La prima domanda
-a cui possiamo tentare di dare una risposta è: \emph{cos'è una parola? E
-in che modo le parole si organizzano in una grammatica?} Abbiamo visto
-infatti che le parti del discorso sono delle categorie di parole unite
-tra loro dal fatto che possiamo sostituire una parola da una della
-stessa categoria (\emph{Il libro è sul tavolo} / \emph{Un libro è sul
-tavolo}), senza cambiarne lo statuto sintattico.
+A questo punto possiamo trasporre alcune di queste definizioni grammaticali all'interno di una prospettiva sintattica. La prima domanda a cui possiamo tentare di dare una risposta è: \emph{cos'è una parola? E in che modo le parole si organizzano in una grammatica?}
+Abbiamo visto infatti che le parti del discorso sono delle categorie di parole unite tra loro dal fatto che possiamo sostituire una parola da una della stessa categoria (\emph{Il libro è sul tavolo} / \emph{Un libro è sul tavolo}), senza cambiarne lo statuto sintattico.
 
-Rimane dunque la definizione di \emph{parola}. Possiamo, dal punto di
-vista sintattico definire le parole come elementi linguistici che
-presentano dei \emph{tratti}. Ad es. nel caso dei nomi, i tratti possono
-essere il Genere, il Numero, il Caso. Questa definizione, che non
-presenta complessità di natura teoretica, trova spazio in un'analisi
-esclusivamente sintattica e ci permette di pensare alle parole come a
-degli oggetti dotati di certe proprietà (i tratti). In italiano possiamo
-distinguere varie categorie sulla base dei tratti che presentano:
+Rimane dunque la definizione di \emph{parola}. Possiamo, dal punto di vista sintattico definire le parole come elementi linguistici che presentano dei \emph{tratti}. Ad es. nel caso dei nomi, i tratti possono essere il Genere, il Numero, il Caso. Questa definizione, che non presenta complessità di natura teoretica, trova spazio in un'analisi esclusivamente sintattica e ci permette di pensare alle parole come a degli oggetti dotati di certe proprietà (i tratti). In italiano possiamo distinguere varie categorie sulla base dei tratti che presentano:
 
 \begin{longtable}[]{@{}ll@{}}
 \toprule
@@ -917,28 +764,14 @@ Verbo (V) & Numero, Persona, Tempo, Modo, Aspetto\tabularnewline
 \bottomrule
 \end{longtable}
 
-Così, le parole sono le unità concrete della lingua, e la sintassi è
-quella componente che assembla le varie parti del discorso sulla base di
-entità più \emph{piccole} della parola, i \emph{tratti}.
+Così, le parole sono le unità concrete della lingua, e la sintassi è quella componente che assembla le varie parti del discorso sulla base di entità più \emph{piccole} della parola, i \emph{tratti}.
 
 \hypertarget{la-frase}{%
 \chapter{La frase}\label{la-frase}}
 
-Non è facile definire cosa si intenda con il termine \emph{frase}: in
-una prima approssimazione possiamo definirla come un'espressione
-linguistica dotata di significato autonomo. Possiamo distinguere dunque
-le frasi \emph{semplici} -quelle cioè che non contengono altre frasi- da
-quelle \emph{complesse} -vale a dire frasi composte da più frasi.
+Non è facile definire cosa si intenda con il termine \emph{frase}: in una prima approssimazione possiamo definirla come un'espressione linguistica dotata di significato autonomo. Possiamo distinguere dunque le frasi \emph{semplici} -quelle cioè che non contengono altre frasi- da quelle \emph{complesse} -vale a dire frasi composte da più frasi.
 
-Le frasi sono costruzioni linguistiche che dipendono da una ben
-determinata organizzazione sintattica dei contenuti, che non dipende
-dall'ordine lineare delle parole (la vicinanza degli elementi), bensì
-dalla struttura soggiacente. Questa proprietà, tipica della sintassi, è
-definita come \textbf{dipendenza dalla struttura}. Così, per es.
-l'accordo verbale della frase seguente non è scatenato dalla vicinanza
-dell'elemento, bensì dalle proprietà di quello che, almeno per ora,
-chiameremo \emph{soggetto}, dove un soggetto plurale (\emph{gli
-studenti\ldots{}}) si accorda ad un verbo plurale:
+Le frasi sono costruzioni linguistiche che dipendono da una ben determinata organizzazione sintattica dei contenuti, che non dipende dall'ordine lineare delle parole (la vicinanza degli elementi), bensì dalla struttura soggiacente. Questa proprietà, tipica della sintassi, è definita come \textbf{dipendenza dalla struttura}. Così, per es. l'accordo verbale della frase seguente non è scatenato dalla vicinanza dell'elemento, bensì dalle proprietà di quello che, almeno per ora, chiameremo \emph{soggetto}, dove un soggetto plurale (\emph{gli studenti\ldots{}}) si accorda ad un verbo plurale:
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
@@ -948,15 +781,94 @@ studenti\ldots{}}) si accorda ad un verbo plurale:
   \def\labelenumii{\alph{enumii}.}
   \tightlist
   \item
-    {[}Gli studenti bravi del professore{]} partono domani mattina
+    {[}Gli studenti bravi del professore{]} partono domani mattina.\\
   \item
-    (*) {[}Gli studenti bravi del professore{]} parte domani mattina
+    (*) {[}Gli studenti bravi del professore{]} parte domani mattina.
   \end{enumerate}
 \end{enumerate}
 
+\hypertarget{la-sintassi}{%
+\section{La sintassi}\label{la-sintassi}}
+
+Ora ci si potrebbe domandare per quale motivo le seguenti frasi siano l'una perfettamente grammaticale dal punto di vista sintattico ma non dotata di un \emph{senso} concreto mentre l'altra presenta incoerenze sintattiche che non permettono di afferrare il significato:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{8}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    (\#) Il gulco gianigeva le brane.\\
+  \item
+    (*) Quel guardano luna la bambino.
+  \end{enumerate}
+\end{enumerate}
+
+Il primo esempio risulta infatti comprensibile, seppure ignoriamo i reali significati delle parole. Quello che afferriamo è infatti che un certo soggetto (un \emph{gulco}), fa una determinata azione (\emph{gianigeva}) su un determinato oggetto (le \emph{brane}). Questa \textbf{indipendenza della sintassi} dal significato è una delle proprietà principali: una struttura può risultare \emph{grammaticale} anche quando non vi è una corrispondenza tra la frase e il suo significato.
+
+Abbiamo accennato ad una nozione chiave, quella della \textbf{grammaticalità}, che possiamo esplicitare come quella proprietà di un enunciato di esprimere le proprie strutture in maniera coerente dal punto di vista sintattico. Questo ci spiega il motivo per cui il secondo esempio è inaccettabile: la costruzione sintattica esposta viola queste regole: questa è quello che definiamo con l'espressione \textbf{dipendenza dalla struttura}. In questa frase, per esempio, tra le tante violazioni troviamo un verbo plurale che non si accorda a nessuno dei due nomi che potrebbero fungere da soggetto (\emph{luna} oppure \emph{bambino}).
+
+Se nel primo esempio, dunque, la sintassi segue tali regole seppure non abbia significati, il secondo, sebbene vi siano dei significati e dei concetti immediatamente comprensibili, non risulta in una costruzione sintatticamente ordinata.
+
 \hypertarget{le-unita-sintattiche-i-sintagmi}{%
-\section{Le unità sintattiche: i
-sintagmi}\label{le-unita-sintattiche-i-sintagmi}}
+\subsection{Le unità sintattiche: i sintagmi}\label{le-unita-sintattiche-i-sintagmi}}
+
+Così come il dominio e le regole della sintassi divergono da quelle della semantica, possiamo chiederci quali siano le unità di questo dominio, ovvero gli elementi attraverso cui si compone.
+Una prima risposta potrebbe essere che queste unità, questi atomi del linguaggio possano effettivamente essere le \emph{parole}. Tuttavia questa distinzione potrebbe portare qualche problema per es. nell'analisi di lingue che non hanno necessariamente un'identica nozione di \emph{parole} (per es. le lingue polisintetiche e così sia).
+Inoltre, sembrerebbe che la sintassi agisca ad un livello molto diverso da quelle del linguaggio per come lo interpretiamo in maniera intuitiva e le parole sono indicazioni utili in certi domini di descrizione ma in altri cominciano a risultare un po' oscuri.
+
+In questo ci viene in soccorso la nozione di \textbf{sintagma}, coniata dal linguista ginevrino Ferdinand de Saussure dal gr. σύνταγμα\footnote{Per gli scopi di questa dispensa presenterò una definizione che è distante da quella di Saussure.}.
+Possiamo immaginare il sintagma come l'unità sintattica e questa unità come un mattoncino LEGO.
+
+A questo punto la proprietà della sintassi è quella di combinare questi mattoncini: questa proprietà è detta \emph{Merge} (o \emph{Salda} in italiano, ma qui manteniamo la definizione inglese) e permette di prendere due mattoncini (sintagmi) così da formarne un terzo. La sintassi infatti è un'operazione binaria, dove due elementi si combinano per formarne un terzo\footnote{Per uno studio aggiuntivo della materia sintattica si può consultare \citet{chomsky1995}; \citet{donati2008}; \citet{graffiScalise2009} .}.
+
+\begin{figure}
+\centering
+\includegraphics{media/lego.jpg}
+\caption{Mattoncini Lego come metafora dei sintagmi}
+\end{figure}
+
+Possiamo dividere queste unità all'interno di parentesi quadre, così da mostrare i rapporti sintattici:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{9}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    I topi non avevano nipoti.\\
+  \item
+    {[} I topi {]} {[} non avevano {[} nipoti {]} {]}.
+  \end{enumerate}
+\end{enumerate}
+
+oppure mostrare l'organizzazione sintattica attraverso un cosiddetto \emph{diagramma ad albero} come nell'esempio seguente:
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{sintassiIta2_files/figure-latex/tree1-1} 
+
+}
+
+\caption{Rappresentazione ad albero di una frase transitiva}\label{fig:tree1}
+\end{figure}
+
+Uno studente attento potrebbe notare qualche differente rispetto ad una notazione ad albero precedente:
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{sintassiIta2_files/figure-latex/tree2-1} 
+
+}
+
+\caption{Rappresentazione secondo lo schema X-barra}\label{fig:tree2}
+\end{figure}
+
+La prima è più semplice differenza che possiamo notare è nella denominazione dei sintagmi: il primo albero presenta una notazione inglese, mentre il secondo in italiano. Così \emph{Determiner Phrase} (DP) corrisponde grosso modo a SN, mentre il sintagma verbale (SV) si compone di diversi livelli (VP, vP, TP), che corrispondono alla radice verbale V, al sintagma v (che possiamo dire legato alla transitività -ma v è un po' problematico) ed a quello di tempo finito T.
 
 \hypertarget{coordinazione}{%
 \section{Coordinazione}\label{coordinazione}}
@@ -1069,8 +981,7 @@ sintagmi}\label{le-unita-sintattiche-i-sintagmi}}
 \section{Implicite}\label{implicite-4}}
 
 \hypertarget{frasi-consecutive-e-concessive}{%
-\chapter{Frasi consecutive e
-concessive}\label{frasi-consecutive-e-concessive}}
+\chapter{Frasi consecutive e concessive}\label{frasi-consecutive-e-concessive}}
 
 \hypertarget{definizione-3}{%
 \section{Definizione}\label{definizione-3}}
@@ -1094,8 +1005,7 @@ concessive}\label{frasi-consecutive-e-concessive}}
 \section{Implicite}\label{implicite-6}}
 
 \hypertarget{discorso-diretto-e-indiretto}{%
-\chapter{Discorso diretto e
-indiretto}\label{discorso-diretto-e-indiretto}}
+\chapter{Discorso diretto e indiretto}\label{discorso-diretto-e-indiretto}}
 
 \hypertarget{definizione-5}{%
 \section{Definizione}\label{definizione-5}}
