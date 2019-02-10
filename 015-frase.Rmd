@@ -37,7 +37,7 @@ A questo punto la proprietà della sintassi è quella di combinare questi matton
 
 ![Mattoncini Lego come metafora dei sintagmi](media/lego.jpg)
 
-Possiamo dividere queste unità all'interno di parentesi quadre, così da mostrare i rapporti sintattici:
+Possiamo dividere queste unità, che chiameremo **costituenti** come sinonimo di sintagma, all'interno di parentesi quadre, così da mostrare i rapporti sintattici:
 
 (@)
     a. I topi non avevano nipoti.  
@@ -74,7 +74,8 @@ Uno studente attento potrebbe notare qualche differenza rispetto ad una notazion
 \end{tikzpicture}
 ```
 
-La prima e più semplice differenza che possiamo notare è nella denominazione dei sintagmi: il primo albero presenta una notazione inglese, mentre il secondo in italiano.  Così *Determiner Phrase* (DP) corrisponde grosso modo a SN, mentre il sintagma verbale (SV) si compone di diversi livelli (VP, vP, TP), che corrispondono all'unione della radice verbale V, al sintagma v (che possiamo dire legato alla transitività -ma v è un po' problematico) ed a quello di tempo finito T.
+La prima e più semplice differenza che possiamo notare è nella denominazione dei costituenti: il primo albero presenta una notazione inglese, mentre il secondo in italiano.  Così *Determiner Phrase* (DP) corrisponde grosso modo a SN, mentre il sintagma verbale (SV) si compone di diversi livelli (VP, vP, TP), che corrispondono all'unione della radice verbale V, al sintagma v (che possiamo dire legato alla transitività -ma v è un po' problematico) ed a quello di tempo finito T. C invece è il costituente iniziale, che nelle frasi semplici italiane non è pronunciato (ma vedremo oltre che è presente in altri contesti).
+Così, la derivazione procede sulla linea dei costituenti C-T-v-V.
 
 ### Le proprietà della sintassi
 
@@ -82,13 +83,18 @@ Le differenze tra questi due sistemi di visualizzazioni derivano però da un'imp
 
 Le proprietà principali della sintassi sono la **ricorsività** e la **gerarchia**.
 Con il termine *ricorsivo* definiamo quella capacità linguistica di poter aggiungere sempre ulteriore materiale linguistico ad una frase, seguendo certe regole: in pratica possiamo immaginare di poter aggiungere sempre un mattoncino Lego alla costruzione ottenuta dall'unione dei mattoncini.
+Definiamo questa proprietà della sintassi come *generativa*, e risulta in un indefinito (virtualmente infinito) meccanismo di formazione di nuove strutture^[La sintassi permette di agire in via infinita, ma altre limitazioni fisiche (per es. la memoria) impediscono di sperimentare tale uso infinito]. Possiamo dire che questo generare continuamente nuovo materiale sia il motore dell'aspetto *creativo* del linguaggio.  
+Questa capacità ricorsiva della sintassi prevede però un'ulteriore effetto: le strutture sintattiche presentano uguali meccanismi di formazione per cui una frase complessa ha la stessa geometria di un singolo costituente. Il minimo e il complesso, in questa descrizione linguistica, condividono le proprietà basilari di formazione.
+
+![Broccolo romanesco: un esempio di ricorsività in natura](media/broccolo.jpg)
+
 
 Con *gerarchia* invece ci riferiamo a quella proprietà della sintassi, che opera su un piano diverso da quello con cui siamo soliti interagire nella lingua. La nostra esperienza linguistica quotidiana infatti è mono-dimensionale, legata all'ordine delle parole nella frase in un senso lineare. Ma il modo in cui costruiamo le frasi non è legato ad uno spazio ad una dimensione, bensì risiede in uno contraddistinto da più dimensioni, con differenti nozioni di località. Così, per esempio, le lingue non sono legate ad una organizzazione sintattica sulla base dell'ordine delle parole (per es. il soggetto non è "la parola immediatamente vicina al verbo") bensì al loro ruolo nella struttura sintattica.
 
+!Scrivere della geometria dei costituenti
 
-Come possiamo immaginare, questa analisi sul linguaggio richiede una certa astrazione dalla lingua di tutti i giorni.
 
-
+### I test di costituenza
 
 ## Coordinazione
 
