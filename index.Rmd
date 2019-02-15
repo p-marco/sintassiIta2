@@ -17,7 +17,19 @@ description: "sintassiIta2"
 always_allow_html: yes
 ---
 
+
+
+
 # Introduzione {-}
+
+> Se il mondo ha la struttura del linguaggio  
+> e il linguaggio ha la forma della mente  
+> la mente con i suoi pieni e i suoi vuoti  
+> è niente o quasi e non ci rassicura.  
+>
+> E. Montale, *La forma del mondo*, in "Diario del '71"
+  
+\vfill  
 
 Questa dispensa nasce come materiale di studio per l'esame di Sintassi Italiana 2 per gli studenti triennali dell'Università Palacky di Olomouc, pensata in maniera specifica per studenti non madrelingua. Si fa riferimento a nozioni *tradizionali* della linguistica e degli studi sintattici rimandando, laddove si è ritenuto più pertinente, a degli studi più recenti in maniera da poter stimolare ulteriormente lo studente.  
 

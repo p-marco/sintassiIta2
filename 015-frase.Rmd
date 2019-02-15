@@ -91,8 +91,7 @@ Questa capacità ricorsiva della sintassi prevede però un'ulteriore effetto: le
 
 Con *gerarchia* invece ci riferiamo a quella proprietà della sintassi, che opera su un piano diverso da quello con cui siamo soliti interagire nella lingua. La nostra esperienza linguistica quotidiana infatti è mono-dimensionale, legata all'ordine delle parole nella frase in un senso lineare. Ma il modo in cui costruiamo le frasi non è legato ad uno spazio ad una dimensione, bensì risiede in uno contraddistinto da più dimensioni, con differenti nozioni di località. Così, per esempio, le lingue non sono legate ad una organizzazione sintattica sulla base dell'ordine delle parole (per es. il soggetto non è "la parola immediatamente vicina al verbo") bensì al loro ruolo nella struttura sintattica.
 
-!Scrivere della geometria dei costituenti
-
+#### La geometria della sintassi
 
 ### I test di costituenza
 
