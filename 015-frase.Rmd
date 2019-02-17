@@ -93,9 +93,116 @@ Con *gerarchia* invece ci riferiamo a quella proprietà della sintassi, che oper
 
 #### La geometria della sintassi
 
+Abbiamo definito questi piccoli mattoncini della sintassi come *costituenti* e abbiamo fatto riferimento ad una certa nozione di *spazio sintattico*. La domanda che potrebbe sorgere sarebbe a questo punto su come sia costituita la *geometria* della sintassi.
+
+Un costituente è un elemento sintattico costituito primariamente dalla sua *testa*, che ne caratterizza il *tipo*. Abbiamo detto inoltre che i costituenti si aggiungono sempre per via binaria, dal basso verso l'alto dell'albero di derivazione: il costituente a cui il costituente in esame si unisce via merge è detto *complementatore*.
+Esistono poi altre due posizioni, dette *specificatori* ed *aggiunti*, che insieme formano l'*angolo* del costituente. 
+
+```{r tree3, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Raffigurazione di un costituente', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree 
+[ .Costituente
+[ .Specificatore ]  
+[  [ .Testa  ]
+[ .Complemento ]
+]
+]
+\end{tikzpicture}
+```
+
+Possono essere presenti più specificatori ed ogni specificatore è *equidistante* dalla testa rispetto ad un altro specificatore dello stesso costituente:
+
+```{r tree4, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Un costituente XP', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree 
+[ .XP [ .YP Y ]
+[   
+[ .ZP Z ]  
+[  [ .X  ]
+[ .WP ]
+]
+]
+]
+\end{tikzpicture}
+```
+
+Così, tradizionalmente, alcuni costituenti ospitano 0,1 o più specificatori, che a loro volta possono avere una struttura ramificata: solitamente, in una costruzione finita transitiva in italiano, VP ne ha zero e vP ne ha due.
+Ogni costituente presenta 1 testa ed ha uno ed un solo costituente in posizione di complementatore.
+Possiamo infatti dire che la testa fornisce l'etichetta del costituente corrispondente (*endocentricità*) e che ogni costituente viene unito ad un altro (l'operazione Merge è binaria), così da avere un solo complementatore.
+
+
+
+```{r tree5, echo=FALSE, engine='tikz', out.width='90%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Una semplice derivazione sintattica', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+
+\begin{minipage}[b]{.22\linewidth}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree
+[ .{} X [ ... ] ]
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}[b]{.22\linewidth}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree
+[ .XP X [ ... ] ]
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}[b]{.22\linewidth}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree
+[ .{} Y [ .XP X ] ]
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}[b]{.22\linewidth}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree
+[ .YP Y [ .XP X ] ]
+\end{tikzpicture}
+\end{minipage}%
+
+```
+
+
+
+Così le nozioni di *precedenza* e *ordine* risiedono nella struttura sintattica di derivazione, creando una metrica e uno spazio che presenta i propri meccanismi di formazione. Sarà utile infatti tenere a mente che quando parleremo di queste proprietà ci riferiremo primariamente, se non esclusivamente, a tale spazio sintattico.
+
 ### I test di costituenza
 
+Possiamo definire quali sono i sintagmi di una costruzione linguistica basandoci su alcuni test, che permettono di risolvere qualche incertezza. Prendiamo come esempio la frase:
+
+(@)
+    Luigi insegna Geologia a Bratislava
+
+Le operazioni che possiamo compiere per catturare i sintagmi della frase sono, per esempio:
+
+*   **Coordinazione**  
+    * Luigi insegna Geologia e Fisica dei Materiali a Bratislava
+    * (*) Luigi insegna Geologia e veloce a Bratislava
+*   **Ellissi**  
+    * Luigi insegna a Bratislava e anche Maria *(insegna a Bratislava)*
+*   **Isolamento**  
+    * A Bratislava *(Dove insegna Luigi?)*
+    * Geologia *(Cosa insegna Luigi?)*
+*   **Non interruzione**  
+    * (*) a insegna Bratislava Luigi Geologia
+*   **Sostituzione** con proforme (p.es. pronome)  
+    * Lui insegna Geologia
+    * Lui la insegna lì
+*   **Spostamento**  
+    * A Bratislava Luigi insegna Geologia
+
+Così, per riprendere la definizione precedente, possiamo pensare alla nozione di *sintagma* come a quella unità sintattica che si compone solitamente di una o più parole, mentre ai *costituenti* come unità che possono anche essere più piccole, arrivando ben al di sotto del livello della parola.  
+
+## Lavorare con più frasi
+
 ## Coordinazione
+
+
 
 ## Giustapposizione
 

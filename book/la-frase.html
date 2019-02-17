@@ -25,7 +25,7 @@
 <meta name="author" content="Marco Petolicchio">
 
 
-<meta name="date" content="2019-02-15">
+<meta name="date" content="2019-02-17">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -87,10 +87,11 @@
 <li class="chapter" data-level="2.1.2" data-path="la-frase.html"><a href="la-frase.html#le-proprieta-della-sintassi"><i class="fa fa-check"></i><b>2.1.2</b> Le proprietà della sintassi</a></li>
 <li class="chapter" data-level="2.1.3" data-path="la-frase.html"><a href="la-frase.html#i-test-di-costituenza"><i class="fa fa-check"></i><b>2.1.3</b> I test di costituenza</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="la-frase.html"><a href="la-frase.html#coordinazione"><i class="fa fa-check"></i><b>2.2</b> Coordinazione</a></li>
-<li class="chapter" data-level="2.3" data-path="la-frase.html"><a href="la-frase.html#giustapposizione"><i class="fa fa-check"></i><b>2.3</b> Giustapposizione</a></li>
-<li class="chapter" data-level="2.4" data-path="la-frase.html"><a href="la-frase.html#connettori"><i class="fa fa-check"></i><b>2.4</b> Connettori</a></li>
-<li class="chapter" data-level="2.5" data-path="la-frase.html"><a href="la-frase.html#esempi"><i class="fa fa-check"></i><b>2.5</b> Esempi</a></li>
+<li class="chapter" data-level="2.2" data-path="la-frase.html"><a href="la-frase.html#lavorare-con-piu-frasi"><i class="fa fa-check"></i><b>2.2</b> Lavorare con più frasi</a></li>
+<li class="chapter" data-level="2.3" data-path="la-frase.html"><a href="la-frase.html#coordinazione"><i class="fa fa-check"></i><b>2.3</b> Coordinazione</a></li>
+<li class="chapter" data-level="2.4" data-path="la-frase.html"><a href="la-frase.html#giustapposizione"><i class="fa fa-check"></i><b>2.4</b> Giustapposizione</a></li>
+<li class="chapter" data-level="2.5" data-path="la-frase.html"><a href="la-frase.html#connettori"><i class="fa fa-check"></i><b>2.5</b> Connettori</a></li>
+<li class="chapter" data-level="2.6" data-path="la-frase.html"><a href="la-frase.html#esempi"><i class="fa fa-check"></i><b>2.6</b> Esempi</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="frasi-soggettive.html"><a href="frasi-soggettive.html"><i class="fa fa-check"></i><b>3</b> Frasi soggettive</a><ul>
 <li class="chapter" data-level="3.1" data-path="frasi-soggettive.html"><a href="frasi-soggettive.html#funzione"><i class="fa fa-check"></i><b>3.1</b> Funzione</a></li>
@@ -238,23 +239,87 @@ Questa capacità ricorsiva della sintassi prevede però un’ulteriore effetto: 
 <p>Con <em>gerarchia</em> invece ci riferiamo a quella proprietà della sintassi, che opera su un piano diverso da quello con cui siamo soliti interagire nella lingua. La nostra esperienza linguistica quotidiana infatti è mono-dimensionale, legata all’ordine delle parole nella frase in un senso lineare. Ma il modo in cui costruiamo le frasi non è legato ad uno spazio ad una dimensione, bensì risiede in uno contraddistinto da più dimensioni, con differenti nozioni di località. Così, per esempio, le lingue non sono legate ad una organizzazione sintattica sulla base dell’ordine delle parole (per es. il soggetto non è “la parola immediatamente vicina al verbo”) bensì al loro ruolo nella struttura sintattica.</p>
 <div id="la-geometria-della-sintassi" class="section level4">
 <h4><span class="header-section-number">2.1.2.1</span> La geometria della sintassi</h4>
+<p>Abbiamo definito questi piccoli mattoncini della sintassi come <em>costituenti</em> e abbiamo fatto riferimento ad una certa nozione di <em>spazio sintattico</em>. La domanda che potrebbe sorgere sarebbe a questo punto su come sia costituita la <em>geometria</em> della sintassi.</p>
+<p>Un costituente è un elemento sintattico costituito primariamente dalla sua <em>testa</em>, che ne caratterizza il <em>tipo</em>. Abbiamo detto inoltre che i costituenti si aggiungono sempre per via binaria, dal basso verso l’alto dell’albero di derivazione: il costituente a cui il costituente in esame si unisce via merge è detto <em>complementatore</em>.
+Esistono poi altre due posizioni, dette <em>specificatori</em> ed <em>aggiunti</em>, che insieme formano l’<em>angolo</em> del costituente.</p>
+<div class="figure" style="text-align: center"><span id="fig:tree3"></span>
+<img src="sintassiIta2_files/figure-html/tree3-1.svg" alt="Raffigurazione di un costituente" width="70%" />
+<p class="caption">
+Figure 2.3: Raffigurazione di un costituente
+</p>
+</div>
+<p>Possono essere presenti più specificatori ed ogni specificatore è <em>equidistante</em> dalla testa rispetto ad un altro specificatore dello stesso costituente:</p>
+<div class="figure" style="text-align: center"><span id="fig:tree4"></span>
+<img src="sintassiIta2_files/figure-html/tree4-1.svg" alt="Un costituente XP" width="70%" />
+<p class="caption">
+Figure 2.4: Un costituente XP
+</p>
+</div>
+<p>Così, tradizionalmente, alcuni costituenti ospitano 0,1 o più specificatori, che a loro volta possono avere una struttura ramificata: solitamente, in una costruzione finita transitiva in italiano, VP ne ha zero e vP ne ha due.
+Ogni costituente presenta 1 testa ed ha uno ed un solo costituente in posizione di complementatore.
+Possiamo infatti dire che la testa fornisce l’etichetta del costituente corrispondente (<em>endocentricità</em>) e che ogni costituente viene unito ad un altro (l’operazione Merge è binaria), così da avere un solo complementatore.</p>
+<div class="figure" style="text-align: center"><span id="fig:tree5"></span>
+<img src="sintassiIta2_files/figure-html/tree5-1.svg" alt="Una semplice derivazione sintattica" width="90%" />
+<p class="caption">
+Figure 2.5: Una semplice derivazione sintattica
+</p>
+</div>
+<p>Così le nozioni di <em>precedenza</em> e <em>ordine</em> risiedono nella struttura sintattica di derivazione, creando una metrica e uno spazio che presenta i propri meccanismi di formazione. Sarà utile infatti tenere a mente che quando parleremo di queste proprietà ci riferiremo primariamente, se non esclusivamente, a tale spazio sintattico.</p>
 </div>
 </div>
 <div id="i-test-di-costituenza" class="section level3">
 <h3><span class="header-section-number">2.1.3</span> I test di costituenza</h3>
+<p>Possiamo definire quali sono i sintagmi di una costruzione linguistica basandoci su alcuni test, che permettono di risolvere qualche incertezza. Prendiamo come esempio la frase:</p>
+<ol start="11" class="example" style="list-style-type: decimal">
+<li>Luigi insegna Geologia a Bratislava</li>
+</ol>
+<p>Le operazioni che possiamo compiere per catturare i sintagmi della frase sono, per esempio:</p>
+<ul>
+<li><strong>Coordinazione</strong>
+<ul>
+<li>Luigi insegna Geologia e Fisica dei Materiali a Bratislava</li>
+<li>(*) Luigi insegna Geologia e veloce a Bratislava</li>
+</ul></li>
+<li><strong>Ellissi</strong>
+<ul>
+<li>Luigi insegna a Bratislava e anche Maria <em>(insegna a Bratislava)</em></li>
+</ul></li>
+<li><strong>Isolamento</strong>
+<ul>
+<li>A Bratislava <em>(Dove insegna Luigi?)</em></li>
+<li>Geologia <em>(Cosa insegna Luigi?)</em></li>
+</ul></li>
+<li><strong>Non interruzione</strong>
+<ul>
+<li>(*) a insegna Bratislava Luigi Geologia</li>
+</ul></li>
+<li><strong>Sostituzione</strong> con proforme (p.es. pronome)
+<ul>
+<li>Lui insegna Geologia</li>
+<li>Lui la insegna lì</li>
+</ul></li>
+<li><strong>Spostamento</strong>
+<ul>
+<li>A Bratislava Luigi insegna Geologia</li>
+</ul></li>
+</ul>
+<p>Così, per riprendere la definizione precedente, possiamo pensare alla nozione di <em>sintagma</em> come a quella unità sintattica che si compone solitamente di una o più parole, mentre ai <em>costituenti</em> come unità che possono anche essere più piccole, arrivando ben al di sotto del livello della parola.</p>
 </div>
+</div>
+<div id="lavorare-con-piu-frasi" class="section level2">
+<h2><span class="header-section-number">2.2</span> Lavorare con più frasi</h2>
 </div>
 <div id="coordinazione" class="section level2">
-<h2><span class="header-section-number">2.2</span> Coordinazione</h2>
+<h2><span class="header-section-number">2.3</span> Coordinazione</h2>
 </div>
 <div id="giustapposizione" class="section level2">
-<h2><span class="header-section-number">2.3</span> Giustapposizione</h2>
+<h2><span class="header-section-number">2.4</span> Giustapposizione</h2>
 </div>
 <div id="connettori" class="section level2">
-<h2><span class="header-section-number">2.4</span> Connettori</h2>
+<h2><span class="header-section-number">2.5</span> Connettori</h2>
 </div>
 <div id="esempi" class="section level2">
-<h2><span class="header-section-number">2.5</span> Esempi</h2>
+<h2><span class="header-section-number">2.6</span> Esempi</h2>
 
 
 

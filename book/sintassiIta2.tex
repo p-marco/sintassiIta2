@@ -258,6 +258,7 @@
 
 
 \usepackage{tikz,tikz-qtree}
+\usepackage{subcaption}
 
 
 \tikzstyle{every picture}+=[font=\sffamily]
@@ -315,7 +316,7 @@
 \providecommand{\subtitle}[1]{}
 \subtitle{Dispense per gli studenti del corso KRI/SYNT2}
 \author{Marco Petolicchio}
-\date{2019-02-15}
+\date{2019-02-17}
 
 \begin{document}
 \maketitle
@@ -903,8 +904,123 @@ Con \emph{gerarchia} invece ci riferiamo a quella proprietà della sintassi, che
 \hypertarget{la-geometria-della-sintassi}{%
 \subsubsection{La geometria della sintassi}\label{la-geometria-della-sintassi}}
 
+Abbiamo definito questi piccoli mattoncini della sintassi come \emph{costituenti} e abbiamo fatto riferimento ad una certa nozione di \emph{spazio sintattico}. La domanda che potrebbe sorgere sarebbe a questo punto su come sia costituita la \emph{geometria} della sintassi.
+
+Un costituente è un elemento sintattico costituito primariamente dalla sua \emph{testa}, che ne caratterizza il \emph{tipo}. Abbiamo detto inoltre che i costituenti si aggiungono sempre per via binaria, dal basso verso l'alto dell'albero di derivazione: il costituente a cui il costituente in esame si unisce via merge è detto \emph{complementatore}.
+Esistono poi altre due posizioni, dette \emph{specificatori} ed \emph{aggiunti}, che insieme formano l'\emph{angolo} del costituente.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{sintassiIta2_files/figure-latex/tree3-1} 
+
+}
+
+\caption{Raffigurazione di un costituente}\label{fig:tree3}
+\end{figure}
+
+Possono essere presenti più specificatori ed ogni specificatore è \emph{equidistante} dalla testa rispetto ad un altro specificatore dello stesso costituente:
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{sintassiIta2_files/figure-latex/tree4-1} 
+
+}
+
+\caption{Un costituente XP}\label{fig:tree4}
+\end{figure}
+
+Così, tradizionalmente, alcuni costituenti ospitano 0,1 o più specificatori, che a loro volta possono avere una struttura ramificata: solitamente, in una costruzione finita transitiva in italiano, VP ne ha zero e vP ne ha due.
+Ogni costituente presenta 1 testa ed ha uno ed un solo costituente in posizione di complementatore.
+Possiamo infatti dire che la testa fornisce l'etichetta del costituente corrispondente (\emph{endocentricità}) e che ogni costituente viene unito ad un altro (l'operazione Merge è binaria), così da avere un solo complementatore.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{sintassiIta2_files/figure-latex/tree5-1} 
+
+}
+
+\caption{Una semplice derivazione sintattica}\label{fig:tree5}
+\end{figure}
+
+Così le nozioni di \emph{precedenza} e \emph{ordine} risiedono nella struttura sintattica di derivazione, creando una metrica e uno spazio che presenta i propri meccanismi di formazione. Sarà utile infatti tenere a mente che quando parleremo di queste proprietà ci riferiremo primariamente, se non esclusivamente, a tale spazio sintattico.
+
 \hypertarget{i-test-di-costituenza}{%
 \subsection{I test di costituenza}\label{i-test-di-costituenza}}
+
+Possiamo definire quali sono i sintagmi di una costruzione linguistica basandoci su alcuni test, che permettono di risolvere qualche incertezza. Prendiamo come esempio la frase:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{10}
+\tightlist
+\item
+  Luigi insegna Geologia a Bratislava
+\end{enumerate}
+
+Le operazioni che possiamo compiere per catturare i sintagmi della frase sono, per esempio:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Coordinazione}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Luigi insegna Geologia e Fisica dei Materiali a Bratislava
+  \item
+    (*) Luigi insegna Geologia e veloce a Bratislava
+  \end{itemize}
+\item
+  \textbf{Ellissi}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Luigi insegna a Bratislava e anche Maria \emph{(insegna a Bratislava)}
+  \end{itemize}
+\item
+  \textbf{Isolamento}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    A Bratislava \emph{(Dove insegna Luigi?)}
+  \item
+    Geologia \emph{(Cosa insegna Luigi?)}
+  \end{itemize}
+\item
+  \textbf{Non interruzione}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    (*) a insegna Bratislava Luigi Geologia
+  \end{itemize}
+\item
+  \textbf{Sostituzione} con proforme (p.es. pronome)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Lui insegna Geologia
+  \item
+    Lui la insegna lì
+  \end{itemize}
+\item
+  \textbf{Spostamento}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    A Bratislava Luigi insegna Geologia
+  \end{itemize}
+\end{itemize}
+
+Così, per riprendere la definizione precedente, possiamo pensare alla nozione di \emph{sintagma} come a quella unità sintattica che si compone solitamente di una o più parole, mentre ai \emph{costituenti} come unità che possono anche essere più piccole, arrivando ben al di sotto del livello della parola.
+
+\hypertarget{lavorare-con-piu-frasi}{%
+\section{Lavorare con più frasi}\label{lavorare-con-piu-frasi}}
 
 \hypertarget{coordinazione}{%
 \section{Coordinazione}\label{coordinazione}}
