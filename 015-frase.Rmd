@@ -198,7 +198,96 @@ Le operazioni che possiamo compiere per catturare i sintagmi della frase sono, p
 
 Così, per riprendere la definizione precedente, possiamo pensare alla nozione di *sintagma* come a quella unità sintattica che si compone solitamente di una o più parole, mentre ai *costituenti* come unità che possono anche essere più piccole, arrivando ben al di sotto del livello della parola.  
 
-## Coordinazione, giustapposizione, subordinazione
+
+## La frase semplice
+
+Con *frase semplice* intendiamo una costruzione linguistica che non presenta più di un predicato verbale e i suoi argomenti.
+
+
+### Il nucleo sintattico
+
+Possiamo pensare alla frase come a una costruzione che presenti un *nucleo* ed un *intorno*.
+Così il nucleo è la parte necessaria della costruzione linguistica, costituita da quelli che sono gli argomenti del verbo, mentre il suo margine è formato dagli elementi *circostanziali*, quelli cioè che possono essere omessi senza che la costruzione linguistica presenti perdite strutturali:
+
+(@)
+    a.  Gli studenti hanno visitato Praga.
+    a.  Gli studenti hanno visitato Praga per un viaggio d'istruzione con il Professore di matematica.
+
+Vi è inoltre una certa asimmetria tra gli elementi nucleari e quelli extra-nucleari: se i secondi appaiono con un certo grado di significazione --hanno cioè un significato ben riconoscibile che non dipende dalla costruzione-- i primi non hanno, in isolamento, tali possibilità logico-formali. Così, è impossibile, per es. definire *a priori* quale sia la relazione che leghi un soggetto a un predicato poiché tale qualità è espressa dal predicato stesso.
+
+#### Gli argomenti
+
+Il numero di argomenti nucleari dipende dalla categoria del predicato: un intransitivo avrà un solo argomento (S), un transitivo avrà 2 argomenti (A, O), un ditransitivo avrà 3 argomenti (A, O, IO) e così via.
+
+All'interno degli argomenti nucleari possiamo distinguere gli argomenti *interni* da quelli *esterni* del predicato. 
+Sono argomenti interni quelli che ricadono all'interno della proiezione di V, esterni quelli che si trovano oltre la sua proiezione:
+
+(@)
+    a. Mario [ mangia [ la mela ] ]
+    a. ARG.EXT  [ V [ ARG.INT ] ]
+
+Possiamo dire che in italiano la funzione di soggetto è affidata all'elemento posto nella posizione *più alta* della struttura argomentale, controllandone l'accordo verbale, mentre gli argomenti interni del predicato sono rappresentati dall'oggetto diretto (O) e indiretto (IO).
+
+Così, se nelle costruzioni transitive, abbiamo un solo argomento interno, nelle ditransitive ne troviamo 2, che si trovano nelle posizioni di Spec,VP e complementatore di VP:
+
+
+```{r treeDitransitivo, echo=FALSE, engine='tikz', out.width='90%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Transitivi e ditransitivi', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+
+\begin{minipage}[b]{.45\linewidth}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree
+[ .vP [ .DP1 \node(A){A}; ]
+[ .{} [ .DP2 \node(O){O}; ]
+[ v 
+[ .VP V [ .DP2 ]
+]
+]
+]
+]
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}[b]{.45\linewidth}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree
+[ .vP [ .DP1 \node(A){A}; ]
+[ .{} [ .DP2 \node(O){O}; ]
+[ v 
+[ .VP [ .DP2 t ]
+[ .{} V [ .DP3 \node(IO){IO}; ]
+]
+]
+]
+]
+]
+\end{tikzpicture}
+\end{minipage}%
+```
+
+La costruzione sintattica degli argomenti ruota sulla *struttura tematica* degli argomenti, così che in italiano una costruzione transitiva può presentare:
+
+* Un soggetto AGENTE e un oggetto PAZIENTE/TEMA
+* Un soggetto AGENTE e un oggetto DESTINATARIO
+* Un soggetto DESTINATARIO e un oggetto TEMA
+* Un soggetto ESPERIENTE e un oggetto TEMA
+
+In questo modo possiamo definire gli argomenti nucleari di una frase quelli che presentano un tratto tematico, mentre i circostanziali non hanno tratti tematici associati.
+
+### La nozione di movimento
+
+
+#### Esempi di movimento
+
+
+
+
+### Frasi semplici nominali
+
+
+## La frase complessa
+
+### Coordinazione, giustapposizione, subordinazione
 
 Se fino a questo momento ci siamo concentrati sulla frase semplice --quella che presenta un predicato verbale e i suoi argomenti-- ora possiamo cominciare ad affrontare il vero nucleo del discorso: la frase complessa ed i modi attraverso cui possiamo unire più frasi tra loro.
 
