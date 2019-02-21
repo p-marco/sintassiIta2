@@ -316,7 +316,7 @@
 \providecommand{\subtitle}[1]{}
 \subtitle{Dispense per gli studenti del corso KRI/SYNT2}
 \author{Marco Petolicchio}
-\date{2019-02-20}
+\date{2019-02-21}
 
 \begin{document}
 \maketitle
@@ -1081,27 +1081,113 @@ Così, se nelle costruzioni transitive, abbiamo un solo argomento interno, nelle
 \caption{Transitivi e ditransitivi}\label{fig:treeDitransitivo}
 \end{figure}
 
-La costruzione sintattica degli argomenti ruota sulla \emph{struttura tematica} degli argomenti, così che in italiano una costruzione transitiva può presentare:
+La costruzione sintattica degli argomenti ruota sulla \emph{struttura tematica} degli argomenti, così che in italiano una costruzione frase può presentare diversi argomenti\footnote{Bisogna prestare attenzione al fatto che TEMA qui rappresenta un argomento tematico (un ruolo semantico e sintattico), mentre in linguistica strutturale il TEMA è opposto al REMA per quanto riguarda l'informazione.}:
 
-\begin{itemize}
-\tightlist
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{13}
 \item
-  Un soggetto AGENTE e un oggetto PAZIENTE/TEMA
-\item
-  Un soggetto AGENTE e un oggetto DESTINATARIO
-\item
-  Un soggetto DESTINATARIO e un oggetto TEMA
-\item
-  Un soggetto ESPERIENTE e un oggetto TEMA
-\end{itemize}
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item
+    Luigi mangia un rohlik.\\
+    AGENTE VP PAZIENTE
+  \item
+    Giovanni pittura il muro.\\
+    AGENTE VP TEMA
+  \item
+    Il vento muove le foglie.\\
+    CAUSA VP TEMA
+  \item
+    Maria ha ricevuto una lettera.\\
+    DESTINATARIO VP TEMA
+  \item
+    Gli studenti odiano l'esame di sintassi.\\
+    ESPERIENTE VP TEMA
+  \item
+    La scatola contiene molti biscotti.\\
+    ORIGINE/AGENTE VP TEMA
+  \end{enumerate}
+\end{enumerate}
 
-In questo modo possiamo definire gli argomenti nucleari di una frase quelli che presentano un tratto tematico, mentre i circostanziali non hanno tratti tematici associati.
+La definizione di alcuni argomenti si muove lungo una \emph{scala}: un soggetto non è esclusivamente \enquote{colui che effettua un'azione}, bensì una categoria di ruoli tematici in funzione del verbo di riferimento. Così, tornando alla distinzione precedente dei verbi intransitivi in due categorie, possiamo notare che i verbi inergativi presentano di solito un argomento più vicino all'agente (\emph{Mario mangia}), mentre gli inaccusativi più vicini al tema/paziente (\emph{Luisa è arrivata}).
+
+In questo modo possiamo definire gli argomenti nucleari di una frase come quelli che presentano un tratto tematico, mentre i circostanziali non hanno tratti tematici associati.
 
 \hypertarget{la-nozione-di-movimento}{%
 \subsection{La nozione di movimento}\label{la-nozione-di-movimento}}
 
-\hypertarget{esempi-di-movimento}{%
-\subsubsection{Esempi di movimento}\label{esempi-di-movimento}}
+Se qualcuno ci chiedesse se c'è qualche forma di movimento in sintassi, saremmo portati a pensare p.es. a costruzioni tipiche in questo senso: le dislocazioni (in senso lato) e le interrogative.
+
+Prendiamo infatti una frase interrogativa e immaginiamo di voler avere delle informazioni rispetto all'argomento interno. Questo è un esempio di movimento WH (\emph{wh-movement}), dall'inglese --dove il WH indica i corrispondenti interrogativi (\emph{what, when, where, who, why}). Nell'esempio seguente infatti l'argomento interno del verbo è stato spostato in un punto molto più alto e per farlo ha richiesto che anche il verbo si spostasse più in alto della sua posizione originaria:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{14}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Mario {[} mangia {[} una mela {]} {]}
+  \item
+    Cosa i {[} mangia j {[} Mario {[} \emph{t}j {[} \emph{t}i {]} {]} {]} {]}
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    {[} TP {[} DPk Mario {]} {[} mangia {[} vP {[} DP tk {]} {[} {[} DPi una mela {]} {[} v {[} VP {[} V {[} DP ti {]} {]} {]} {]} {]} {]} {]}
+  \item
+    {[} CP {[} DPi Cosa {]} {[} {[} C mangia {[} TP {[} DPk Mario {]} {[} tj {[} vP {[} DP tk {]} {[} {[} DPi ti {]} {[} v {[} VP {[} V {[} DP ti {]} {]} {]} {]} {]} {]} {]} {]}
+  \end{enumerate}
+\end{enumerate}
+
+Poiché come abbiamo già visto, la sintassi procede da sotto a sopra in maniera endocentrica, tutti i movimenti si collocano \enquote{a sinistra} dell'albero di derivazione e procedono anche loro da sotto a sopra.
+Esattamente come nell'operazione di Merge, dove abbiamo una derivazione che procede per via binaria, in maniera identica si produce il movimento. Così possiamo chiamare l'operazione di \emph{Merge esterno} quella che permette l'unione della struttura con qualcosa di nuovo, mentre con \emph{Merge interno} l'unione con qualcosa che è già presente nella struttura, ovvero il movimento.
+
+Ma il movimento in sintassi non si limita agli \emph{spostamenti} o alle dislocazioni, bensì a tutta la geometria della sintassi stessa. Precedentemente abbiamo fatto riferimento alla nozione di \emph{tratto} e alla sua centralità, tale che ora potremmo domandarci se non fossero proprio queste proprietà degli oggetti sintattici ad essere, in qualche modo, coinvolti in tale processo. Tale domanda coglierebbe infatti nel segno: sono proprio loro!
+Gli oggetti sintattici entrano infatti nello spazio di derivazione sintattica come un insieme di tratti: alcuni tra questi che già sono provvisti di valore, altri che lo avranno durante la derivazione. Così, se p.es. l'oggetto sintattico \enquote{\emph{animali}} presenta già i tratti di {[}+animato, +plurale, +maschile{]} ecc., il verbo \enquote{\emph{guardare}} non ha ancora indicazioni su tempo, numero, persona ecc. In maniera non del tutto precisa potremmo dire che questi oggetti sintattici, prima di diventare parole a tutti gli effetti, hanno bisogno di alcune trasformazioni.
+
+Torniamo allora all'esempio in cui ci chiedevamo cosa mangiasse Mario. Come abbiamo visto, questa costruzione presenta un movimento wh dell'argomento interno. Ma non è l'unico elemento a muoversi: gli argomenti hanno bisogno del Caso, che in una lingua come l'italiano è astratto, ovvero non realizzato morfologicamente\footnote{In italiano una asimmetria tra nominativo e accusativo è presente nei pronomi, dove i nomi viceversa hanno neutralizzato il paradigma causale derivando, in massima parte, dall'accusativo latino.}, ma in altre lingue (come quelle slave, il tedesco, l'hindi, il finlandese ecc.) il caso è un elemento morfologico e non solo sintattico.
+Ci riferiamo all'insieme dei tratti di Persona, Numero, Genere e Caso come tratti-phi (\emph{φ features}).
+Questa operazione di valutazione dei tratti (\emph{checking}) avviene tra due teste in maniera simmetrica.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{sintassiIta2_files/figure-latex/treeChecking-1} 
+
+}
+
+\caption{Valutazione dei tratti}\label{fig:treeChecking}
+\end{figure}
+
+Quindi, nel caso in esame, l'argomento interno risalirà nella posizione di Specificatore di vP per valutare i tratti phi e ulteriormente sino alla posizione di Spec,CP per la valutazione del tratto {[}wh{]}. Il luogo in cui avvengono tali valutazioni in sintassi varia da lingua a lingua, p.es. in mandarino l'oggetto può rimanere nella sua posizione classica anche quando vi è un tratto wh. In italiano, invece, possiamo dire che:
+
+\begin{itemize}
+\tightlist
+\item
+  V si occupa di valutare il ruolo tematico degli argomenti interni;
+\item
+  v si occupa del ruolo tematico dell'arg.ext e del caso dell'arg.int (ACCUSATIVO);
+\item
+  T si occupa del tratto di finitezza, che coincide con il NOMINATIVO e con l'accordo delle phi;
+\item
+  C è un complesso sistema con una sua struttura, che si occupa di molti tratti (focus, topic, wh ecc.).
+\end{itemize}
+
+Così, la derivazione completa della frase \enquote{\emph{Cosa mangia Gianni}} può essere visualizzata come segue:
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{sintassiIta2_files/figure-latex/treeWH-1} 
+
+}
+
+\caption{Costruzione con movimento wh}\label{fig:treeWH}
+\end{figure}
 
 \hypertarget{frasi-semplici-nominali}{%
 \subsection{Frasi semplici nominali}\label{frasi-semplici-nominali}}
@@ -1118,7 +1204,7 @@ Due frasi possono essere unite attraverso una \textbf{coordinazione} (\emph{para
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{13}
+\setcounter{enumi}{16}
 \tightlist
 \item
   Luigi insegna geologia e Maria è una cantante.
@@ -1128,7 +1214,7 @@ Non necessariamente le frasi coordinate sono frasi principali, ma possiamo avere
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{14}
+\setcounter{enumi}{17}
 \tightlist
 \item
   Hanno sicuramente molti soldi perché Luigi insegna geologia e Maria è una cantante.
@@ -1140,7 +1226,7 @@ Così, ogni subordinata ha una frase reggente, la quale può essere a sua volta 
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{15}
+\setcounter{enumi}{18}
 \tightlist
 \item
   Hanno sicuramente molti soldi perché hanno comprato una casa che hanno pagato moltissimo.
@@ -1153,7 +1239,7 @@ In maniera simile, le costruzioni paratattiche possono essere unite per \textbf{
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{16}
+\setcounter{enumi}{19}
 \tightlist
 \item
   Piove. Fa freddo.

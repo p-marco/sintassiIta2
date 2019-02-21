@@ -265,21 +265,108 @@ Così, se nelle costruzioni transitive, abbiamo un solo argomento interno, nelle
 \end{minipage}%
 ```
 
-La costruzione sintattica degli argomenti ruota sulla *struttura tematica* degli argomenti, così che in italiano una costruzione transitiva può presentare:
+La costruzione sintattica degli argomenti ruota sulla *struttura tematica* degli argomenti, così che in italiano una costruzione frase può presentare diversi argomenti^[Bisogna prestare attenzione al fatto che TEMA qui rappresenta un argomento tematico (un ruolo semantico e sintattico), mentre in linguistica strutturale il TEMA è opposto al REMA per quanto riguarda l'informazione.]:
 
-* Un soggetto AGENTE e un oggetto PAZIENTE/TEMA
-* Un soggetto AGENTE e un oggetto DESTINATARIO
-* Un soggetto DESTINATARIO e un oggetto TEMA
-* Un soggetto ESPERIENTE e un oggetto TEMA
+(@) 
+    1.  Luigi       mangia  un rohlik.  
+        AGENTE      VP      PAZIENTE
+    1.  Giovanni    pittura il muro.  
+        AGENTE      VP      TEMA
+    1.  Il vento    muove   le foglie.  
+        CAUSA       VP      TEMA
+    1.  Maria           ha ricevuto una lettera.  
+        DESTINATARIO    VP          TEMA
+    1.  Gli studenti    odiano  l'esame di sintassi.  
+        ESPERIENTE      VP      TEMA
+    1.  La scatola      contiene    molti biscotti.  
+        ORIGINE/AGENTE  VP          TEMA
 
-In questo modo possiamo definire gli argomenti nucleari di una frase quelli che presentano un tratto tematico, mentre i circostanziali non hanno tratti tematici associati.
+La definizione di alcuni argomenti si muove lungo una *scala*: un soggetto non è esclusivamente "colui che effettua un'azione", bensì una categoria di ruoli tematici in funzione del verbo di riferimento. Così, tornando alla distinzione precedente dei verbi intransitivi in due categorie, possiamo notare che i verbi inergativi presentano di solito un argomento più vicino all'agente (*Mario mangia*), mentre gli inaccusativi più vicini al tema/paziente (*Luisa è arrivata*).
+
+In questo modo possiamo definire gli argomenti nucleari di una frase come quelli che presentano un tratto tematico, mentre i circostanziali non hanno tratti tematici associati.
 
 ### La nozione di movimento
 
+Se qualcuno ci chiedesse se c'è qualche forma di movimento in sintassi, saremmo portati a pensare p.es. a costruzioni tipiche in questo senso: le dislocazioni (in senso lato) e le interrogative. 
 
-#### Esempi di movimento
+Prendiamo infatti una frase interrogativa e immaginiamo di voler avere delle informazioni rispetto all'argomento interno. Questo è un esempio di movimento WH (*wh-movement*), dall'inglese --dove il WH indica i corrispondenti interrogativi (*what, when, where, who, why*). Nell'esempio seguente infatti l'argomento interno del verbo è stato spostato in un punto molto più alto e per farlo ha richiesto che anche il verbo si spostasse più in alto della sua posizione originaria:
+
+(@) 
+    a. Mario [ mangia [ una mela ] ]
+    a. Cosa i [ mangia j [ Mario [ *t*j [ *t*i ] ] ] ] 
+
+(@)
+    a. [ TP [ DPk Mario ] [ mangia [ vP [ DP tk ] [ [ DPi una mela ] [ v [ VP [ V [ DP ti ] ] ] ] ] ] ]
+    a. [ CP [ DPi Cosa  ] [  [ C mangia [ TP [ DPk Mario ] [ tj [ vP [ DP tk ] [ [ DPi ti ] [ v [ VP [ V [ DP ti ] ] ] ] ] ] ] ]
+
+Poiché come abbiamo già visto, la sintassi procede da sotto a sopra in maniera endocentrica, tutti i movimenti si collocano "a sinistra" dell'albero di derivazione e procedono anche loro da sotto a sopra. 
+Esattamente come nell'operazione di Merge, dove abbiamo una derivazione che procede per via binaria, in maniera identica si produce il movimento. Così possiamo chiamare l'operazione di *Merge esterno* quella che permette l'unione della struttura con qualcosa di nuovo, mentre con *Merge interno* l'unione con qualcosa che è già presente nella struttura, ovvero il movimento. 
 
 
+Ma il movimento in sintassi non si limita agli *spostamenti* o alle dislocazioni, bensì a tutta la geometria della sintassi stessa. Precedentemente abbiamo fatto riferimento alla nozione di *tratto* e alla sua centralità, tale che ora potremmo domandarci se non fossero proprio queste proprietà degli oggetti sintattici ad essere, in qualche modo, coinvolti in tale processo. Tale domanda coglierebbe infatti nel segno: sono proprio loro!
+Gli oggetti sintattici entrano infatti nello spazio di derivazione sintattica come un insieme di tratti: alcuni tra questi che già sono provvisti di valore, altri che lo avranno durante la derivazione. Così, se p.es. l'oggetto sintattico "*animali*" presenta già i tratti di [+animato, +plurale, +maschile] ecc., il verbo "*guardare*" non ha ancora indicazioni su tempo, numero, persona ecc. In maniera non del tutto precisa potremmo dire che questi oggetti sintattici, prima di diventare parole a tutti gli effetti, hanno bisogno di alcune trasformazioni.
+
+Torniamo allora all'esempio in cui ci chiedevamo cosa mangiasse Mario. Come abbiamo visto, questa costruzione presenta un movimento wh dell'argomento interno. Ma non è l'unico elemento a muoversi: gli argomenti hanno bisogno del Caso, che in una lingua come l'italiano è astratto, ovvero non realizzato morfologicamente^[In italiano una asimmetria tra nominativo e accusativo è presente nei pronomi, dove i nomi viceversa hanno neutralizzato il paradigma causale derivando, in massima parte, dall'accusativo latino.], ma in altre lingue (come quelle slave, il tedesco, l'hindi, il finlandese ecc.) il caso è un elemento morfologico e non solo sintattico. 
+Ci riferiamo all'insieme dei tratti di Persona, Numero, Genere e Caso come tratti-phi (*φ features*).
+Questa operazione di valutazione dei tratti (*checking*) avviene tra due teste in maniera simmetrica. 
+
+```{r treeChecking, echo=FALSE, engine='tikz', out.width='90%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Valutazione dei tratti', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+
+\begin{minipage}[b]{.45\linewidth}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree
+[ .TP [ .DP [ .D \node(D){[num:PL]}; ] ]
+[  [ .T \node(T){[num:---]}; ]
+] ] 
+
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}[b]{.45\linewidth}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree
+[ .TP [ .DP [ .D \node(D){[num:PL]}; ] ]
+[ [ .T \node(T){[num:PL]}; ]
+] ] 
+\end{tikzpicture}
+\end{minipage}%
+```
+
+Quindi, nel caso in esame, l'argomento interno risalirà nella posizione di Specificatore di vP per valutare i tratti phi e ulteriormente sino alla posizione di Spec,CP per la valutazione del tratto [wh]. Il luogo in cui avvengono tali valutazioni in sintassi varia da lingua a lingua, p.es. in mandarino l'oggetto può rimanere nella sua posizione classica anche quando vi è un tratto wh. In italiano, invece, possiamo dire che:
+
+* V si occupa di valutare il ruolo tematico degli argomenti interni;
+* v si occupa del ruolo tematico dell'arg.ext e del caso dell'arg.int (ACCUSATIVO);
+* T si occupa del tratto di finitezza, che coincide con il NOMINATIVO e con l'accordo delle phi;
+* C è un complesso sistema con una sua struttura, che si occupa di molti tratti (focus, topic, wh ecc.).
+
+Così, la derivazione completa della frase "*Cosa mangia Gianni*" può essere visualizzata come segue:
+
+```{r treeWH, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Costruzione con movimento wh', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree 
+[ .CP [ .DP [ .D \node(d){cosa}; ] ]
+[ [ .C [ .mangia \node(C){[wh]}; ] ]
+[ .TP [ .DP  [ .D  \node(D1){Mario}; ] ] 
+[ \node(T){T};
+[ .vP
+[ .DP [ .t \node(d1){[phi:---]}; ] ]
+[
+[ .DP [ .t \node(d2){[case, wh:---]}; ] ]
+[ \node(v){v};
+[ .VP \node(V){V};
+[ .DP [ .t \node(D){[case:---, wh:---]}; ] ] 
+] ] ] ] ] ] ] ]
+
+\draw[semithick, <-] (d2) to [bend right=90] (D);\draw[semithick, <-] (d) to [bend right=90] (d2);
+\draw[semithick, <-] (D1) to [bend right=90] (d1);
+\draw[semithick, <-] (C) to [bend right=90] (T);
+\draw[semithick, <-] (T) to [bend right=90] (v);
+\draw[semithick, <-] (v) to [bend right=90] (V);
+
+\end{tikzpicture}
+```
 
 
 ### Frasi semplici nominali
