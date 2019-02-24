@@ -1,0 +1,42 @@
+# La frase complessa
+
+Tutta questa dispensa si focalizza sulla frase complessa. Pertanto qui ci si limita a quel "ponte" tra questa e la frase semplice, laddove successivamente si tratterà più estesamente. 
+
+Possiamo definire la frase complessa come quella formata dall'unione di frasi.
+
+## Coordinazione, giustapposizione, subordinazione
+
+Se fino a questo momento ci siamo concentrati sulla frase semplice --quella che presenta un predicato verbale e i suoi argomenti-- ora possiamo cominciare ad affrontare il vero nucleo del discorso: la frase complessa ed i modi attraverso cui possiamo unire più frasi tra loro.
+
+
+Due frasi possono essere unite attraverso una **coordinazione** (*paratassi*) se si trovano allo stesso livello --vale a dire che possono risultare come frasi a sé:
+
+(@)
+    Luigi insegna geologia e Maria è una cantante.
+
+Non necessariamente le frasi coordinate sono frasi principali, ma possiamo avere una coordinazione tra strutture di livello secondario ecc:
+
+(@)
+    Hanno sicuramente molti soldi perché Luigi insegna geologia e Maria è una cantante.
+
+Così, "*Hanno sicuramente molti soldi*" è la frase **principale**, mentre "*perché L.insegna*" è una **subordinata** della principale e "*e Maria è una cantante*" è la **coordinata** della subordinata.
+
+Così, ogni subordinata ha una frase reggente, la quale può essere a sua volta una principale o una subordinata, come in:
+
+(@)
+    Hanno sicuramente molti soldi perché hanno comprato una casa che hanno pagato moltissimo.
+
+Qui la frase "*che hanno pagato moltissimo*" continua il discorso della frase reggente "*hanno comprato una casa*". 
+Così la frase reggente non è per forza una principale e in questo esempio abbiamo una principale, una subordinata di 1° grado e una di 2°.
+
+In maniera simile, le costruzioni paratattiche possono essere unite per **giustapposizione**. In questo caso non vi saranno elementi lessicali ad unirle, bensì segni di punteggiatura:
+
+(@)
+    Piove. Fa freddo. 
+
+    
+## La frase principale
+
+
+
+## La frase subordinata
