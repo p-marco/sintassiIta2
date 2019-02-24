@@ -2,10 +2,10 @@
 Dispense di Sintassi Italiana 2
 
 * By an online interface [HERE](http://marcopetolicchio.com/sintassiIta2/book/)
-* Using the PDF generated file [HERE](http://marcopetolicchio.com/sintassiIta2/book/phdThesis.pdf)
-* Using the LaTeX source code [HERE](http://marcopetolicchio.com/sintassiIta2/book/phdThesis.tex)
-* Using the MS Word DOCX file [HERE](http://marcopetolicchio.com/sintassiIta2/book/phdThesis.docx)
-* By the EPUB output format [HERE](http://marcopetolicchio.com/sintassiIta2/book/phdThesis.epub)
+* Using the PDF generated file [HERE](http://marcopetolicchio.com/sintassiIta2/book/sintassiIta2.pdf)
+* Using the LaTeX source code [HERE](http://marcopetolicchio.com/sintassiIta2/book/sintassiIta2.tex)
+* Using the MS Word DOCX file [HERE](http://marcopetolicchio.com/sintassiIta2/book/sintassiIta2.docx)
+* By the EPUB output format [HERE](http://marcopetolicchio.com/sintassiIta2/book/sintassiIta2.epub)
 * By the github repository [HERE](http://github.com/p-marco/sintassiIta2) 
 
 
