@@ -369,10 +369,23 @@ Così, la derivazione completa della frase "*Cosa mangia Gianni*" può essere vi
 ```
 
 
-### Frasi semplici nominali
+### Frasi nominali
+
+Sono frasi nominali quelle in cui non appare il predicato. Sono sostanzialmente legate ad esigenze comunicativo-pragmatiche quali divieti, enfasi ecc. oppure ricadono in una precisa scelta stilistica come nel linguaggio giornalistico:
+
+(@)
+    a. Vietato fumare.
+    a. Biglietti, per favore!
+    a. Studenti in vacanza per la settimana bianca.
+
+Di solito le frasi nominali non sono particolarmente complesse e possono essere utilizzate a loro volta quale argomento di una frase complessa o di un periodo. 
 
 
 ## La frase complessa
+
+Tutta questa dispensa si focalizza sulla frase complessa. Pertanto qui ci si limita a quel "ponte" tra questa e la frase semplice, laddove successivamente si tratterà più estesamente. 
+
+Possiamo definire la frase complessa come quella formata dall'unione di frasi.
 
 ### Coordinazione, giustapposizione, subordinazione
 
@@ -403,3 +416,5 @@ In maniera simile, le costruzioni paratattiche possono essere unite per **giusta
 
 (@)
     Piove. Fa freddo. 
+
+    

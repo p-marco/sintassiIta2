@@ -1,42 +1,54 @@
 \PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
 \PassOptionsToPackage{hyphens}{url}
 %
-\documentclass[a4paper,twoside,11pt,chapterprefix=false,bibliography=totocnumbered,listof=flat]{scrbook}
+\documentclass[
+  a4paper,
+  twoside,
+  11pt,
+  chapterprefix=false,
+  bibliography=totocnumbered,
+  listof=flat]{scrbook}
 \usepackage{lmodern}
 \usepackage{amssymb,amsmath}
 \usepackage{ifxetex,ifluatex}
-\usepackage{fixltx2e} % provides \textsubscript
 \ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provides euro and other symbols
 \else % if luatex or xelatex
   \usepackage{unicode-math}
-  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
 % use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-% use microtype if available
-\IfFileExists{microtype.sty}{%
-\usepackage[]{microtype}
-\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
 }{}
-\IfFileExists{parskip.sty}{%
-\usepackage{parskip}
-}{% else
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
-}
-\usepackage{hyperref}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-            pdftitle={Sintassi Italiana 2},
-            pdfauthor={Marco Petolicchio},
-            pdfborder={0 0 0},
-            breaklinks=true}
+  pdftitle={Sintassi Italiana 2},
+  pdfauthor={Marco Petolicchio},
+  pdfborder={0 0 0},
+  breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 \usepackage{longtable,booktabs}
-% Fix footnotes in tables (requires footnote package)
-\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{longtable}}{}
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
 \usepackage{graphicx,grffile}
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
@@ -52,12 +64,12 @@
 \setcounter{secnumdepth}{5}
 % Redefines (sub)paragraphs to behave more like sections
 \ifx\paragraph\undefined\else
-\let\oldparagraph\paragraph
-\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
 \fi
 \ifx\subparagraph\undefined\else
-\let\oldsubparagraph\subparagraph
-\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
 
 % set default figure placement to htbp
@@ -96,13 +108,14 @@
 
 \usepackage[all]{nowidow}
 
-\usepackage[usenames, dvipsnames]{color}
+%\usepackage[usenames, dvipsnames]{color}
+\usepackage{xcolor}
+
 \definecolor{upol-dGrey}{rgb}{0.36470588235,0.36862745098,0.37647058823}
 \definecolor{upol-lGrey}{rgb}{0.8,0.8,0.8}
 \definecolor{upol-brandBlue}{rgb}{0,0.43529411764,0.67843137254}
 
 
-\usepackage{xcolor}
 \usepackage{graphicx}
 \definecolor{titlepagecolor}{cmyk}{1,.38,0,.15} %C100 M38 Y0 K15
 \definecolor{namecolor}{cmyk}{0, 0, 0, .0980} 
@@ -313,10 +326,15 @@
 \bibliographystyle{apa}
 
 \title{Sintassi Italiana 2}
-\providecommand{\subtitle}[1]{}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
 \subtitle{Dispense per gli studenti del corso KRI/SYNT2}
 \author{Marco Petolicchio}
-\date{2019-02-21}
+\date{2019-02-24}
 
 \begin{document}
 \maketitle
@@ -1189,11 +1207,35 @@ Così, la derivazione completa della frase \enquote{\emph{Cosa mangia Gianni}} p
 \caption{Costruzione con movimento wh}\label{fig:treeWH}
 \end{figure}
 
-\hypertarget{frasi-semplici-nominali}{%
-\subsection{Frasi semplici nominali}\label{frasi-semplici-nominali}}
+\hypertarget{frasi-nominali}{%
+\subsection{Frasi nominali}\label{frasi-nominali}}
+
+Sono frasi nominali quelle in cui non appare il predicato. Sono sostanzialmente legate ad esigenze comunicativo-pragmatiche quali divieti, enfasi ecc. oppure ricadono in una precisa scelta stilistica come nel linguaggio giornalistico:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{16}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Vietato fumare.
+  \item
+    Biglietti, per favore!
+  \item
+    Studenti in vacanza per la settimana bianca.
+  \end{enumerate}
+\end{enumerate}
+
+Di solito le frasi nominali non sono particolarmente complesse e possono essere utilizzate a loro volta quale argomento di una frase complessa o di un periodo.
 
 \hypertarget{la-frase-complessa}{%
 \section{La frase complessa}\label{la-frase-complessa}}
+
+Tutta questa dispensa si focalizza sulla frase complessa. Pertanto qui ci si limita a quel \enquote{ponte} tra questa e la frase semplice, laddove successivamente si tratterà più estesamente.
+
+Possiamo definire la frase complessa come quella formata dall'unione di frasi.
 
 \hypertarget{coordinazione-giustapposizione-subordinazione}{%
 \subsection{Coordinazione, giustapposizione, subordinazione}\label{coordinazione-giustapposizione-subordinazione}}
@@ -1204,7 +1246,7 @@ Due frasi possono essere unite attraverso una \textbf{coordinazione} (\emph{para
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{16}
+\setcounter{enumi}{17}
 \tightlist
 \item
   Luigi insegna geologia e Maria è una cantante.
@@ -1214,7 +1256,7 @@ Non necessariamente le frasi coordinate sono frasi principali, ma possiamo avere
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{17}
+\setcounter{enumi}{18}
 \tightlist
 \item
   Hanno sicuramente molti soldi perché Luigi insegna geologia e Maria è una cantante.
@@ -1226,7 +1268,7 @@ Così, ogni subordinata ha una frase reggente, la quale può essere a sua volta 
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{18}
+\setcounter{enumi}{19}
 \tightlist
 \item
   Hanno sicuramente molti soldi perché hanno comprato una casa che hanno pagato moltissimo.
@@ -1239,7 +1281,7 @@ In maniera simile, le costruzioni paratattiche possono essere unite per \textbf{
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{19}
+\setcounter{enumi}{20}
 \tightlist
 \item
   Piove. Fa freddo.
@@ -1379,6 +1421,6 @@ In maniera simile, le costruzioni paratattiche possono essere unite per \textbf{
 \hypertarget{implicite-7}{%
 \section{Implicite}\label{implicite-7}}
 
-\bibliography{bibliography.bib}
+  \bibliography{bibliography.bib}
 
 \end{document}
