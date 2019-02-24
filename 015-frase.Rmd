@@ -238,7 +238,7 @@ Così, se nelle costruzioni transitive, abbiamo un solo argomento interno, nelle
 \tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree
 [ .vP [ .DP1 \node(A){A}; ]
-[ .{} [ .DP2 \node(O){O}; ]
+[ [ .DP2 \node(O){O}; ]
 [ v 
 [ .VP V [ .DP2 ]
 ]
@@ -252,10 +252,10 @@ Così, se nelle costruzioni transitive, abbiamo un solo argomento interno, nelle
 \tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree
 [ .vP [ .DP1 \node(A){A}; ]
-[ .{} [ .DP2 \node(O){O}; ]
+[ [ .DP2 \node(O){O}; ]
 [ v 
 [ .VP [ .DP2 t ]
-[ .{} V [ .DP3 \node(IO){IO}; ]
+[ V [ .DP3 \node(IO){IO}; ]
 ]
 ]
 ]

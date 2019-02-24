@@ -14,6 +14,20 @@ Due frasi possono essere unite attraverso una **coordinazione** (*paratassi*) se
 (@)
     Luigi insegna geologia e Maria è una cantante.
 
+Possiamo distinguere diversi tipi di **congiunzioni coordinanti** che mettono in relazione due elementi, basandoci sulla *qualità* di tale coordinazione:
+
+*   **avversative**: opposizione  
+    *Volevo andare in cajovna* ma *è chiusa*
+*   **disgiuntive**: alternativa  
+    *Preferisci il caffè* o *una tisana?*
+*   **esplicative**: riformulazione di qualcosa già detto  
+    *Il costituente di tempo finito è TP,* ovvero *Tense Phrase*
+*   **conclusive**: introducono l'effetto di una causa o di un motivo  
+    *Il pivovar era chiuso* quindi *siamo andati a ballare*
+
+Le congiunzioni possono a loro volta combinarsi tra loro quando c'è una certa continuità nel rapporto di coordinazione. Così per es. *e ma* risulta quasi incomprensibile per un parlante nativo, mentre *e invece, ma invece, e quindi, ma però* risultano comprensibili anche se possono essere condannate dalla norma linguistica e quindi inadatte a registri alti della lingua (è il caso p.es. di *ma però*, estremamente colloquiale).
+
+
 Non necessariamente le frasi coordinate sono frasi principali, ma possiamo avere una coordinazione tra strutture di livello secondario ecc:
 
 (@)
@@ -33,6 +47,27 @@ In maniera simile, le costruzioni paratattiche possono essere unite per **giusta
 
 (@)
     Piove. Fa freddo. 
+
+Bisogna aggiungere che negli studi sintattici il fenomeno della coordinazione è particolarmente dibattuto e presenta diversi approcci per la sua spiegazione. Ai fini di questa dispensa sarà forse utile utilizzare una notazione che presenti un costituente dato dalla testa della congiunzione e i 2 elementi in posizione l'uno di Specificatore, l'altro di Complementatore, che chiameremo con il simbolo della E-commerciale "&":
+
+```{r treeCongiunzione, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Il costituente di congiunzione', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree 
+[ .\&P 
+[ .CP \edge[roof]; {La cajovna era chiusa} ]
+[  [ .\& [ .e ] ]
+[ .CP \edge[roof]; {siamo andati al pivovar} ]
+]
+]
+
+\end{tikzpicture}
+```
+
+
+
+
+
 
     
 ## La frase principale
