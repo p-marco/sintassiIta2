@@ -29,7 +29,6 @@ always_allow_html: yes
 >
 > E. Montale, *La forma del mondo*, in "Diario del '71"
   
-\vfill  
 
 Questa dispensa nasce come materiale di studio per l'esame di Sintassi Italiana 2 per gli studenti triennali dell'Università Palacky di Olomouc, pensata in maniera specifica per studenti non madrelingua. Si fa riferimento a nozioni *tradizionali* della linguistica e degli studi sintattici rimandando, laddove si è ritenuto più pertinente, a degli studi più recenti in maniera da poter stimolare ulteriormente lo studente.  
 
