@@ -1,6 +1,37 @@
 # Le proposizioni argomentali
 
+Le proposizioni argomentali o *completive* sono subordinate che rivestono la funzione sintattica di *argomento* della reggente, ovvero la completano:
+
+(@)
+    a. Uno sbaglio può capitare
+    a. Può capitare di sbagliare
+
+Converrà ricordare un momento che gli argomenti sono quei sintagmi (o gruppi di sintagmi) che si trovano in una relazione nucleare o circostanziale con il predicato e come abbiamo visto sono 1 (intransitivi), 2 (transitivi), 3 (ditransitivi) e così via. Così negli alberi sintattici possiamo studiare le posizioni argomentali (qui raffigurate dopo che i movimenti hanno avuto luogo): l'argomento esterno (A nelle transitive, S nelle intransitive) in Spec, TP; l'argomento interno O in Spec,vP e l'argomento interno IO come complementatore di VP:
+
+```{r treeArgomenti, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Struttura argomentale', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree 
+[ .CP C
+[ .TP [ .DP \edge[roof]; {arg-ext: A,S} ]
+[ T 
+[ .vP [ .DP \edge[roof]; {arg-int: O} ]
+[ v
+[ .VP V [ .DP \edge[roof]; {arg-int: IO} ] 
+]
+]
+]
+]
+]
+]
+\end{tikzpicture}
+```
+
+Tenendo a mente questa struttura argomentale, possiamo ora cominciare a sostituire i DP, quindi i costituenti nominali, con vere e proprie proposizioni --che assumeranno dunque il nome di *argomentali*.
+
 ## Soggettive
+
+Le soggettive sono quelle 
 
 ## Oggettive
 
