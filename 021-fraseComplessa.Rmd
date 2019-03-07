@@ -14,6 +14,9 @@ Due frasi possono essere unite attraverso una **coordinazione** (*paratassi*) se
 (@)
     Luigi insegna geologia e Maria è una cantante.
 
+(@) 
+    Misura attentamente la testa del nostro/ bambino e non torcere adesso il suo piede/ impercettibile [@sanguineti1956 *Erotopaegnia 3*]
+
 Possiamo distinguere diversi tipi di **congiunzioni coordinanti** che mettono in relazione due elementi, basandoci sulla *qualità* di tale coordinazione:
 
 *   **avversative**: opposizione  
@@ -47,6 +50,11 @@ In maniera simile, le costruzioni paratattiche possono essere unite per **giusta
 
 (@)
     Piove. Fa freddo. 
+
+Tale costrutto sintattico è particolarmente produttivo in letteratura, di cui valga come testimonianza un estratto di un sonetto erotico di Patrizia Valduga, esempio di virtuosismo stilistico:
+
+(@) 
+    Vieni, entra e coglimi, saggiami provami…/ comprimimi discioglimi tormentami…/ infiammami programmami rinnovami./ Accelera… rallenta… disorientami. [@valduga1982]
 
 Bisogna aggiungere che negli studi sintattici il fenomeno della coordinazione è particolarmente dibattuto e presenta diversi approcci per la sua spiegazione. Ai fini di questa dispensa sarà forse utile utilizzare una notazione che presenti un costituente dato dalla testa della congiunzione e i 2 elementi in posizione l'uno di Specificatore, l'altro di Complementatore, che chiameremo con il simbolo della E-commerciale "&":
 
