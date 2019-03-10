@@ -74,7 +74,7 @@ Forniamo di seguito due rappresentazioni ad albero delle seguenti frasi, in cui 
 \tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree 
 [ .CP C
-[ .TP [ .CP [ .C che [ .TP [ .DP [ .D Mario ] ] [ T [ .vP [ .DP \edge[roof]; {t} ] [ [ .AdvP [ .Adv poco ] ] [ .VP V ] ] ] ] ] ]
+[ .TP [ .CP [ .C che [ .TP [ .DP [ .D Mario ] ] [ T [ .vP [ .DP \edge[roof]; {t} ] [ [ .AdvP [ .Adv poco ] ] [ .VP V ] ] ] ] ] ] ]
 [ .T preoccupa 
 [ .vP [ .CP \edge[roof]; {t} ]
 [ [ .DP [ .D i [ .NP [ .N genitori ] ] ] ]
