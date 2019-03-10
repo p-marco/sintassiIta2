@@ -49,7 +49,7 @@ Forniamo di seguito due rappresentazioni ad albero delle seguenti frasi, in cui 
 \tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree 
 [ .CP C
-[ .TP [ .DP [ .D il [ .AdjP [ .Adj poco [ .NP [ .N studio [ .PP [ .P di [ .DP [ .D Mario ] ] ] ] ] ] ] ] ] ]
+[ .TP [ .DP D [ il ] [ .AdjP Adj [ poco ] [ .NP N [ studio ]  [ .PP P [ di ] [ .DP D [ Mario ] ] ] ] ] ]
 [ .T preoccupa 
 [ .vP [ .DP \edge[roof]; {t} ]
 [ [ .DP [ .D i [ .NP [ .N genitori ] ] ] ]
