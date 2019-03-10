@@ -52,7 +52,7 @@ Forniamo di seguito due rappresentazioni ad albero delle seguenti frasi, in cui 
 [ .TP [ .DP [ .D il ] [ .AdjP [ .Adj poco ] [ .NP [ .N studio ]  [ .PP [ .P di ] [ .DP [ .D Mario ] ] ] ] ] ]
 [ .T preoccupa 
 [ .vP [ .DP \edge[roof]; {t} ]
-[ [ .DP [ .D i [ .NP [ .N genitori ] ] ] ]
+[ [ .DP [ .D i ] [ .NP [ .N genitori ] ] ] 
 [ v
 [ .VP V [ .DP \edge[roof]; {t} ] 
 ]
@@ -74,10 +74,10 @@ Forniamo di seguito due rappresentazioni ad albero delle seguenti frasi, in cui 
 \tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree 
 [ .CP C
-[ .TP [ .CP [ .C che [ .TP [ .DP [ .D Mario ] ] [ T [ .vP [ .DP \edge[roof]; {t} ] [ [ .AdvP [ .Adv poco ] ] [ .VP V ] ] ] ] ] ] ]
+[ .TP [ .CP [ .C che ] [ .TP [ .DP [ .D Mario ] ] [ [ .T studi ] [ .vP [ .DP \edge[roof]; {t} ] [ [ .AdvP [ .Adv poco ] ] [ .VP V ] ] ] ] ] ]
 [ .T preoccupa 
 [ .vP [ .CP \edge[roof]; {t} ]
-[ [ .DP [ .D i [ .NP [ .N genitori ] ] ] ]
+[ [ .DP [ .D i ] [ .NP [ .N genitori ] ] ] 
 [ v
 [ .VP V [ .DP \edge[roof]; {t} ] 
 ]
