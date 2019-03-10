@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  10 MAR 2019 18:12
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  10 MAR 2019 18:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2838,28 +2838,34 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 1463--1465
+File: sintassiIta2_files/figure-latex/treeSoggettivaDP-1.pdf Graphic file (type
+ pdf)
+<use sintassiIta2_files/figure-latex/treeSoggettivaDP-1.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: sintassiIta2_files/figure-latex/treeSoggettivaCP-1.pdf Graphic file (type
+ pdf)
+<use sintassiIta2_files/figure-latex/treeSoggettivaCP-1.pdf>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1488--1490
 []\TU/IBMPlexSerif(0)/m/n/10.95 psicologici (\TU/IBMPlexSerif(0)/m/it/10.95 all
 armare, divertire, interessare, disturbare,
  []
 
-[34] [35] [36] [37] [38]
-chapter 5.
+[34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1843--1843
-[][][][][][][]  
- []
-
-[39
-
-
-] [40
+[35] [36] [37] [38] [39] [40
 
 
 ]
-chapter 6.
+chapter 5.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1855--1855
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1868--1868
 [][][][][][][]  
  []
 
@@ -2867,9 +2873,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1855--1855
 
 
 ]
-chapter 7.
+chapter 6.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1867--1867
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1880--1880
 [][][][][][][]  
  []
 
@@ -2877,9 +2883,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1867--1867
 
 
 ]
-chapter 8.
+chapter 7.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1885--1885
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1892--1892
 [][][][][][][]  
  []
 
@@ -2887,9 +2893,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1885--1885
 
 
 ]
-chapter 9.
+chapter 8.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1897--1897
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1910--1910
 [][][][][][][]  
  []
 
@@ -2897,9 +2903,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1897--1897
 
 
 ]
-chapter 10.
+chapter 9.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1912--1912
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1922--1922
 [][][][][][][]  
  []
 
@@ -2907,9 +2913,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1912--1912
 
 
 ]
-chapter 11.
+chapter 10.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1927--1927
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1937--1937
 [][][][][][][]  
  []
 
@@ -2917,9 +2923,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1927--1927
 
 
 ]
-chapter 12.
+chapter 11.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1939--1939
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1952--1952
 [][][][][][][]  
  []
 
@@ -2927,9 +2933,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1939--1939
 
 
 ]
-chapter 13.
+chapter 12.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1951--1951
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1964--1964
 [][][][][][][]  
  []
 
@@ -2937,13 +2943,23 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1951--1951
 
 
 ]
-chapter 14.
+chapter 13.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1963--1963
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1976--1976
 [][][][][][][]  
  []
 
-(./sintassiIta2.bbl [57] [58
+[57] [58
+
+
+]
+chapter 14.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1988--1988
+[][][][][][][]  
+ []
+
+(./sintassiIta2.bbl [59] [60
 
 
 ]
@@ -2959,21 +2975,21 @@ Underfull \hbox (badness 1259) in paragraph at lines 43--46
 PlexSerif(0)/m/it/10.95 Satura\TU/IBMPlexSerif(0)/m/n/10.95 .  Lo specchio.
  []
 
-) [59]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1976.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1976.
+) [61]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2001.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2001.
 (./sintassiIta2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1976.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1976.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1976.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2001.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2001.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2001.
  ) 
 Here is how much of TeX's memory you used:
- 58769 strings out of 492933
- 1268484 string characters out of 6138667
- 1977808 words of memory out of 5000000
- 61897 multiletter control sequences out of 15000+600000
+ 58779 strings out of 492933
+ 1268954 string characters out of 6138667
+ 1977958 words of memory out of 5000000
+ 61905 multiletter control sequences out of 15000+600000
  538963 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,12n,118p,9111b,1028s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sintassiIta2.pdf (69 pages).
+Output written on sintassiIta2.pdf (71 pages).
