@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  10 MAR 2019 18:24
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  10 MAR 2019 18:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2841,23 +2841,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: sintassiIta2_files/figure-latex/treeSoggettivaDP-1.pdf Graphic file (type
  pdf)
 <use sintassiIta2_files/figure-latex/treeSoggettivaDP-1.pdf>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: sintassiIta2_files/figure-latex/treeSoggettivaCP-1.pdf Graphic file (type
  pdf)
 <use sintassiIta2_files/figure-latex/treeSoggettivaCP-1.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 1488--1490
 []\TU/IBMPlexSerif(0)/m/n/10.95 psicologici (\TU/IBMPlexSerif(0)/m/it/10.95 all
 armare, divertire, interessare, disturbare,
  []
-
-[34]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [35] [36] [37] [38] [39] [40
 
