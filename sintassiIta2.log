@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  10 MAR 2019 18:45
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  11 MAR 2019 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2853,23 +2853,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1488--1490
 armare, divertire, interessare, disturbare,
  []
 
-[35] [36] [37] [38] [39] [40
+[35] [36] [37] [38] [39] [40] [41] [42
 
 
 ]
 chapter 5.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1868--1868
-[][][][][][][]  
- []
-
-[41] [42
-
-
-]
-chapter 6.
-
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1880--1880
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1997--1997
 [][][][][][][]  
  []
 
@@ -2877,9 +2867,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1880--1880
 
 
 ]
-chapter 7.
+chapter 6.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1892--1892
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2009--2009
 [][][][][][][]  
  []
 
@@ -2887,9 +2877,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1892--1892
 
 
 ]
-chapter 8.
+chapter 7.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1910--1910
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2021--2021
 [][][][][][][]  
  []
 
@@ -2897,9 +2887,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1910--1910
 
 
 ]
-chapter 9.
+chapter 8.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1922--1922
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2039--2039
 [][][][][][][]  
  []
 
@@ -2907,9 +2897,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1922--1922
 
 
 ]
-chapter 10.
+chapter 9.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1937--1937
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2051--2051
 [][][][][][][]  
  []
 
@@ -2917,9 +2907,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1937--1937
 
 
 ]
-chapter 11.
+chapter 10.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1952--1952
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2066--2066
 [][][][][][][]  
  []
 
@@ -2927,9 +2917,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1952--1952
 
 
 ]
-chapter 12.
+chapter 11.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1964--1964
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2081--2081
 [][][][][][][]  
  []
 
@@ -2937,9 +2927,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1964--1964
 
 
 ]
-chapter 13.
+chapter 12.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1976--1976
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2093--2093
 [][][][][][][]  
  []
 
@@ -2947,13 +2937,23 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1976--1976
 
 
 ]
-chapter 14.
+chapter 13.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1988--1988
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2105--2105
 [][][][][][][]  
  []
 
-(./sintassiIta2.bbl [59] [60
+[59] [60
+
+
+]
+chapter 14.
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2117--2117
+[][][][][][][]  
+ []
+
+(./sintassiIta2.bbl [61] [62
 
 
 ]
@@ -2964,26 +2964,26 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1--1
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 43--46
+Underfull \hbox (badness 1259) in paragraph at lines 48--51
 []\TU/IBMPlexSerif(0)/m/n/10.95 Montale, E. and Castellana, R. (2018).  \TU/IBM
 PlexSerif(0)/m/it/10.95 Satura\TU/IBMPlexSerif(0)/m/n/10.95 .  Lo specchio.
  []
 
-) [61]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2001.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2001.
+) [63]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2130.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2130.
 (./sintassiIta2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2001.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2001.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2001.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2130.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2130.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2130.
  ) 
 Here is how much of TeX's memory you used:
- 58779 strings out of 492933
- 1268954 string characters out of 6138667
- 1977958 words of memory out of 5000000
- 61905 multiletter control sequences out of 15000+600000
+ 58784 strings out of 492933
+ 1269074 string characters out of 6138667
+ 1978156 words of memory out of 5000000
+ 61910 multiletter control sequences out of 15000+600000
  538963 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,12n,118p,9111b,1028s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sintassiIta2.pdf (71 pages).
+Output written on sintassiIta2.pdf (73 pages).

@@ -50,7 +50,7 @@ Forniamo di seguito due rappresentazioni ad albero delle seguenti frasi, in cui 
 \Tree 
 [ .CP C
 [ .TP [ .DP [ .D il ] [ .AdjP [ .Adj poco ] [ .NP [ .N studio ]  [ .PP [ .P di ] [ .DP [ .D Mario ] ] ] ] ] ]
-[ .T preoccupa 
+[ [ .T preoccupa ] 
 [ .vP [ .DP \edge[roof]; {t} ]
 [ [ .DP [ .D i ] [ .NP [ .N genitori ] ] ] 
 [ v
@@ -75,7 +75,7 @@ Forniamo di seguito due rappresentazioni ad albero delle seguenti frasi, in cui 
 \Tree 
 [ .CP C
 [ .TP [ .CP [ .C che ] [ .TP [ .DP [ .D Mario ] ] [ [ .T studi ] [ .vP [ .DP \edge[roof]; {t} ] [ [ .AdvP [ .Adv poco ] ] [ .VP V ] ] ] ] ] ]
-[ .T preoccupa 
+[ [ .T preoccupa ] 
 [ .vP [ .CP \edge[roof]; {t} ]
 [ [ .DP [ .D i ] [ .NP [ .N genitori ] ] ] 
 [ v
@@ -260,9 +260,65 @@ Alcuni verbi, come *bisognare* e *parere* non hanno un complemento nominale:
 
 ## Oggettive
 
+Se, come abbiamo visto finora, le soggettive sono proposizioni subordinate che occupano lo spazio sintattico dell'argomento esterno della frase reggente, le oggettive e le indirette sono quelle che si trovano nelle posizioni degli argomenti interni:
+
+(@) Morivo e non volevo non morire [*Stalinista*, @giudici2014]
+ 
+### Transitivi senza preposizione
+
+Questa classe di frasi è caratterizzata da una certa continuità semantica tra i verbi che introducono l'infinitiva oggettiva; sono dunque verbi di *volontà* o che designano un certo atteggiamento rispetto a un'azione o ad uno stato: *adorare, amare, desiderare, gradire, odiare, preferire* ecc:
+
+(@) Mario vuole trascorrere le vacanze con Luisa
+
+Non è sempre possibile usare una forma temporalizzata. Per es. *ardire* e *osare* difficilmente possono reggere una subordinata con un soggetto diverso dalla reggente:
+
+(@) (*) Ardisco che Luisa lavori
+
+Diversamente, è obbligatoria la subordinata temporalizzata se il soggetto della reggente è diverso da quello dell'oggettiva:
+
+(@) Desidero che Luisa faccia il mio lavoro
+
+Ad eccezione di pochi verbi (*ardire, intendere, osare*), i restanti possono reggere un complemento oggetto:
+
+(@) Mario desidera l'automobile a gasolio
+
+Questi verbi possono essere pronominalizzati con *lo*:
 
 (@)
-    Morivo e non volevo non morire (Giudici, *Stalinista*, poesie 1991)
+    a. Mario gradisce partire di sera e anch'io lo preferisco
+    a. (*) Mario osa partire di sera e anch'io lo preferisco
+
+Questa classe di verbi conosce una certa variabilità circa la presenza della preposizione davanti all'infinito della subordinata, di natura stilistica:
+
+(@) Per questa sera preferisco (di) cenare tardi
+
+Nessuno di questi verbi può però presentare la preposizione *a* in questi contesti:
+
+(@) (*) Per questa sera preferisco a cenare tardi
+
+
+### Transitivi con preposizione "di"
+
+Questa classe di verbi conosce una certa affinità semantica: sono verbi *dichiarativi* (*accennare, assicurare, dichiarare, dimostrare, dire, negare, omettere, telefonare, telegrafare*, ecc.), *epistemici* (*accettare, apprendere, immaginare, sapere, sognare, trovare*, ecc.), di *comando, permesso e divieto* (*comandare, imporre, ordinare, permettere, vietare*, ecc.) ed una classe che copre diverse aree legate da un certo atteggiamento di volontà (*pretendere, volere, aspettare, cercare, evitare, sopportare, tentare*).
+
+La costruzione temporalizzata è possibile quasi sempre, ma solitamente i verbi di comando e permesso richiedono l'infinito: 
+
+(@)
+    a. Gianni ha garantito che il treno partirà in orario
+    a. Gli studenti avevano proposto che la lezione venisse spostata
+
+(@)
+    a. Ti proibisco di parlare
+    a. Ti ordino di stare calma
+
+In questa classe è possibile l'omissione del complementatore *che* a patto che (i) il verbo sia di un certo gruppo e (ii) la subordinata sia un'oggettiva a tutti gli effetti e non una espansione del sintagma nominale:
+
+(@) 
+    a. Non credo (che) si possa far molto
+    a. Spero (che) sia frutto della tua immaginazione
+
+Tra i verbi che possono reggere una oggettiva senza complementatore troviamo *capire, credere, dire, pensare, temere, sperare*, ecc.
  
+
 
 ## Indirette
