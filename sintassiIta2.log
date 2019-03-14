@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  11 MAR 2019 14:54
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  14 MAR 2019 14:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2369,26 +2369,28 @@ LaTeX Font Info:    Font shape `TU/IBMPlexMono(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(1)/m/n' will be
 (Font)              scaled to size 5.475pt on input line 339.
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 353.
+(Font)              scaled to size 10.95pt on input line 354.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
-(Font)              scaled to size 10.76219pt on input line 353.
+(Font)              scaled to size 10.76219pt on input line 354.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 353.
+(Font)              scaled to size 10.95pt on input line 354.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 36.0pt on input line 362.
+(Font)              scaled to size 36.0pt on input line 363.
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 36.0pt on input line 362.
+(Font)              scaled to size 36.0pt on input line 363.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 365.
+(Font)              scaled to size 14.4pt on input line 366.
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 365.
+(Font)              scaled to size 14.4pt on input line 366.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 369.
+(Font)              scaled to size 12.0pt on input line 370.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 374.
+(Font)              scaled to size 9.0pt on input line 375.
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 374.
+(Font)              scaled to size 9.0pt on input line 375.
 [1
+
+
 
 
 
@@ -2398,37 +2400,37 @@ LaTeX Font Info:    Font shape `TU/IBMPlexMono(0)/m/n' will be
 
 
 ]
-Overfull \hbox (10.95pt too wide) in paragraph at lines 385--385
+Overfull \hbox (10.95pt too wide) in paragraph at lines 386--386
 [][][][][][][]  
  []
 
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
-(Font)              scaled to size 14.15302pt on input line 385.
+(Font)              scaled to size 14.15302pt on input line 386.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 385--385
+Overfull \hbox (10.95pt too wide) in paragraph at lines 386--386
 [][][][][][][]  
  []
 
 Package tocbasic Info: character protrusion at toc deactivated on input line 38
-5.
+6.
 (./sintassiIta2.toc [3])
 \tf@toc=\write4
 \openout4 = `sintassiIta2.toc'.
 
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 387.
+(Font)              scaled to size 9.0pt on input line 388.
 [4]
-Overfull \hbox (10.95pt too wide) in paragraph at lines 387--387
+Overfull \hbox (10.95pt too wide) in paragraph at lines 388--388
 [][][][][][][]  
  []
 
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 387--387
+Overfull \hbox (10.95pt too wide) in paragraph at lines 388--388
 [][][][][][][]  
  []
 
 Package tocbasic Info: character protrusion at lot deactivated on input line 38
-7.
+8.
 (./sintassiIta2.lot)
 \tf@lot=\write5
 \openout5 = `sintassiIta2.lot'.
@@ -2440,17 +2442,17 @@ Package tocbasic Info: character protrusion at lot deactivated on input line 38
 
 
 ]
-Overfull \hbox (10.95pt too wide) in paragraph at lines 388--388
+Overfull \hbox (10.95pt too wide) in paragraph at lines 389--389
 [][][][][][][]  
  []
 
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 388--388
+Overfull \hbox (10.95pt too wide) in paragraph at lines 389--389
 [][][][][][][]  
  []
 
 Package tocbasic Info: character protrusion at lof deactivated on input line 38
-8.
+9.
 (./sintassiIta2.lof)
 \tf@lof=\write6
 \openout6 = `sintassiIta2.lof'.
@@ -2459,38 +2461,41 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 38
 
 
 ]
-Overfull \hbox (10.95pt too wide) in paragraph at lines 390--390
+Overfull \hbox (10.95pt too wide) in paragraph at lines 392--392
 [][][][][][][]  
  []
 
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 390--390
+Overfull \hbox (10.95pt too wide) in paragraph at lines 392--392
 [][][][][][][]  
  []
 
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 399.
+(Font)              scaled to size 10.95pt on input line 401.
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 420.
+(Font)              scaled to size 10.95pt on input line 422.
 
-Overfull \hbox (11.86859pt too wide) in paragraph at lines 420--421
+Overfull \hbox (11.86859pt too wide) in paragraph at lines 422--423
 \TU/IBMPlexSerif(0)/m/n/10.95 rettamente all’autore all’indirizzo \TU/IBMPlexMo
 no(0)/m/n/10.95 marco.petolicchio01@upol.cz
  []
 
 
-Overfull \hbox (7.05426pt too wide) in paragraph at lines 422--423
+Overfull \hbox (7.05426pt too wide) in paragraph at lines 424--425
 \TU/IBMPlexSerif(0)/m/n/10.95 codice sorgente è disponibile all’indirizzo \TU/I
 BMPlexMono(0)/m/n/10.95 http://github.com/p-
  []
 
-[9] [10]
+[1
+
+
+] [2]
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 426.
+(Font)              scaled to size 24.88pt on input line 428.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 426.
+(Font)              scaled to size 24.88pt on input line 428.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
-(Font)              scaled to size 24.45328pt on input line 426.
+(Font)              scaled to size 24.45328pt on input line 428.
 [1
 
 
@@ -2514,79 +2519,79 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              deprecated \float@addtolist interface .
 
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 429--429
+Overfull \hbox (10.95pt too wide) in paragraph at lines 431--431
 [][][][][][][]  
  []
 
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 439.
+(Font)              scaled to size 12.0pt on input line 441.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(0)/bx/n' will be
-(Font)              scaled to size 11.79419pt on input line 439.
+(Font)              scaled to size 11.79419pt on input line 441.
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 13.13995pt on input line 460.
+(Font)              scaled to size 13.13995pt on input line 462.
 [3
 
 
 ]
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 7.665pt on input line 499.
+(Font)              scaled to size 7.665pt on input line 501.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.77498pt on input line 499.
+(Font)              scaled to size 10.77498pt on input line 501.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.18332pt on input line 499.
+(Font)              scaled to size 7.18332pt on input line 501.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.9861pt on input line 499.
+(Font)              scaled to size 5.9861pt on input line 501.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.77498pt on input line 499.
+(Font)              scaled to size 10.77498pt on input line 501.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.18332pt on input line 499.
+(Font)              scaled to size 7.18332pt on input line 501.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.9861pt on input line 499.
+(Font)              scaled to size 5.9861pt on input line 501.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 10.77484pt on input line 499.
+(Font)              scaled to size 10.77484pt on input line 501.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.18323pt on input line 499.
+(Font)              scaled to size 7.18323pt on input line 501.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.98602pt on input line 499.
+(Font)              scaled to size 5.98602pt on input line 501.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 499.
+(Font)              scaled to size 9.0pt on input line 501.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 499.
+(Font)              scaled to size 6.0pt on input line 501.
 LaTeX Font Info:    Font shape `TU/IBMPlexSans(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 499.
+(Font)              scaled to size 5.0pt on input line 501.
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 499.
+(Font)              scaled to size 9.0pt on input line 501.
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 499.
+(Font)              scaled to size 6.0pt on input line 501.
 LaTeX Font Info:    Font shape `TU/IBMPlexMono(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 499.
+(Font)              scaled to size 5.0pt on input line 501.
 LaTeX Font Info:    Font shape `TU/IBMPlexSerif(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 499.
+(Font)              scaled to size 6.0pt on input line 501.
 
-Underfull \hbox (badness 1038) in paragraph at lines 499--499
+Underfull \hbox (badness 1038) in paragraph at lines 501--501
   [][]\TU/IBMPlexSerif(0)/m/n/9 Alcune varietà di italiano, quali i dialetti se
 ttentrionali, hanno invece gli
  []
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 501.
+               Default added (so using `tbp') on input line 503.
 
 
-Underfull \hbox (badness 5203) in paragraph at lines 516--517
+Underfull \hbox (badness 5203) in paragraph at lines 518--519
 \TU/IBMPlexSerif(0)/m/n/10.95 L’articolo definito o \TU/IBMPlexSerif(0)/m/it/10
 .95 determinativo \TU/IBMPlexSerif(0)/m/n/10.95 può indicare un referente
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 516--517
+Underfull \hbox (badness 1365) in paragraph at lines 518--519
 \TU/IBMPlexSerif(0)/m/n/10.95 determinato, ovvero noto (\TU/IBMPlexSerif(0)/m/i
 t/10.95 Sto cercando il libro\TU/IBMPlexSerif(0)/m/n/10.95 , \TU/IBMPlexSerif(0
 )/m/it/10.95 hai visto la mia
  []
 
 [4] [5]
-Underfull \hbox (badness 2035) in paragraph at lines 571--572
+Underfull \hbox (badness 2035) in paragraph at lines 573--574
 \TU/IBMPlexSerif(0)/m/n/10.95 Il pronome è quella categoria grammaticale \TU/IB
 MPlexSerif(0)/m/it/10.95 coreferenziale \TU/IBMPlexSerif(0)/m/n/10.95 del
  []
@@ -2603,61 +2608,61 @@ Missing character: There is no ο in font IBM Plex Serif/OT:script=latn;language
 Missing character: There is no ν in font IBM Plex Serif/OT:script=latn;language
 =DFLT;mapping=tex-text;!
 
-Underfull \hbox (badness 3635) in paragraph at lines 628--629
+Underfull \hbox (badness 3635) in paragraph at lines 630--631
 [][] \TU/IBMPlexSans(0)/bx/n/10.95 1.1.5.2.1 Intransitivi[][][] \TU/IBMPlexSeri
 f(0)/m/n/10.95 I verbi intransitivi o mono-argomentali
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 628--629
+Underfull \hbox (badness 1303) in paragraph at lines 630--631
 \TU/IBMPlexSerif(0)/m/n/10.95 divisi in due sotto-categorie. Nei verbi \TU/IBMP
 lexSerif(0)/bx/n/10.95 inergativi \TU/IBMPlexSerif(0)/m/n/10.95 (dal greco
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 628--629
+Underfull \hbox (badness 1132) in paragraph at lines 630--631
 \TU/IBMPlexSerif(0)/m/it/10.95 correre, lavorare, ridere\TU/IBMPlexSerif(0)/m/n
 /10.95 , mentre della seconda \TU/IBMPlexSerif(0)/m/it/10.95 scoppiare, sparire
 ,
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 642--645
+Underfull \hbox (badness 10000) in paragraph at lines 644--647
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--648
+Underfull \hbox (badness 10000) in paragraph at lines 648--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 658--660
+Underfull \hbox (badness 10000) in paragraph at lines 660--662
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 672--675
+Underfull \hbox (badness 10000) in paragraph at lines 674--677
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 676--678
+Underfull \hbox (badness 10000) in paragraph at lines 678--680
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 688--690
+Underfull \hbox (badness 10000) in paragraph at lines 690--692
 
  []
 
 [8] [9]
-Underfull \hbox (badness 10000) in alignment at lines 781--785
+Underfull \hbox (badness 10000) in alignment at lines 783--787
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 785--793
+Underfull \hbox (badness 10000) in alignment at lines 787--795
 [] []
  []
 
@@ -2667,28 +2672,28 @@ Underfull \hbox (badness 10000) in alignment at lines 785--793
 ]
 chapter 2.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 798--798
+Overfull \hbox (10.95pt too wide) in paragraph at lines 800--800
 [][][][][][][]  
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 812--814
+Underfull \hbox (badness 4621) in paragraph at lines 814--816
 []\TU/IBMPlexSerif(0)/m/n/10.95 [Gli studenti bravi del professore] partono dom
 ani
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 812--814
+Underfull \hbox (badness 10000) in paragraph at lines 814--816
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 831--833
+Underfull \hbox (badness 10000) in paragraph at lines 833--835
 
  []
 
 [13]
-Underfull \hbox (badness 2318) in paragraph at lines 839--840
+Underfull \hbox (badness 2318) in paragraph at lines 841--842
 \TU/IBMPlexSerif(0)/m/n/10.95 il secondo esempio è inaccettabile: la costruzion
 e sintattica
  []
@@ -2713,7 +2718,7 @@ Missing character: There is no α in font IBM Plex Serif/OT:script=latn;language
 File: media/lego.jpg Graphic file (type bmp)
 <media/lego.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 871--873
+Underfull \hbox (badness 10000) in paragraph at lines 873--875
 
  []
 
@@ -2734,7 +2739,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: media/broccolo.jpg Graphic file (type bmp)
 <media/broccolo.jpg>
 
-Underfull \hbox (badness 1895) in paragraph at lines 915--915
+Underfull \hbox (badness 1895) in paragraph at lines 917--917
 [][][]|\TU/IBMPlexSerif(0)/m/n/10.95 Broccolo romanesco: un esempio di ricorsiv
 ità in
  []
@@ -2764,7 +2769,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 4886) has occurred while \output is active []
 
 [22]
-Underfull \hbox (badness 1924) in paragraph at lines 1170--1170
+Underfull \hbox (badness 1924) in paragraph at lines 1172--1172
  \TU/IBMPlexSerif(0)/m/n/9 nomi, dove i nomi viceversa hanno neutralizzato il p
 aradigma causale
  []
@@ -2776,7 +2781,7 @@ File: sintassiIta2_files/figure-latex/treeChecking-1.pdf Graphic file (type pdf
 )
 <use sintassiIta2_files/figure-latex/treeChecking-1.pdf>
 
-Underfull \hbox (badness 5681) in paragraph at lines 1190--1192
+Underfull \hbox (badness 5681) in paragraph at lines 1192--1194
 []\TU/IBMPlexSerif(0)/m/n/10.95 v si occupa del ruolo tematico dell’arg.ext e d
 el caso
  []
@@ -2792,18 +2797,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ] [27] [28]
 chapter 3.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1234--1234
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1236--1236
 [][][][][][][]  
  []
 
 
-Underfull \hbox (badness 1072) in paragraph at lines 1253--1254
+Underfull \hbox (badness 1072) in paragraph at lines 1255--1256
 []\TU/IBMPlexSerif(0)/m/n/10.95 Misura attentamente la testa del nostro/ bambin
 o e non
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 1253--1254
+Underfull \hbox (badness 5077) in paragraph at lines 1255--1256
 \TU/IBMPlexSerif(0)/m/n/10.95 torcere adesso il suo piede/ impercettibile ([]Sa
 nguineti[],
  []
@@ -2816,7 +2821,7 @@ File: sintassiIta2_files/figure-latex/treeCongiunzione-1.pdf Graphic file (type
  pdf)
 <use sintassiIta2_files/figure-latex/treeCongiunzione-1.pdf>
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 1382--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1387
 \TU/IBMPlexSerif(0)/m/n/10.95 Così come i circostanziali, non contribuiscono al
  nu-
  []
@@ -2824,7 +2829,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1382--1385
 [32]
 chapter 4.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1394--1394
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1396--1396
 [][][][][][][]  
  []
 
@@ -2848,28 +2853,28 @@ File: sintassiIta2_files/figure-latex/treeSoggettivaCP-1.pdf Graphic file (type
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1488--1490
+Underfull \hbox (badness 10000) in paragraph at lines 1490--1492
 []\TU/IBMPlexSerif(0)/m/n/10.95 psicologici (\TU/IBMPlexSerif(0)/m/it/10.95 all
 armare, divertire, interessare, disturbare,
  []
 
-[35] [36] [37] [38] [39] [40] [41] [42
-
-
-]
+[35] [36] [37] [38] [39] [40] [41] [42]
 chapter 5.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 1997--1997
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2090--2090
 [][][][][][][]  
  []
 
-[43] [44
+[43
+
+
+] [44
 
 
 ]
 chapter 6.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2009--2009
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2102--2102
 [][][][][][][]  
  []
 
@@ -2879,7 +2884,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2009--2009
 ]
 chapter 7.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2021--2021
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2114--2114
 [][][][][][][]  
  []
 
@@ -2889,7 +2894,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2021--2021
 ]
 chapter 8.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2039--2039
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2132--2132
 [][][][][][][]  
  []
 
@@ -2899,7 +2904,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2039--2039
 ]
 chapter 9.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2051--2051
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2144--2144
 [][][][][][][]  
  []
 
@@ -2909,7 +2914,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2051--2051
 ]
 chapter 10.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2066--2066
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2159--2159
 [][][][][][][]  
  []
 
@@ -2919,7 +2924,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2066--2066
 ]
 chapter 11.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2081--2081
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2174--2174
 [][][][][][][]  
  []
 
@@ -2929,7 +2934,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2081--2081
 ]
 chapter 12.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2093--2093
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2186--2186
 [][][][][][][]  
  []
 
@@ -2939,7 +2944,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2093--2093
 ]
 chapter 13.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2105--2105
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2198--2198
 [][][][][][][]  
  []
 
@@ -2949,15 +2954,20 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2105--2105
 ]
 chapter 14.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2117--2117
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2210--2210
 [][][][][][][]  
  []
 
-(./sintassiIta2.bbl [61] [62
+[61] [62
 
 
-]
-chapter 15.
+] (./sintassiIta2.bbl
+chapter without number
+
+Overfull \hbox (10.95pt too wide) in paragraph at lines 1--1
+[][][][][][][]  
+ []
+
 
 Overfull \hbox (10.95pt too wide) in paragraph at lines 1--1
 [][][][][][][]  
@@ -2969,19 +2979,22 @@ Underfull \hbox (badness 1259) in paragraph at lines 48--51
 PlexSerif(0)/m/it/10.95 Satura\TU/IBMPlexSerif(0)/m/n/10.95 .  Lo specchio.
  []
 
-) [63]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2130.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2130.
+) [63
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2224.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2224.
 (./sintassiIta2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2130.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2130.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2130.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2224.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2224.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2224.
  ) 
 Here is how much of TeX's memory you used:
- 58784 strings out of 492933
- 1269074 string characters out of 6138667
- 1978156 words of memory out of 5000000
- 61910 multiletter control sequences out of 15000+600000
+ 58786 strings out of 492933
+ 1269101 string characters out of 6138667
+ 1978203 words of memory out of 5000000
+ 61912 multiletter control sequences out of 15000+600000
  538963 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,12n,118p,9111b,1028s stack positions out of 5000i,500n,10000p,200000b,80000s

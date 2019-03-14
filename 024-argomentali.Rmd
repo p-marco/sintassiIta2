@@ -44,7 +44,7 @@ Forniamo di seguito due rappresentazioni ad albero delle seguenti frasi, in cui 
 
 (@) [Il poco studio di Mario] preoccupa i genitori
 
-```{r treeSoggettivaDP, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Soggettiva con DP nello spazio soggetto', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+```{r treeSoggettivaDP, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Frase con DP nello spazio soggetto', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
 \begin{tikzpicture}
 \tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree 
@@ -69,7 +69,7 @@ Forniamo di seguito due rappresentazioni ad albero delle seguenti frasi, in cui 
 (@) [Che Mario studi poco] preoccupa i genitori
 
 
-```{r treeSoggettivaCP, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Soggettiva con CP nello spazio soggetto', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+```{r treeSoggettivaCP, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Frase con CP nello spazio soggetto', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
 \begin{tikzpicture}
 \tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree 
@@ -321,4 +321,45 @@ Tra i verbi che possono reggere una oggettiva senza complementatore troviamo *ca
  
 
 
-## Indirette
+## Oblique
+
+Così come le soggettive si trovano nello spazio sintattico del soggetto e le oggettive in quello dell'oggetto, le proposizioni oblique sono argomentali nello spazio dell'oggetto indiretto.
+
+Sono possibili soprattutto costruzioni con verbi riflessivi, a cui ne vanno aggiunti altri: *accorgersi, avvedersi, assicurarsi, contare, curarsi, disperarsi, dubitare, meravigliarsi, occuparsi, parlare, pentirsi, soffrire, vergognarsi*. Nessuno di questi verbi è transitivo e quasi tutti accettano un argomento nominale; la proposizione argomentale è introdotta dalla preposizione *di*:
+
+(@)
+    a. Mario ha parlato del suo futuro
+    a. Luisa si è illusa della vittoria
+
+(@)
+    a. Mario ha parlato di cosa vuole fare da grande
+    a. Luisa si è illusa di aver vinto
+
+Con alcune eccezioni, è possibile pronominalizzare l'indiretta attraverso il clitico *ne*:
+
+(@) 
+    a. Il professore si è dimenticato di spiegare l'argomento
+    a. Il professore se ne è dimenticato
+
+
+Se introdotte da *che* (p.es. al congiuntivo), non presentano anche la preposizione *di*:
+
+(@) Penso (*di) che tu debba mantenere le promesse
+
+Molti verbi di questa classe reggono solo l'infinito (*contare, curarsi, degnarsi, disperarsi, fantasticare*, ecc.) mentre pochi ne permettono anche la costruzione temporalizzata (*accorgersi, assicurarsi, avvedersi, dimenticarsi, disperare, meravigliarsi, ricordarsi*, ecc.).
+Verbi come *parlare* e *fantasticare* sono di solito privi di complemento frasale e non consentono la forma temporalizzata, salvo nella lettura fattiva attraverso l'aggiunta della costruzione "*il fatto che*":
+
+(@)
+    a. Parlavamo di fare una gita
+    a. Parlavamo del fatto che faremo una gita
+
+
+## Interrogative indirette
+
+Sono proposizioni subordinate che esplicitano una domanda o un dubbio, introdotte dalle congiunzioni *se, come, perché, quando, quanto* e dagli aggettivi e pronomi interrogativi *chi, che cosa, cosa, quale, quanto*:
+
+(@)
+    a. Mi chiedo [chi sia lo sposo]
+    a. Luisa non sa [se andrà in vacanza con Mario]
+
+Poiché le interrogative indirette sono argomentali che non presentano marche prosodiche o segni di interpunzione tipici delle interrogative dirette (*Che ore sono?*), la loro lettura interrogativa è data dal verbo reggente che codifica una condizione di dubbio o non conoscenza.
