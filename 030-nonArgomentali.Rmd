@@ -1,0 +1,77 @@
+# Proposizioni non argomentali
+
+Se come abbiamo mostrato finora le subordinate possono essere utilizzate in funzione di argomenti sintattici della reggente --sia come soggetto che come oggetto diretto e indiretto-- un'importante categoria delle subordinate è rappresentata da quelle proposizioni che non hanno valore argomentale. Così queste frasi si presentano come dei *circostanziali*, che presentano ognuno un tipico modo di codificare il rapporto delle informazioni tra reggente e secondarie, instaurando ora un rapporto di dipendenza e causalità, ora uno di negazione, comparazione, e così via. 
+
+Come già visto per le argomentali, rimane tipica di tutte le subordinate la possibilità di essere resa in maniera *esplicita* --con un verbo di modo finito-- o *implicita*. Anche qui, come già visto nelle argomentali, potrebbero esserci delle differenze tra le forme delle preposizioni nel modo in cui possono accettare tale variazione e sulle preposizioni e i costrutti utilizzati. Vedremo nel dettaglio la maggior parte delle subordinate non argomentali qui di seguito. Spesso è possibile trovare nei manuali la dicitura di proposizioni *avverbiali* per riferirci a questo tipo di subordinazione: avverbiali e non argomentali valgono sostanzialmente per significare la stessa cosa ma qui si preferisce la distinzione tra argomento/non argomento per esplicitare la loro funzione nei riguardi del nucleo sintattico della reggente.
+
+Sebbene ciascuna di queste classi di subordinate sia introdotta da un certo numero di elementi lessicali tipici, spesso alcune subordinate usano tali elementi in maniera non strettamente aderente al significato originario.
+
+## Proposizioni avversative
+
+Le subordinate avversative esplicite si avvalgono di introduttori lessicali mutuati da quelle temporali (*mentre, quando*) e relativo (*laddove*), ma codificano un rapporto di contrapposizione tra l'evento della reggente e quello dell'avversativa:
+
+(@) Luigi non lavora, mentre Mario è avvocato
+
+A volte è possibile trovare *invece* usato come rafforzativo (*Luigi non lavora,* mentre invece *Mario è avvocato*). Vi è di solito una pausa intonativa tra le due frasi.
+
+Non sempre risulta chiarissimo distinguere tra un uso perfettamente temporale ed uno avversativo, e su tale ambiguità può operare una scelta stilistica da parte di un autore:
+
+(@) Promettevo di portarti via / Quando l'auto nemmeno partiva [@fibra2017]
+
+In questi casi si può dire che se invertiamo l'ordine delle frasi la lettura sarà probabilmente temporale, mentre nel costrutto avversativo la subordinata segue la reggente [@bianco2017, 95].
+
+Le avversative implicite si avvalgono di introduttori quali *anziché, piuttosto che* ecc. e il verbo all'infinito:
+
+(@) 
+    a.  Piuttosto che sposarmi, preferisco farmi prete
+    a.  Anziché studiare per il test, gli studenti hanno preferito andare al lago
+
+## Proposizioni causali
+
+La funzione di queste frasi è instaurare un rapporto causale con l'evento della reggente, esplicitandone la causa o il motivo per cui quest'ultimo si verifica. 
+
+Le causali esplicite sono introdotte da diverse congiunzioni (*perché, poiché, siccome* ecc.) e locuzioni (*dal momento che, date che, visto che*, ecc.): 
+
+(@)
+    a. Lo perdonavo [perché mi faceva ridere] (N. Frassica, in *Il Fatto Quotidiano*, 18/03/2019)
+    a. Mi sono innamorato di te [perché non avevo niente da fare] (L. Tenco)
+    a. lo fanno per salvare le poltrone [visto che l'80% di loro se va a casa] (M. Renzi, in *Repubblica*, 18/02/2019)
+
+Certi introduttori impongono al costrutto un certo ordine di precedenza. Così, con *perché* la subordinata non può precedere la reggente, mentre con *siccome* --al contrario-- essa la precede:
+
+(@)
+    a. [Siccome la politica non ci è riuscita], si sperava che fosse il Politecnico a risolvere il rebus di piazza Baldissera (S. Parola, in *Repubblica*, 07/03/2019)
+    a. La Tav si farà [perché il vero capo del governo si chiama Matteo Salvini] (N. Zingaretti, in *Repubblica*, 10/03/2019)
+
+Quando i soggetti delle frasi sono *coreferenti* --si riferiscono, cioè allo stesso SN-- possiamo avere la forma implicita:
+
+(@) **Per + Infinito**  
+    a. L'imputato è stato assolto per non aver commesso il fatto
+    a. i tuoi occhi assunti da tre anni/ i tuoi occhi per loro,/ ormai buoni per setacciare spiagge con la scusa del corallo/ o per buttarsi in un cinema con una pietra al collo/ e troppo stanchi per non vergognarsi/ di confessarlo nei miei (F. De André, *Quando verranno a chiederti del nostro amore*)
+
+(@) **Participio passato**  
+    a. Uccise la compagna, ottiene le attenuanti perché disperato (M. Giannini, in *Repubblica*, 13/03/2019)
+    a. Poiché infortunato, è stato costretto ad abbandonare il campo
+
+(@) **Gerundio**  
+    a. Avendo studiato da tempo la piazza [...], mi era sembrato doveroso [...] dare una possibile soluzione (A. Capasso, in *Repubblica*, 15/02/2019)
+    a. Avendo studiato a Firenze, ho sempre mantenuto riserve su marketing territoriale e turismo (F. Bellomo, in *Repubblica*, 05/05/2018) 
+
+Spesso un rapporto di causazione (causa o motivo) presuppone un certo grado di successione temporale tra gli eventi descritti, e questo potrebbe spiegare il motivo per cui alcuni introduttori dal valore originario temporale abbiano esteso il loro uso in questi contesti (*dal momento che, quando*, ecc.).
+
+
+
+## Proposizioni comparative
+
+Queste subordinate esprimono una comparazione di *uguaglianza* o *disuguaglianza* rispetto a un costituente della reggente, dove il costituente della reggente è detto "primo termine di paragone" e la subordinata è il "secondo termine di paragone". Il secondo termine di paragone può presentare una negazione pleonastica --che non cambia il significato della frase-- esclusivamente nelle comparazioni di disuguaglianza:
+
+(@)
+    a. Salvini è più fragile di quanto non dicano i sondaggi (in *L'Espresso*, 08/03/2019)
+    a. Ma il caudillo sembra meno forte di quel che proclama (A. Lombardi, in *Repubblica*, 28/01/2019)
+    a. Per alcune specie, tutelare gli individui che fungono da 'archivi' di conoscenza sociale risulta importante tanto quanto lo è tutelare l'habitat critico di cui necessita la specie, come per esempio nei gruppi matriarcali degli elefanti (in *Repubblica*, 12/03/2019)
+
+Nella forma implicita presentano il verbo all'infinito:
+
+(@) Mi piace più mangiare che cucinare
+
+
