@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  15 MAR 2019 12:14
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  18 MAR 2019 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2868,33 +2868,23 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2090--2090
 [43
 
 
-] [44
-
-
-]
+] [44] [45] [46]
 chapter 6.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2102--2102
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2255--2255
 [][][][][][][]  
  []
 
-[45] [46
+[47
+
+
+] [48
 
 
 ]
 chapter 7.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2114--2114
-[][][][][][][]  
- []
-
-[47] [48
-
-
-]
-chapter 8.
-
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2132--2132
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2267--2267
 [][][][][][][]  
  []
 
@@ -2902,9 +2892,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2132--2132
 
 
 ]
-chapter 9.
+chapter 8.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2144--2144
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2282--2282
 [][][][][][][]  
  []
 
@@ -2912,9 +2902,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2144--2144
 
 
 ]
-chapter 10.
+chapter 9.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2159--2159
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2297--2297
 [][][][][][][]  
  []
 
@@ -2922,9 +2912,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2159--2159
 
 
 ]
-chapter 11.
+chapter 10.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2174--2174
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2309--2309
 [][][][][][][]  
  []
 
@@ -2932,9 +2922,9 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2174--2174
 
 
 ]
-chapter 12.
+chapter 11.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2186--2186
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2321--2321
 [][][][][][][]  
  []
 
@@ -2942,23 +2932,13 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2186--2186
 
 
 ]
-chapter 13.
+chapter 12.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2198--2198
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2333--2333
 [][][][][][][]  
  []
 
 [59] [60
-
-
-]
-chapter 14.
-
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2210--2210
-[][][][][][][]  
- []
-
-[61] [62
 
 
 ] (./sintassiIta2.bbl
@@ -2974,29 +2954,36 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 1--1
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 48--51
+Underfull \hbox (badness 3000) in paragraph at lines 4--7
+[]\TU/IBMPlexSerif(0)/m/n/10.95 Bianco, F. (2017).  \TU/IBMPlexSerif(0)/m/it/10
+.95 Breve guida alla sintassi italiana\TU/IBMPlexSerif(0)/m/n/10.95 .  Pillole.
+
+ []
+
+
+Underfull \hbox (badness 1259) in paragraph at lines 53--56
 []\TU/IBMPlexSerif(0)/m/n/10.95 Montale, E. and Castellana, R. (2018).  \TU/IBM
 PlexSerif(0)/m/it/10.95 Satura\TU/IBMPlexSerif(0)/m/n/10.95 .  Lo specchio.
  []
 
-) [63
+) [61
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2224.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2224.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2347.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2347.
 (./sintassiIta2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2224.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2224.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2224.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2347.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2347.
  ) 
 Here is how much of TeX's memory you used:
- 58786 strings out of 492933
- 1269101 string characters out of 6138667
- 1978203 words of memory out of 5000000
- 61912 multiletter control sequences out of 15000+600000
+ 58769 strings out of 492933
+ 1268977 string characters out of 6138667
+ 1977849 words of memory out of 5000000
+ 61895 multiletter control sequences out of 15000+600000
  538963 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,12n,118p,9111b,1028s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sintassiIta2.pdf (73 pages).
+Output written on sintassiIta2.pdf (71 pages).
