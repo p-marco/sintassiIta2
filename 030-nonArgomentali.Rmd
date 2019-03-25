@@ -6,7 +6,7 @@ Come già visto per le argomentali, rimane tipica di tutte le subordinate la pos
 
 Sebbene ciascuna di queste classi di subordinate sia introdotta da un certo numero di elementi lessicali tipici, spesso alcune subordinate usano tali elementi in maniera non strettamente aderente al significato originario.
 
-## Proposizioni avversative
+## Avversative
 
 Le subordinate avversative esplicite si avvalgono di introduttori lessicali mutuati da quelle temporali (*mentre, quando*) e relativo (*laddove*), ma codificano un rapporto di contrapposizione tra l'evento della reggente e quello dell'avversativa:
 
@@ -26,7 +26,7 @@ Le avversative implicite si avvalgono di introduttori quali *anziché, piuttosto
     a.  Piuttosto che sposarmi, preferisco farmi prete
     a.  Anziché studiare per il test, gli studenti hanno preferito andare al lago
 
-## Proposizioni causali
+## Causali
 
 La funzione di queste frasi è instaurare un rapporto causale con l'evento della reggente, esplicitandone la causa o il motivo per cui quest'ultimo si verifica. 
 
@@ -61,7 +61,7 @@ Spesso un rapporto di causazione (causa o motivo) presuppone un certo grado di s
 
 
 
-## Proposizioni comparative
+## Comparative
 
 Queste subordinate esprimono una comparazione di *uguaglianza* o *disuguaglianza* rispetto a un costituente della reggente, dove il costituente della reggente è detto "primo termine di paragone" e la subordinata è il "secondo termine di paragone". Il secondo termine di paragone può presentare una negazione pleonastica --che non cambia il significato della frase-- esclusivamente nelle comparazioni di disuguaglianza:
 
@@ -74,4 +74,34 @@ Nella forma implicita presentano il verbo all'infinito:
 
 (@) Mi piace più mangiare che cucinare
 
+
+## Concessive
+
+Il rapporto di concessione si instaura tra una causa che non impedisce lo svolgimento dell'evento (causa *frustrata*):
+
+(@) L'utile non è il fine della poesia, benché questa possa giovare (G. Leopardi, *Zibaldone*)
+
+La subordinata concessiva utilizza un certo numero di introduttori e può presentarsi in diverse costruzioni:
+
+* congiunzioni (*benché, malgrado, nonostante ecc.*) e locuzioni (*per quanto ecc.*) con il congiuntivo
+
+* locuzioni (*con tutto che*) e avverbi (*neanche, nemmeno, neppure, pure*) e dalla congiunzione *se* con l'indicativo
+
+* pronomi e aggettivi indefiniti [o avverbi] (*checché, qualsiasi, comunque, dovunque*) con il congiuntivo
+
+* dalla costruzione *per+AGG+che+essere* con congiuntivo
+
+Le concessive implicite sono possibili quando il soggetto delle due proposizioni è coreferenziale:
+
+(@)
+    a. Pur ballando (Luisa)/*Mario male, Luisa è andata alla festa
+    a. Per essere italiano, parla bene l'inglese
+
+Si può procedere a trasformare la concessiva in avversativa, mentre non è sempre possibile il contrario:
+
+(@)
+    a. Mario fuma benché faccia male 
+    a. Mario fuma, mentre fumare fa male
+
+## Proposizione consecutiva
 
