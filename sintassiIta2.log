@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  25 MAR 2019 14:11
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.2.22)  26 MAR 2019 15:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2868,23 +2868,23 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2090--2090
 [43
 
 
-] [44] [45] [46] [47] [48
-
-
-]
+] [44] [45] [46] [47] [48]
 chapter 6.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2316--2316
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2386--2386
 [][][][][][][]  
  []
 
-[49] [50
+[49
+
+
+] [50
 
 
 ]
 chapter 7.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2328--2328
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2398--2398
 [][][][][][][]  
  []
 
@@ -2894,7 +2894,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2328--2328
 ]
 chapter 8.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2343--2343
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2413--2413
 [][][][][][][]  
  []
 
@@ -2904,7 +2904,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2343--2343
 ]
 chapter 9.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2358--2358
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2428--2428
 [][][][][][][]  
  []
 
@@ -2914,7 +2914,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2358--2358
 ]
 chapter 10.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2370--2370
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2440--2440
 [][][][][][][]  
  []
 
@@ -2924,7 +2924,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2370--2370
 ]
 chapter 11.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2382--2382
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2452--2452
 [][][][][][][]  
  []
 
@@ -2934,7 +2934,7 @@ Overfull \hbox (10.95pt too wide) in paragraph at lines 2382--2382
 ]
 chapter 12.
 
-Overfull \hbox (10.95pt too wide) in paragraph at lines 2394--2394
+Overfull \hbox (10.95pt too wide) in paragraph at lines 2464--2464
 [][][][][][][]  
  []
 
@@ -2970,18 +2970,18 @@ PlexSerif(0)/m/it/10.95 Satura\TU/IBMPlexSerif(0)/m/n/10.95 .  Lo specchio.
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2408.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2408.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2478.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2478.
 (./sintassiIta2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2408.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2408.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2408.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 2478.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2478.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2478.
  ) 
 Here is how much of TeX's memory you used:
- 58773 strings out of 492933
- 1268988 string characters out of 6138667
- 1977900 words of memory out of 5000000
- 61899 multiletter control sequences out of 15000+600000
+ 58793 strings out of 492933
+ 1269153 string characters out of 6138667
+ 1977277 words of memory out of 5000000
+ 61919 multiletter control sequences out of 15000+600000
  538963 words of font info for 121 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  70i,12n,118p,9111b,1028s stack positions out of 5000i,500n,10000p,200000b,80000s
