@@ -123,9 +123,32 @@ Possiamo distinguere 4 tipi di periodo ipotetico, in considerazione dei tempi ve
 (@) 
     **Della realtà**  
     Quando il fatto descritto nella protasi è un evento molto probabile o reale  
-    Se una cosa mi piace, la compro 
+    *Se una cosa mi piace, la compro* 
+
+(@) 
+    **Della possibilità**  
+    Quando il fatto è probabile ma non certo    
+    *Se mi chiedesse di tornare da lei, lo farei*
+
+(@) 
+    **Dell'irrealtà (presente)**  
+    Descrive una ipotesi irrealizzabile, nel presente    
+    *Se fossi al posto tuo, lo comprerei*
+
+(@) 
+    **Dell'irrealtà (passato)**  
+    Ipotesi irrealizzabile, nel passato  
+    *Se fossi stato al tuo posto, l'avrei comprato*
 
 
+| **Tipo**                 | **Protasi**            | **Apodosi**                        |
+|--------------------------|------------------------|------------------------------------|
+| Della realtà             | Indicativo             | Indicativo / Imperativo            |
+| Della possibilità        | Congiuntivo imperfetto | Condizionale presente / Imperativo |
+| Dell'irrealtà (presente) | Congiuntivo imperfetto | Condizionale presente              |
+| Dell'irrealtà (passato)  | Congiuntivo trapassato | Condizionale passato               |
+
+: Tabella del periodo ipotetico  
 
 
 ## Consecutive
