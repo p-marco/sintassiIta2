@@ -103,5 +103,50 @@ Si può procedere a trasformare la concessiva in avversativa, mentre non è semp
     a. Mario fuma benché faccia male 
     a. Mario fuma, mentre fumare fa male
 
-## Proposizione consecutiva
+
+## Condizionali
+
+La proposizione condizionale è una subordinata, introdotta nella maggior parte dei casi dall'operatore "se", che esplicita la *condizione* da cui dipende l'avverarsi dell'evento descritto nella proposizione reggente. L'insieme costituito dalla reggente (*apodosi*) e dalla subordinata (*protasi*) è detto *periodo ipotetico*. Prese singolarmente, la protasi e l'apodosi possono essere frasi semplici o a loro volta complesse:
+
+(@) 
+    a. Ma se io avessi previsto tutto questo [...] forse farei lo stesso (F. Guccini, *L'avvelenata*, 1976)
+    a. Se il treno non è in ritardo e i vagoni non sono troppo affollati, faremo un viaggio comodo e arriveremo in tempo per la partita 
+
+Non è necessario che l'apodosi sia la proposizione principale, ma può essere a sua volta una subordinata della principale, tale che la protasi sia subordinata della subordinata:
+
+(@) Mi hanno detto che dovrò studiare bene, se voglio passare l'esame
+
+Con la protasi si ipotizza una condizione che, soddisfatta, permette il verificarsi di quanto espresso nell'apodosi.
+
+Possiamo distinguere 4 tipi di periodo ipotetico, in considerazione dei tempi verbali di protasi e apodosi e del tipo di fatto descritto:
+
+(@) 
+    **Della realtà**  
+    Quando il fatto descritto nella protasi è un evento molto probabile o reale  
+    Se una cosa mi piace, la compro 
+
+
+
+
+## Consecutive
+
+
+## Dichiarative
+
+## Eccettuative
+
+## Esclusive
+
+## Finali
+
+## Incidentali
+
+## Limitative
+
+## Modali
+
+## Strumentali
+
+## Temporali
+
 
