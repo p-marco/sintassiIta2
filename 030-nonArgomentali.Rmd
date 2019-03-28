@@ -118,7 +118,7 @@ Non è necessario che l'apodosi sia la proposizione principale, ma può essere a
 
 Con la protasi si ipotizza una condizione che, soddisfatta, permette il verificarsi di quanto espresso nell'apodosi.
 
-Possiamo distinguere 4 tipi di periodo ipotetico, in considerazione dei tempi verbali di protasi e apodosi e del tipo di fatto descritto:
+Possiamo distinguere 4 tipi di periodo ipotetico con la subordinata esplicita, in considerazione dei modi verbali di protasi e apodosi e del tipo di fatto descritto:
 
 (@) 
     **Della realtà**  
@@ -150,25 +150,146 @@ Possiamo distinguere 4 tipi di periodo ipotetico, in considerazione dei tempi ve
 
 : Tabella del periodo ipotetico  
 
+La proposizione condizionale implicita può essere:
+
+*   all'infinito, introdotta da "a"  
+    *A pensarci bene, questa separazione è la soluzione migliore*
+*   al participio passato, a volte introdotta da "se"  
+    *(Se) accompagnato da un buon vino, il cibo è migliore
+*   al gerundio  
+    *Volendo, potremmo comunque andare alla festa*
+
+**Costruzioni bi-negative**
+
+Sono costruzioni in cui l'apodosi presenta un contenuto falso e una concordanza generalmente all'indicativo:
+
+(@) Se tu giochi bene a calcio, io sono Leonardo Da Vinci
+
+Un costrutto simile è quello con apodosi all'imperativo --se non si verifica quanto richiesto nella protasi, allora l'apodosi risulta falsa:
+
+(@) Se sei (davvero) un bravo cuoco, prepara tu la cena stasera 
+
+**Costruzioni bi-affermative**
+
+Qui invece il contenuto dell'apodosi e/o della protasi è un fatto comunemente ritenuto come vero. Così il costrutto presenta la concordanza all'indicativo:
+
+(@) 
+    a. Se la situazione economica è disastrosa, quella culturale non è migliore
+    a. Se Atene piange, Sparta non ride
+
+
+
 
 ## Consecutive
+
+A differenza del costrutto causale, in quello consecutivo la reggente contiene la causa/motivo, mentre la subordinata consecutiva la conseguenza o il risultato scaturito dall'evento della reggente:
+
+(@) 
+    a. Ho studiato così tanto che mi si incrociano gli occhi
+    a. Ero davvero stanco, sicché me ne sono andato a dormire
+
+Le costruzioni consecutive presentano un certo ordine tra le sue costituenti, per cui l'evento della reggente precede sempre la subordinata:
+
+(@) (*) Che mi si incrociano gli occhi, ho studiato così tanto
+
+Nella maggior parte dei casi, la consecutiva è introdotta da "che" se di modo finito e "da" se implicita:
+
+(@)
+    a. Piove tanto da far paura
+    a. Piove tanto che fa paura
+
+Vari elementi fungono da antecedente e caratterizzano la consecutiva stessa: avverbi che modificano un aggettivo (*tanto, talmente, così*) in posizione predicativa o dopo il nome, avverbi che modificano un verbo (*tanto, talmente, troppo, abbastanza*), quantificatori che modificano un SN (*tale, tanto*, dove quest'ultimo può solo precedere il SN).
 
 
 ## Dichiarative
 
+Le dichiarative (dette anche "esplicative") sono subordinate che precisano il senso di un elemento della reggente (dimostrativo o nome).
+
+Nella forma esplicita sono introdotte da "che" e presentano una concordanza all'indicativo o al congiuntivo:
+
+(@)
+    a. Penso questo: che tu sia stata ingenerosa con Mario
+    a. Ho la sensazione che Luigi se ne sia già andato
+
+Nella forma implicita è introdotta dai due punti o da "di" e presentano il verbo all'infinito:
+
+(@)
+    a. Questo sarebbe giusto: aiutare i più sfortunati
+    a. Di una cosa mi pento, di non averla richiamata 
+
+
+Quando la dichiarativa è una coordinata viene introdotta da elementi quali *cioè, ovvero, in altre parole, ecc.*:
+
+(@)
+    a. Stacco dal lavoro, ovvero vado a prendere una birra
+    a. Vado in campagna, cioè vado a rilassarmi
+
+
+
 ## Eccettuative
+
+Sono subordinate che descrivono un'eccezione al verificarsi dell'evento della reggente.
+
+Le eccettuative esplicite sono introdotte da *che, salvo che, tranne che, fuorché, a meno che*, e spesso presentano l'aggiunta della negazione pleonastica: 
+
+(@) Non sarà un festival politico, a meno che non accada qualcosa a mia insaputa (C. Baglioni, in *Repubblica*, 04/02/2019)
+
+Se di forma implicita, il soggetto della subordinata e quello della reggente sono coreferenti:
+
+(@) Io accetterò tutto tranne che farmi sfruttare
+
+
 
 ## Esclusive
 
+Le esclusive sono subordinate che esprimono un fatto escluso dalla proposizione reggente, ovvero l'evento descritto nella reggente si verifica con l'esclusione di quanto espresso nella subordinata:
+
+(@) Non si allontani da Vigata senza avvertirci (A. Camilleri, *Il campo del vasaio*) 
+
+Nella forma esplicita presentano spesso il congiuntivo, e nella costruzione implicita i soggetti sono coreferenti:
+
+(@)
+    a. Mi sono trovato abbonato al servizio senza che lo sapessi
+    a. Mi sono trovato abbonato al servizio senza saperlo
+
+
+
 ## Finali
 
-## Incidentali
+La proposizione finale codifica lo scopo dell'azione espressa nella reggente. La subordinata è introdotta da congiunzioni (*affinché, perché, ecc.*), locuzioni (*in modo che, ecc.*), con il congiuntivo:
+
+(@) Ogni venerdì l'attivista svedese 16enne Greta Thunberg salta la scuola per manifestare affinché i potenti della Terra lottino per il clima (P. Rodari, in *Repubblica*, 15/03/2019)
+
+Nelle costruzioni implicite il soggetto della reggente e quello della subordinata sono coreferenti e la subordinata viene introdotta da *per* o altre locuzioni (*al fine di, in modo da, ecc.*):
+
+(@) Gli studenti stanno studiando molto per superare l'esame di sintassi
+
+
 
 ## Limitative
 
+La proposizione limitativa è una subordinata che limita la validità dell'evento della reggente. Si può usare l'indicativo e anche il congiuntivo nella forma esplicita, mentre quella implicita presenta di solito l'infinito:
+
+(@)
+    a. Per quanto ne so, Marina non è fidanzata
+    a. Per quel che riguarda Marina, non credo sia fidanzata
+    a. A parlare sei bravo, ma non a scrivere
+
+
 ## Modali
 
+Le proposizioni modali precisano il *modo* in cui si verifica l'evento della reggente. 
+
+
+
+
 ## Strumentali
+
+
+
+
+
+
 
 ## Temporali
 
