@@ -278,19 +278,102 @@ La proposizione limitativa è una subordinata che limita la validità dell'event
 
 ## Modali
 
-Le proposizioni modali precisano il *modo* in cui si verifica l'evento della reggente. 
+Le proposizioni modali precisano il *modo* in cui si verifica l'evento della reggente. Le modali esplicite possono essere inserite nella categoria delle comparative, prendendo il nome di *comparative di analogia*, diversamente dalle *comparative di grado* che abbiamo chiamato semplicemente "comparative". 
 
+Nella forma esplicita sono introdotte da *come, quasi, neanche* o da locuzioni dal significato simile (*nel modo che, nel modo in cui*), ed esprimono la maniera in cui si svolge l'evento della reggente in rapporto con il processo descritto nella subordinata:
 
+(@)
+    a. Ho cucinato il riso come mi hai insegnato
+    a. Mario svolse l'esercizio nel modo in cui gli era stato insegnato
+
+La forma implicita è possibile solamente se i soggetti della reggente e della subordinata si riferiscono alla stessa entità (*coreferenti*). Si alternano il gerundio e l'infinito preposizionale -- preceduto ovvero da *a* o da *con*:
+
+(@)
+    a. Con lo stare sempre solo, si rende antipatico a tutti
+    a. Mario passa le serate a leggere romanzi
+    a. La nonna li rimproverò sgridandoli furiosamente
 
 
 ## Strumentali
 
+Così come le modali precisano il *modo* del verificarsi dell'evento descritto nella reggente, le strumentali sono subordinate che indicano il *mezzo* con il quale esso si compie.
+Nella maggior parte dei casi, la proposizione strumentale appare in forma implicita, con il verbo al gerundio oppure con l'infinito preceduto dall'articolo e introdotto da *con* o da locuzioni quali *a forza di, a furia di*:
 
+(@)
+    a. Ci teniamo informati sulle ultime notizie leggendo i giornali
+    a. A forza di piangere, quella bambina riesce sempre a ottenere l'attenzione di tutti
 
+Raramente troviamo la proposizione strumentale in forma esplicita, e non sempre risulta agevole distinguerla nettamente dalla costruzione condizionale:
 
+(@)
+    a. Rischi di rovinare il legno piallandolo controvena
+    a. Rischi di rovinare il legno se lo pialli controvena
+
+A volte si può essere in dubbio sul distinguere se la frase può essere una strumentale o una modale. In questo caso, si può fare riferimento al fatto che la modale risponde alla domanda "in quale modo?", mentre la strumentale "con quale mezzo?":
+
+(@)
+    a. Patrizia è guarita prendendo gli antibiotici (con quale mezzo?)
+    a. Mi è corso incontro correndo (in che modo?)
 
 
 
 ## Temporali
 
+La subordinata temporale indica la circostanza di tempo in cui si verifica l'evento descritto nella reggente. 
 
+Le temporali possono essere di modo finito all'indicativo e al congiuntivo per esprimere l'ipoteticità (possibile o impossibile) e di modo infinito:
+
+(@)
+    a. Quando vado al lavoro passo per Náměstí Republiky
+    a. Appena decidesse di partire, dovresti subito seguirlo
+
+(@) Mi fermo sempre a Náměstí Republiky prima di andare al lavoro
+
+
+Nella forma esplicita, le temporali godono di un ricco repertorio di introduttori, che permettono di codificare molti rapporti temporali. Tra loro possiamod distinguere congiunzioni semplici quali *che, quando, mentre*, modificate da avverbi o preposizioni (*prima/dopo che, fino a quando/che*), locuzioni (*visto che*).
+Le temporali possono esprimere contemporaneità, anteriorità o posteriorità rispetto alla reggente, e determinarne la qualità (durativa o non durativa):
+
+
+(@) *quando* determina una stessa cornice temporale tra gli eventi, siano essi effettivamente simultanei o meno:  
+    a. Stavo per prendere il treno, quando mi accorsi di non avere il portafoglio
+    a. Quando la bambina piangeva, Luisa la sgridava
+    a. Quando ci si innamora, si sentono le farfalle nello stomaco
+
+(@) *mentre*  introduce un rapporto di simultaneità, codificando un valore durativo della subordinata. La reggente può avere valore durativo (a), puntuale (b), iterativo (c):  
+    a. Mentre dormivo, mio fratello lavorava
+    a. Mentre dormivo, squillò il telefono
+    a. Mentre dormivo, il pendolo rintoccava ogni mezz'ora 
+
+(@) *finché, fintantoché, fino a che* indicano il termine dell'evento. Se la fine dell'evento della reggente coincide con quello della subordinata, viene detto *coestensiva*. Le proposizioni non coestensive presentano spesso la negazione pleonastica:  
+    a. Fui felice finché fummo sposati
+    a. Fui felice finché (non) ci separammo
+
+(@) *dacché, da quando* esprimono il valore incoativo dell'evento, ovvero l'inizio. Possono essere coestensivi o meno:  
+    Dacché mi sono divorziato sono felice
+
+(@) *appena, dopo* indicano la posteriorità dell'evento --immediata quella di appena:  
+    a. Appena ebbe terminato il lavoro, corse a bere un bicchiere con gli amici
+    a. Dopo che la partita terminò, la squadra di casa venne titolata dello scudetto
+
+(@) *prima che* codifica la relazione di anteriorità:  
+    a. Prima che il gallo canti, mi rinnegherai tre volte 
+    a. Domani mi sveglierò prima che tu rientri dalla discoteca
+
+Quelle implicite presentano un numero minore di introduttori e una più stretta gamma di relazioni temporali:
+
+(@) Infinito:
+    a. introdotto da "a" o "in" esprime simultaneità  
+    A vederla, mi si rimescola il sangue
+    a. introdotto da "prima di" esprime anteriorità  
+    Prima di cenare mi lavo sempre le mani
+    a. introdotto da "dopo" per la posteriorità  
+    Dopo aver cenato, mi fumo una sigaretta
+
+(@) Participio passato esprime la posteriorità  
+    Tornata a casa, si mise a letto
+
+(@) Gerundio:
+    a. presente per esprimere simultaneità  
+    Tornando a casa, si fermò dal tabaccaio
+    a. passato, per la posteriorità  
+    Essendo tornata a casa, si ricordò della lettera

@@ -1,7 +1,24 @@
 # Frasi Relative
 
-## Tipi
+La frase relativa è collegata ad un costituente --tipicamente un sintagma nominale-- della reggente, modificandolo.
+In altri termini, la frase relativa è una subordinata che delimita la referenza di un SN specificando il ruolo di quel SN nella situazione descritta nella subordinata (Andrews 2007).
+Così una relativa estende il SN della reggente su quello della subordinata (quindi coreferenti). Il primo è detto *antecedente*, mentre nella relativa è sostituito dal *pronome relativo*:
 
-## Esplicite
+(@)
+    a. Mario ha comprato un computer
+    a. Il computer di Mario costa molto
+    a. Mario ha comprato un computer che costa molto
 
-## Implicite
+L'antecedente e la relativa formano un costituente, che può essere soggetto a movimento tutto insieme:
+
+(@) 
+    a. Ho visto [il ragazzo che piace a Maria] nel parco
+    a. [Il ragazzo che piace a Maria] è stato visto nel parco
+
+All'interno della classe delle relative possiamo distinguere tra:
+
+(@) relative restrittive o limitative, che limitano la referenza del SN  
+    a. Amo la frutta che è dolce (amo solo la frutta dolce)
+
+(@) relative descrittive o appositive, che aggiungono informazioni all'antecedente  
+    a. Amo la frutta, che è dolce (la frutta è dolce)
