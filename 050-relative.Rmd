@@ -1,5 +1,7 @@
 # Frasi Relative
 
+Finora abbiamo trattato le subordinate in relazione alla nozione di *argomento*: le proposizioni argomentali sono quelle che si trovano nel nucleo sintattico della reggente, occupandone lo spazio degli argomenti; le non-argomentali invece non si trovano nel nucleo ma fungono da circostanziali, descrivendo l'evento della reggente. Possiamo dire che le relative sono subordinate che *estendono* uno o più argomenti della reggente. 
+
 La frase relativa è collegata ad un costituente --tipicamente un sintagma nominale-- della reggente, modificandolo.
 In altri termini, la frase relativa è una subordinata che delimita la referenza di un SN specificando il ruolo di quel SN nella situazione descritta nella subordinata (Andrews 2007).
 Così una relativa estende il SN della reggente su quello della subordinata (quindi coreferenti). Il primo è detto *antecedente*, mentre nella relativa è sostituito dal *pronome relativo*:
@@ -9,16 +11,121 @@ Così una relativa estende il SN della reggente su quello della subordinata (qui
     a. Il computer di Mario costa molto
     a. Mario ha comprato un computer che costa molto
 
-L'antecedente e la relativa formano un costituente, che può essere soggetto a movimento tutto insieme:
+L'antecedente e la relativa formano un costituente, che può essere soggetto a movimento tutto insieme e non possiamo isolarne le parti, pena l'agrammaticalità:
 
 (@) 
     a. Ho visto [il ragazzo che piace a Maria] nel parco
     a. [Il ragazzo che piace a Maria] è stato visto nel parco
 
-All'interno della classe delle relative possiamo distinguere tra:
+(@) (P.Law, *On Relative Clauses and the DP/PP Adjunction Asimmetry*, in [@alexiadouRelatives])  
+    a. Un uomo a cui, il premio Nobel, lo daranno senz'altro
+    a. (*) Un uomo, il premio Nobel, a cui lo daranno senz'altro
 
-(@) relative restrittive o limitative, che limitano la referenza del SN  
-    a. Amo la frutta che è dolce (amo solo la frutta dolce)
+Quello delle relative è un universo sintattico particolarmente complesso, ma possiamo approssimare in prima battuta che ci troviamo di fronte ad una relativa se è presente un relativo.
 
-(@) relative descrittive o appositive, che aggiungono informazioni all'antecedente  
-    a. Amo la frutta, che è dolce (la frutta è dolce)
+## La sintassi del relativo
+
+Il relativo è un elemento (solitamente pronominale) corefente con il SN che estende e possiamo trovare *che* per il soggetto e l'oggetto diretto, *cui* (preceduto da preposizione) per l'indiretto. 
+
+Gli esempi seguenti mostrano due diversi alberi di derivazione: nell'uno è il soggetto della frase, nella seconda è l'oggetto. In entrambi i casi il SN si trova in una posizione più alta del pronome relativo.
+
+
+```{r treeRel1, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Esempio di costruzione relativa (soggetto)', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree 
+[ .DP [ .D il ] [ .NP [ .N ragazzo ]
+[ .CP [ .DP1 [ .D che ] ]
+[ [ .C Ø ]
+[ .TP [ .DP1 t ]
+[ [ .T \edge[roof]; \node(aux){ha invitato}; ]
+[ .vP [ .DP1 t ]
+[ [ .DP2 [ .D Maria ]]
+[ [ .v invitato ] 
+[ .VP [ .V $\sqrt{\hspace{1em}}$ ]
+[ .DP2 t ]
+] ] ]
+]
+]
+]
+] ] ] ]
+\end{tikzpicture}
+```
+
+```{r treeRel2, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Esempio di costruzione relativa (oggetto)', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{tikzpicture}
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\Tree 
+[ .DP [ .D il ] [ .NP [ .N ragazzo ]  
+[ .CP [ .DP2 [ .D che ] ]
+[ [ .C Ø ]
+[ .TP [ .DP1 [ .D Maria ] ]
+[ [ .T \edge[roof]; \node(aux){ha invitato}; ]
+[ .vP [ .DP1 t ]
+[ [ .DP2 t ]
+[ [ .v invitato ] 
+[ .VP [ .V $\sqrt{\hspace{1em}}$ ]
+[ .DP2 t ]
+] ] ]
+]
+]
+]
+] ] ] ] 
+\end{tikzpicture}
+```
+
+Così, seguendo questa cornice teorica, il pronome relativo "che" presenta la stessa referenza dell'elemento nominale che si trova sopra (queste relative sono dette "relative a testa iniziale").
+
+
+## Tipi di relative
+
+Le proposizioni relative esplicite si costruiscono:
+
+* con il pronome *che* per gli argomenti strutturali (soggetto, oggetto)
+
+* con il pronome *cui* preceduto da preposizione non necessaria
+
+* con  (prep+) art.det. + *quale/-i* per il soggetto, il complemento indiretto e raramente l'oggetto diretto
+
+
+Le relative implicite sono introdotte da pronomi relativi con funzione di complemento indiretto.
+
+### Relative restrittive
+
+Le proposizioni relative *restrittive* sono subordinate che restringono la referenza dell'antecedente, ovvero limitano il concetto dell'antecedente ad una certa categoria, esplicitata nella relativa:
+
+(@)
+    a. Alzino le mani i bambini che hanno gli occhi chiari
+    a. La donna che è venuta con Mario alla festa è bellissima
+
+
+
+### Relative appositive
+
+Nessuna caratteristica formale ci permette di distinguere le appositive dalle restrittive in maniera certa, ma spesso vi è una pausa che ne delimita il confine, mimata nello scritto attraverso l'uso della virgola.
+Queste proposizioni estendono la descrizione di un certo SN (per questo vengono anche dette "descrittive"), aggiungendo una certa informazione al costituente:
+
+(@)
+    a. Che belli i bambini, che sono felici! (*tutti i bambini sono felici*)
+
+
+### Relative libere 
+
+Sono dette "libere" quelle relative che non presentano l'antecedente. Molto utilizzate p.es. nei proverbi:
+
+(@)
+    a. Chi dorme non piglia pesci
+    a. Chi va con lo zoppo impara a zoppicare
+
+Rientrano nella categoria delle relative senza antecedente quelle con valore locativo introdotte da *dove*, *dovunque* ecc.
+
+### Pseudorelative
+
+Nel caso di una frase come:
+
+(@)
+    a. Ho visto Maria che usciva dal cinema
+    a. Mario è la che urla come un ossesso
+
+ovvero quando l'antecedente è rappresentato dall'oggetto diretto di un verbo di percezione, ci troviamo di fronte ad una *pseudorelativa*.
+Dal punto di vista sintattico si registra una differenza tra appositive e pseudorelative: laddove le appositive non permettono l'accumularsi di più appositive senza dare origine ad una frase agrammaticale, le pseudorelative permettono tale *stacking* (Graffi, *Su alcune costruzioni pseudorelative").

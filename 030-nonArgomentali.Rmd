@@ -377,3 +377,7 @@ Quelle implicite presentano un numero minore di introduttori e una più stretta 
     Tornando a casa, si fermò dal tabaccaio
     a. passato, per la posteriorità  
     Essendo tornata a casa, si ricordò della lettera
+
+Non vi è limite teorico all'incassamento di proposizioni temporali:
+
+(@) Quando vivevo a Roma ero solito ammirare il Pantheon mentre pranzavo, finché non mi sono trasferito al mare
