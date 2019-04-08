@@ -1,0 +1,100 @@
+# Ulteriori costrutti nel periodo
+
+
+## Proposizioni incidentali
+
+Le incidentali (o *parentetiche*) sono proposizioni che possono essere coordinate o subordinate poste tra virgole, trattini, parentesi.
+
+Le incidentali *primarie* non hanno alcun legame con la frase nella quale sono inserite, e hanno il verbo all'indicativo, congiuntivo, condizionale o gerundio:
+
+(@)
+    a. Il ragazzo di Maria, a quanto pare, è un giocatore d'azzardo
+    a. Tu ed io --sembrerebbe-- siamo molto simili
+    a. I due (stando alle indiscrezioni) si sposeranno l'anno prossimo
+
+Le *secondarie* presentano un legame con la frase in cui sono inserite. Sono introdotte da *e,o* e da *come, se, sebbene, che* e hanno il verbo all'indicativo, al congiuntivo, al condizionale o all'infinito:
+
+(@)
+    a. La vittoria --se non sbaglio-- è imminente
+    a. L'unico assente, e non poteva essere altrimenti, era Mario
+
+
+## Discorso riportato e citato
+
+L'italiano dispone di diverse possibilità per interpolare un discorso all'interno di un'altra situazione comunicativa:
+
+(@)
+    a. Devo correre a pagare le tasse!
+    a. Mario disse: "Devo correre a pagare le tasse!"
+    a. Mario disse che doveva correre a pagare le tasse.
+
+Il discorso riportato e citato fa uso di una *cornice* che segnala il suo carattere di citazione (soprattutto attraverso verbi quali *affermare, dire, dichiarare, ecc.*).
+
+### Discorso diretto
+
+Il discorso diretto o *riportato* inserisce il discorso originario così come si è verificato, all'interno della narrazione:
+
+
+(@)
+    a. Torre Maura, l'adolescente che sfida Casapound: "Nessuno venga lasciato indietro" (Repubblica, 3/4/2019)
+
+In maniera simile, il discorso riportato può essere riferito ad un *pensiero riportato*:
+
+(@) 
+    "Che m’importa del tuo saluto!" pensò Anna (E. Morante, *Menzogna e sortilegio*)
+
+
+### Discorso indiretto
+
+Il discorso indiretto è un adattamento in senso narrativo del discorso diretto, dove l'enunciato viene incorporato nella struttura frasale. Poiché il contesto di enunciazione muta, si rende necessario adattare le forme linguistiche che esprimono questo contesto, come le indicazioni di tempo, luogo, persona.
+
+(@)
+    a. Mario disse "Mi licenzio!"
+    a. Mario dice che si licenzia
+
+L'adattamento dal contesto dell'enunciazione a quello della narrazione comporta una riscrittura dei verbi e delle altre forme di deissi. Nel caso in cui il verbo della reggente è al presente o al futuro è possibile non cambiare:
+
+| Forme verbali                                 | Discorso diretto                                   | Discorso indiretto                                   |
+|-----------------------------------------------|----------------------------------------------------|------------------------------------------------------|
+| presente → imperfetto                         | Luigi disse: "Mario lavora troppo"                 | Luigi disse che Mario lavorava troppo                |
+| passato prossimo → trapassato prossimo        | Luigi disse:"Mario ha lavorato troppo"             | Luigi disse che Mario aveva lavorato troppo          |
+| futuro → condizionale passato                 | Luigi disse:"Mario lavorerà troppo"                | Luigi disse che Mario avrebbe lavorato troppo        |
+| condizionale presente → condizionale passato  | Luigi disse:"Mario vorrebbe lavorare"              | Luigi disse che Mario avrebbe voluto lavorare        |
+| imperfetto → imperfetto                       | Luigi disse:"Mario voleva lavorare ma non poteva"  | Luigi disse che Mario voleva lavorare ma non poteva  |
+| imperativo → infinito combinato a di          | Luigi disse a Mario:"Lavora!"                      | Luigi disse a Mario di lavorare                      |
+
+: Tabella di adattamento dei verbi nel discorso indiretto
+
+
+In maniera simile, anche la persona deve essere adattata
+
+(@)
+    a. Mario dice: "Non amo passeggiare"
+    a. Mario dice che (lui) non ama passeggiare
+
+e gli elementi spaziali:
+
+(@)
+    a. Mario dice: "Qui da voi non ci vengo più!"
+    a. Mario disse che lì da loro non sarebbe più andato
+
+Nel passaggio dal discorso diretto a quello indiretto scompaiono i due punti e le virgolette ed hanno luogo le modifiche degli elementi deittici appena visti. 
+
+### Discorso indiretto libero
+
+Il discorso indiretto libero si distanzia da quello indiretto per una serie di caratteristiche lessicali e sintattiche. Se in quello indiretto è necessario che l'elemento citato sia introdotto da un verbo come *dire, giurare, urlare, ecc.*, in quello indiretto libero non vi è una restrizione di tal genere:
+
+(@)
+    a. Vattene, adesso!
+    a. Mi diede un ordine perentorio: dovevo andarmene subito.
+
+A differenza del costrutto non libero, il discorso indiretto libero può contenere enunciati non dichiarativi, strutture sintatticamente non collegate, forme lessicali marcate. La *cornice* può apparire in diverse posizioni --interrompendo la citazione, seguendola o precedendola-- oppure mancare del tutto:
+
+(@)
+    a. Non era questa la fine che aveva desiderato; non qui almeno, rifletteva
+    a. Rifletteva: non era questa la fine che aveva desiderato; non qui almeno
+
+A differenza del discorso indiretto non libero, in cui si modificano le forme di deissi orientandole verso l'ascoltatore, nel caso di quello libero esse possono conservare un orientamento narrativo verso il parlante. 
+
+L'indiretto libero nei testi letterari può mescolarsi a sua volta con frasi in discorso diretto o riportato, dialoghi, monologhi interiori e flusso di coscienza.
+

@@ -1,4 +1,4 @@
-# Frasi Relative
+# Le frasi relative
 
 Finora abbiamo trattato le subordinate in relazione alla nozione di *argomento*: le proposizioni argomentali sono quelle che si trovano nel nucleo sintattico della reggente, occupandone lo spazio degli argomenti; le non-argomentali invece non si trovano nel nucleo ma fungono da circostanziali, descrivendo l'evento della reggente. Possiamo dire che le relative sono subordinate che *estendono* uno o più argomenti della reggente. 
 
@@ -32,18 +32,17 @@ Gli esempi seguenti mostrano due diversi alberi di derivazione: nell'uno è il s
 
 ```{r treeRel1, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Esempio di costruzione relativa (soggetto)', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
 \begin{tikzpicture}
-\tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree 
 [ .DP [ .D il ] [ .NP [ .N ragazzo ]
 [ .CP [ .DP1 [ .D che ] ]
 [ [ .C Ø ]
-[ .TP [ .DP1 t ]
+[ .TP [ .DP1 $t$ ]
 [ [ .T \edge[roof]; \node(aux){ha invitato}; ]
-[ .vP [ .DP1 t ]
+[ .vP [ .DP1 $t$ ]
 [ [ .DP2 [ .D Maria ]]
 [ [ .v invitato ] 
 [ .VP [ .V $\sqrt{\hspace{1em}}$ ]
-[ .DP2 t ]
+[ .DP2 $t$ ]
 ] ] ]
 ]
 ]
@@ -54,18 +53,17 @@ Gli esempi seguenti mostrano due diversi alberi di derivazione: nell'uno è il s
 
 ```{r treeRel2, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Esempio di costruzione relativa (oggetto)', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
 \begin{tikzpicture}
-\tikzset{every tree node/.style={align=center,anchor=north}}
 \Tree 
 [ .DP [ .D il ] [ .NP [ .N ragazzo ]  
 [ .CP [ .DP2 [ .D che ] ]
 [ [ .C Ø ]
 [ .TP [ .DP1 [ .D Maria ] ]
 [ [ .T \edge[roof]; \node(aux){ha invitato}; ]
-[ .vP [ .DP1 t ]
-[ [ .DP2 t ]
+[ .vP [ .DP1 $t$ ]
+[ [ .DP2 $t$ ]
 [ [ .v invitato ] 
 [ .VP [ .V $\sqrt{\hspace{1em}}$ ]
-[ .DP2 t ]
+[ .DP2 $t$ ]
 ] ] ]
 ]
 ]
@@ -76,6 +74,105 @@ Gli esempi seguenti mostrano due diversi alberi di derivazione: nell'uno è il s
 
 Così, seguendo questa cornice teorica, il pronome relativo "che" presenta la stessa referenza dell'elemento nominale che si trova sopra (queste relative sono dette "relative a testa iniziale").
 
+### Relativo e WH
+
+Abbiamo precedentemente fatto riferimento al movimento-wh come quello spostamento sintattico dei costituenti, tipico di una frase interrogativa --laddove "wh" identifica il contenuto lessicale di questi elementi, dall'inglese *what, who, when, where, why*.
+
+Arrivati a questo punto possiamo però generalizzare questo movimento non solamente alle frasi interrogative, bensì a quelle che presentano un relativo: pertanto la testa C si occuperà del tratto "[+wh]", che corrisponde alla presenza del pronome relativo nella posizione di Specificatore di CP.
+
+```{r treeWh2, echo=FALSE, engine='tikz', out.width='90%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='La testa C e il tratto [wh]', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{minipage}[b]{.45\linewidth}
+\begin{tikzpicture}
+\Tree
+[ .CP [ .C [ .Ø $[$wh$]$ ] ]
+[ .TP [ .DP1 D ] 
+[ T ]
+]
+] 
+\end{tikzpicture}
+\end{minipage}%
+\begin{minipage}[b]{.45\linewidth}
+\begin{tikzpicture}
+\Tree
+[ .CP [ .DP1 D ]
+[ [ .C [ .Ø $[$wh$]$ ] ]
+[ .TP [ .DP1 $t$ ] 
+[ T ]
+]
+] ] 
+\end{tikzpicture}
+\end{minipage}%
+```
+
+
+### Gerarchia di accessibilità ed asimmetrie
+
+Gli elementi che possono essere pronominalizzati attraverso un relativo si dispongono lungo una scala implicazionale. Una *implicazione* in linguistica permette di interpretare come possibile (o certo) un evento a sinistra di quello realizzato.
+
+Secondo la gerarchia di accessibilità ipotizzata da Keenan e Comrie in *tipologia*^[La "tipologia" è quella branca della linguistica che si occupa dello studio e della comparazione delle lingue, offrendo per l'appunto delle *tipologie* di lingue.], le lingue del mondo permettono l'estrazione degli elementi da sinistra verso destra (così se una lingua presenta la relativizzazione dell'oggetto, allora ciò vale anche per il soggetto, ma non viceversa), oppure esso viene permesso attraverso una struttura morfologicamente *più marcata* (come p.es. il caso):
+
+(@) *Accessibility Hierarchy* [@keenanComrie1977]^[SU=Subject, DO=Direct O, IO=Indirect O, OBL=Oblique, GEN=Genitive/Possessor, OCOMP=Object of Comparison.]  
+    SU > DO > LO > OBL > GEN > OCOMP
+
+Non tutte le lingue mostrano infatti le stesse possibilità di relativizzazione. L'italiano per esempio non ha restrizioni sintattiche in tale senso e permette di relativizzare tutte le posizioni sintattiche della scala.
+
+Per esempio in Toba Batak, una lingua con ordine VOS maleo-polinesiana parlata a Sumatra, il soggetto può essere reso in forma relativa, mentre è agrammaticale la relativizzazione dell'oggetto diretto senza caso:
+
+(@) Toba Batak [da @keenanComrie1977, 68]
+    a.      boru-boru   na      manussi abit    i   
+            woman       that    wash    clothes the   
+            'the woman who is washing the clothes'  
+    a.      * abit    na      manussi boru-boru   i   
+              clothes that    wash    woman       the   
+            (*) 'the clothes that the woman is washing'     
+
+Grazie agli studi più recenti di *psicolinguistica*^[La psicolinguistica è la branca che studia gli atti linguistici in relazione al sistema psicologico e cognitivo.], risulta accertata una certa asimmetria nei tempi di processamento delle relative a testa iniziale, in dipendenza della loro funzione sintattica di Soggetto o Oggetto, mostrando che le relative soggetto sono processate in un tempo minore rispetto a quelle in posizione di oggetto^[Lo studente interessato può fare riferimento a quanto discusso in Chesi, *Il processamento in tempo reale delle frasi complesse* [link](https://www.researchgate.net/publication/303471198_Il_processamento_in_tempo_reale_delle_frasi_complesse), e a Bianchi, *Headed relative clauses in generative syntax* [parte 1](https://people.umass.edu/bhatt/752-s05/bianchi-glot6.7.pdf) e [parte 2](https://people.umass.edu/bhatt/752-s05/bianchi-glot6.8.pdf) ]:
+
+(@)
+    a. L'apprendista ha incontrato il tecnico che ha lasciato il lavoro
+    a. L'apprendista ha consultato il tecnico che ha incontrato a Seattle
+
+
+
+### Relativo e tratti
+
+Il pronome relativo condivide alcuni tratti con l'antecedente, come Numero e Genere:
+
+(@)
+    a. Ho telefonato a Maria, *la quale* mi ha confermato l'evento
+    a. Ho incontrato Gianni, *il quale* mi ha raccontato la cosa
+    a. Ho interrogato gli studenti, *i quali* non hanno saputo rispondere
+    a. Ho rivisto le zie, *le quali* mi hanno fatto un bel regalo
+
+In italiano, il relativo costituito da ART.DET.+*quale* è contraddistinto dal tratto [+umano], mentre il *che* può essere usato in tutti i contesti, anche al posto di ART.DET.+*quale*:
+
+(@)
+    a. Ho telefonato a Maria, che mi ha confermato l'evento
+    a. Ho incontrato Gianni, che mi ha raccontato la cosa
+
+In alcune lingue il relativo nella subordinata si accorda nel tratto del caso con l'antecedente della reggente:
+
+(@) Inglese (*who/whom*)  
+    a. The apprentice met the technician who left the job.
+    a. The apprentice consulted a technician whom he met in Seattle.
+
+(@) Slovacco (*ktorý/ktorého*)  
+    a. Učeň sa stretol s technikom, ktorý odišiel zo zamestnania.
+    a. Učeň konzultoval s technikom, ktorého stretol v Seattli.
+
+(@) Ungherese (*aki/akit*)  
+    a. A lány, aki sirt (*Una ragazza, che piange*)
+    a. A lány, akit láttam (*Una ragazza che vedo*)
+
+(@) Francese (*qui/qu'il*)  
+    a. L'apprenti a rencontré le technicien qui a quitté le travail.
+    a. L'apprenti a consulté un technicien qu'il a rencontré à Seattle.
+
+In italiano il relativo *che* può essere usato indifferentemente dalla posizione sintattica e dal tipo di frase, mentre *il quale* non può comparire in una relativa restrittiva:
+
+(@)
+    a. I bambini, che/i quali avevano mangiato da poco, non poterono fare il bagno
+    a. I bambini che/*i quali hanno mangiato da poco, non possono fare il bagno
 
 ## Tipi di relative
 
@@ -91,14 +188,26 @@ Le proposizioni relative esplicite si costruiscono:
 Le relative implicite sono introdotte da pronomi relativi con funzione di complemento indiretto.
 
 ### Relative restrittive
-
+ 
 Le proposizioni relative *restrittive* sono subordinate che restringono la referenza dell'antecedente, ovvero limitano il concetto dell'antecedente ad una certa categoria, esplicitata nella relativa:
 
 (@)
     a. Alzino le mani i bambini che hanno gli occhi chiari
     a. La donna che è venuta con Mario alla festa è bellissima
 
+In forma implicita, le restrittive sono formate dal participio presente o passato o dall'infinito introdotto da "a", "da" o pronome relativo. Ci sono due restrizioni sintattiche sulla forma implicita: (a) Il participio può essere usato solo per il soggetto e (b) l'infinito non può essere usato per il soggetto:
 
+(@)
+    a. Sono invitati i soci [aventi diritto di voto] (*=che hanno*)
+    a. Possono votare i soci [arrivati prima delle 16] (*=che sono arrivati*)
+(@)
+    a. Questa è la maglietta da lavare (*=che va lavata*)
+    a. Cerco qualcuno a cui affidare il gatto (*=al quale io possa affidare*)
+
+(@)
+    a. *Cerco una segretaria da arrivare in orario
+    a. Cerco una segretaria che arrivi in orario
+    a. Cerco una segretaria arrivata in orario
 
 ### Relative appositive
 
@@ -106,7 +215,18 @@ Nessuna caratteristica formale ci permette di distinguere le appositive dalle re
 Queste proposizioni estendono la descrizione di un certo SN (per questo vengono anche dette "descrittive"), aggiungendo una certa informazione al costituente:
 
 (@)
-    a. Che belli i bambini, che sono felici! (*tutti i bambini sono felici*)
+    a. Che belli i bambini, che sono felici! (*=tutti i bambini sono felici*)
+
+Il determinatore "zero" Ø che introduce nomi propri (non modificati) è possibile nelle relative appositive, ma non nelle restrittive:
+
+(@) 
+    a. Mario, che mangia sempre fuori, è senza soldi
+
+L'antecedente di una relativa appositiva --e non di una restrittiva-- può essere formata da un'intera frase:
+
+(@)
+    a. Mario si abbandonò a un pianto inconsolabile, al che tutti si commossero, quando vide sua madre partire 
+
 
 
 ### Relative libere 
@@ -117,7 +237,19 @@ Sono dette "libere" quelle relative che non presentano l'antecedente. Molto util
     a. Chi dorme non piglia pesci
     a. Chi va con lo zoppo impara a zoppicare
 
-Rientrano nella categoria delle relative senza antecedente quelle con valore locativo introdotte da *dove*, *dovunque* ecc.
+Rientrano nella categoria delle relative senza antecedente quelle con valore locativo introdotte da *dove*, *dovunque* ecc:
+
+(@)
+    a. La città nella quale sono nato è Roma
+    a. La città dove vivo attualmente è Olomouc
+
+All'interno della categoria delle relative senza antecedente possiamo definirne una delle **relative semi-libere**, dove l'antecedente è formato da elementi quale *colui*:
+
+(@)
+    a. L'uomo più fortunato è colui che sa vivere nella contingenza al pari dei fiori (A. Soffici, *Arcobaleno*)
+
+In italiano queste strutture non sono molto studiate e la definizione di *semi-libere* è di natura puramente descrittiva, mentre in francese p.es. il loro nome è *semi-substantives*.
+
 
 ### Pseudorelative
 
@@ -128,4 +260,38 @@ Nel caso di una frase come:
     a. Mario è la che urla come un ossesso
 
 ovvero quando l'antecedente è rappresentato dall'oggetto diretto di un verbo di percezione, ci troviamo di fronte ad una *pseudorelativa*.
-Dal punto di vista sintattico si registra una differenza tra appositive e pseudorelative: laddove le appositive non permettono l'accumularsi di più appositive senza dare origine ad una frase agrammaticale, le pseudorelative permettono tale *stacking* (Graffi, *Su alcune costruzioni pseudorelative").
+Dal punto di vista sintattico si registra una differenza tra appositive e pseudorelative: laddove le appositive non permettono l'accumularsi di più appositive senza dare origine ad una frase agrammaticale, le pseudorelative permettono tale *stacking* (Graffi, *Su alcune costruzioni pseudorelative*).
+
+
+## Costruzioni non relative
+
+Non tutte le costruzioni con *che* identificano una proposizione relativa. Di seguito vedremo due costrutti non relativi.
+
+### Relative improprie
+
+Le relative improprie presentano un *che* con un valore semanticamente affine ad altre subordinate non argomentali:
+
+(@)
+    a. Causale  
+    Richiamalo tu, che conosci la situazione (*=poiché*)
+    a. Concessivo  
+    L'antifurto, che pure era nuovo, non ha funzionato (*=benché*)
+    a. Consecutivo-finale  
+    Non è facile trovare un bravo meccanico che ripari l'auto (*=affinché*)
+
+A orientarci verso un'interpretazione relativa o un'altra non argomentale è il tipo di legame semantico che si sviluppa con la reggente e al modo verbale.
+
+### Il "che" polivalente
+
+Tratto tipico di un registro italiano non alto, soprattutto colloquiale e/o di uso medio, è la sovraestensione nell'utilizzo del *che* in contesti non relativi, soggettivi, ecc. (come visto nelle rel. improprie):
+
+(@)
+    a. Vieni che ti pettino
+    a. Vai a dormire che ne hai bisogno
+    a. Che sogno che ho fatto
+
+In alcuni casi il *che* è usato per l'indiretto --questo tratto è marcato in senso diatopico:
+
+(@)
+    a. Sono cose che uno ne deve parlare (*=di cui*)
+    a. L’amico che stavo parlando un attimo fa è una vecchia conoscenza (*=con cui*)

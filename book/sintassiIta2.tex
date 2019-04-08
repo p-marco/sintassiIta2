@@ -1,4 +1,5 @@
-\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode=true}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 %
 \documentclass[
@@ -20,7 +21,7 @@
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
 \fi
-% use upquote if available, for straight quotes in verbatim environments
+% Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \IfFileExists{microtype.sty}{% use microtype if available
   \usepackage[]{microtype}
@@ -42,9 +43,9 @@
 \hypersetup{
   pdftitle={Sintassi Italiana 2},
   pdfauthor={Marco Petolicchio},
-  pdfborder={0 0 0},
-  breaklinks=true}
-\urlstyle{same}  % don't use monospace font for urls
+  hidelinks,
+}
+\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs}
 % Allow footnotes in longtable head/foot
 \IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
@@ -58,7 +59,7 @@
 % margins by default, and it is still possible to overwrite the defaults
 % using explicit options in \includegraphics[width, height, ...]{}
 \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setlength{\emergencystretch}{3em} % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{5}
@@ -72,7 +73,7 @@
   \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
 \fi
 
-% set default figure placement to htbp
+% Set default figure placement to htbp
 \makeatletter
 \def\fps@figure{htbp}
 \makeatother
@@ -334,7 +335,7 @@
 \makeatother
 \subtitle{Dispense per gli studenti del corso KRI/SYNT2}
 \author{Marco Petolicchio}
-\date{2019-04-04}
+\date{2019-04-08}
 
 \begin{document}
 \frontmatter
@@ -2086,8 +2087,8 @@ Sono proposizioni subordinate che esplicitano una domanda o un dubbio, introdott
 
 Poiché le interrogative indirette sono argomentali che non presentano marche prosodiche o segni di interpunzione tipici delle interrogative dirette (\emph{Che ore sono?}), la loro lettura interrogativa è data dal verbo reggente che codifica una condizione di dubbio o non conoscenza.
 
-\hypertarget{proposizioni-non-argomentali}{%
-\chapter{Proposizioni non argomentali}\label{proposizioni-non-argomentali}}
+\hypertarget{le-proposizioni-non-argomentali}{%
+\chapter{Le proposizioni non argomentali}\label{le-proposizioni-non-argomentali}}
 
 Se come abbiamo mostrato finora le subordinate possono essere utilizzate in funzione di argomenti sintattici della reggente --sia come soggetto che come oggetto diretto e indiretto-- un'importante categoria delle subordinate è rappresentata da quelle proposizioni che non hanno valore argomentale. Così queste frasi si presentano come dei \emph{circostanziali}, che presentano ognuno un tipico modo di codificare il rapporto delle informazioni tra reggente e secondarie, instaurando ora un rapporto di dipendenza e causalità, ora uno di negazione, comparazione, e così via.
 
@@ -2902,8 +2903,8 @@ Non vi è limite teorico all'incassamento di proposizioni temporali:
   Quando vivevo a Roma ero solito ammirare il Pantheon mentre pranzavo, finché non mi sono trasferito al mare
 \end{enumerate}
 
-\hypertarget{frasi-relative}{%
-\chapter{Frasi Relative}\label{frasi-relative}}
+\hypertarget{le-frasi-relative}{%
+\chapter{Le frasi relative}\label{le-frasi-relative}}
 
 Finora abbiamo trattato le subordinate in relazione alla nozione di \emph{argomento}: le proposizioni argomentali sono quelle che si trovano nel nucleo sintattico della reggente, occupandone lo spazio degli argomenti; le non-argomentali invece non si trovano nel nucleo ma fungono da circostanziali, descrivendo l'evento della reggente. Possiamo dire che le relative sono subordinate che \emph{estendono} uno o più argomenti della reggente.
 
@@ -2983,6 +2984,189 @@ Gli esempi seguenti mostrano due diversi alberi di derivazione: nell'uno è il s
 
 Così, seguendo questa cornice teorica, il pronome relativo \enquote{che} presenta la stessa referenza dell'elemento nominale che si trova sopra (queste relative sono dette \enquote{relative a testa iniziale}).
 
+\hypertarget{relativo-e-wh}{%
+\subsection{Relativo e WH}\label{relativo-e-wh}}
+
+Abbiamo precedentemente fatto riferimento al movimento-wh come quello spostamento sintattico dei costituenti, tipico di una frase interrogativa --laddove \enquote{wh} identifica il contenuto lessicale di questi elementi, dall'inglese \emph{what, who, when, where, why}.
+
+Arrivati a questo punto possiamo però generalizzare questo movimento non solamente alle frasi interrogative, bensì a quelle che presentano un relativo: pertanto la testa C si occuperà del tratto \enquote{{[}+wh{]}}, che corrisponde alla presenza del pronome relativo nella posizione di Specificatore di CP.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.9\linewidth]{sintassiIta2_files/figure-latex/treeWh2-1} 
+
+}
+
+\caption{La testa C e il tratto [wh]}\label{fig:treeWh2}
+\end{figure}
+
+\hypertarget{gerarchia-di-accessibilita-ed-asimmetrie}{%
+\subsection{Gerarchia di accessibilità ed asimmetrie}\label{gerarchia-di-accessibilita-ed-asimmetrie}}
+
+Gli elementi che possono essere pronominalizzati attraverso un relativo si dispongono lungo una scala implicazionale. Una \emph{implicazione} in linguistica permette di interpretare come possibile (o certo) un evento a sinistra di quello realizzato.
+
+Secondo la gerarchia di accessibilità ipotizzata da Keenan e Comrie in \emph{tipologia}\footnote{La \enquote{tipologia} è quella branca della linguistica che si occupa dello studio e della comparazione delle lingue, offrendo per l'appunto delle \emph{tipologie} di lingue.}, le lingue del mondo permettono l'estrazione degli elementi da sinistra verso destra (così se una lingua presenta la relativizzazione dell'oggetto, allora ciò vale anche per il soggetto, ma non viceversa), oppure esso viene permesso attraverso una struttura morfologicamente \emph{più marcata} (come p.es. il caso):
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{124}
+\tightlist
+\item
+  \emph{Accessibility Hierarchy} \citep{keenanComrie1977}\footnote{SU=Subject, DO=Direct O, IO=Indirect O, OBL=Oblique, GEN=Genitive/Possessor, OCOMP=Object of Comparison.}\\
+  SU \textgreater{} DO \textgreater{} LO \textgreater{} OBL \textgreater{} GEN \textgreater{} OCOMP
+\end{enumerate}
+
+Non tutte le lingue mostrano infatti le stesse possibilità di relativizzazione. L'italiano per esempio non ha restrizioni sintattiche in tale senso e permette di relativizzare tutte le posizioni sintattiche della scala.
+
+Per esempio in Toba Batak, una lingua con ordine VOS maleo-polinesiana parlata a Sumatra, il soggetto può essere reso in forma relativa, mentre è agrammaticale la relativizzazione dell'oggetto diretto senza caso:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{125}
+\tightlist
+\item
+  Toba Batak \citep[da][68]{keenanComrie1977}
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \item
+\begin{verbatim}
+ boru-boru   na      manussi abit    i   
+ woman       that    wash    clothes the   
+ 'the woman who is washing the clothes'  
+\end{verbatim}
+  \item
+\begin{verbatim}
+ * abit    na      manussi boru-boru   i   
+   clothes that    wash    woman       the   
+ (*) 'the clothes that the woman is washing'     
+\end{verbatim}
+  \end{enumerate}
+\end{enumerate}
+
+Grazie agli studi più recenti di \emph{psicolinguistica}\footnote{La psicolinguistica è la branca che studia gli atti linguistici in relazione al sistema psicologico e cognitivo.}, risulta accertata una certa asimmetria nei tempi di processamento delle relative a testa iniziale, in dipendenza della loro funzione sintattica di Soggetto o Oggetto, mostrando che le relative soggetto sono processate in un tempo minore rispetto a quelle in posizione di oggetto\footnote{Lo studente interessato può fare riferimento a quanto discusso in Chesi, \emph{Il processamento in tempo reale delle frasi complesse} \href{https://www.researchgate.net/publication/303471198_Il_processamento_in_tempo_reale_delle_frasi_complesse}{link}, e a Bianchi, \emph{Headed relative clauses in generative syntax} \href{https://people.umass.edu/bhatt/752-s05/bianchi-glot6.7.pdf}{parte 1} e \href{https://people.umass.edu/bhatt/752-s05/bianchi-glot6.8.pdf}{parte 2} }:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{126}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    L'apprendista ha incontrato il tecnico che ha lasciato il lavoro
+  \item
+    L'apprendista ha consultato il tecnico che ha incontrato a Seattle
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{relativo-e-tratti}{%
+\subsection{Relativo e tratti}\label{relativo-e-tratti}}
+
+Il pronome relativo condivide alcuni tratti con l'antecedente, come Numero e Genere:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{127}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Ho telefonato a Maria, \emph{la quale} mi ha confermato l'evento
+  \item
+    Ho incontrato Gianni, \emph{il quale} mi ha raccontato la cosa
+  \item
+    Ho interrogato gli studenti, \emph{i quali} non hanno saputo rispondere
+  \item
+    Ho rivisto le zie, \emph{le quali} mi hanno fatto un bel regalo
+  \end{enumerate}
+\end{enumerate}
+
+In italiano, il relativo costituito da ART.DET.+\emph{quale} è contraddistinto dal tratto {[}+umano{]}, mentre il \emph{che} può essere usato in tutti i contesti, anche al posto di ART.DET.+\emph{quale}:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{128}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Ho telefonato a Maria, che mi ha confermato l'evento
+  \item
+    Ho incontrato Gianni, che mi ha raccontato la cosa
+  \end{enumerate}
+\end{enumerate}
+
+In alcune lingue il relativo nella subordinata si accorda nel tratto del caso con l'antecedente della reggente:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{129}
+\tightlist
+\item
+  Inglese (\emph{who/whom})
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    The apprentice met the technician who left the job.
+  \item
+    The apprentice consulted a technician whom he met in Seattle.
+  \end{enumerate}
+\item
+  Slovacco (\emph{ktorý/ktorého})
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Učeň sa stretol s technikom, ktorý odišiel zo zamestnania.
+  \item
+    Učeň konzultoval s technikom, ktorého stretol v Seattli.
+  \end{enumerate}
+\item
+  Ungherese (\emph{aki/akit})
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    A lány, aki sirt (\emph{Una ragazza, che piange})
+  \item
+    A lány, akit láttam (\emph{Una ragazza che vedo})
+  \end{enumerate}
+\item
+  Francese (\emph{qui/qu'il})
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    L'apprenti a rencontré le technicien qui a quitté le travail.
+  \item
+    L'apprenti a consulté un technicien qu'il a rencontré à Seattle.
+  \end{enumerate}
+\end{enumerate}
+
+In italiano il relativo \emph{che} può essere usato indifferentemente dalla posizione sintattica e dal tipo di frase, mentre \emph{il quale} non può comparire in una relativa restrittiva:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{133}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    I bambini, che/i quali avevano mangiato da poco, non poterono fare il bagno
+  \item
+    I bambini che/*i quali hanno mangiato da poco, non possono fare il bagno
+  \end{enumerate}
+\end{enumerate}
+
 \hypertarget{tipi-di-relative}{%
 \section{Tipi di relative}\label{tipi-di-relative}}
 
@@ -3006,7 +3190,7 @@ Le proposizioni relative \emph{restrittive} sono subordinate che restringono la 
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{124}
+\setcounter{enumi}{134}
 \item
   \begin{enumerate}
   \def\labelenumii{\alph{enumii}.}
@@ -3018,6 +3202,42 @@ Le proposizioni relative \emph{restrittive} sono subordinate che restringono la 
   \end{enumerate}
 \end{enumerate}
 
+In forma implicita, le restrittive sono formate dal participio presente o passato o dall'infinito introdotto da \enquote{a}, \enquote{da} o pronome relativo. Ci sono due restrizioni sintattiche sulla forma implicita: (a) Il participio può essere usato solo per il soggetto e (b) l'infinito non può essere usato per il soggetto:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{135}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Sono invitati i soci {[}aventi diritto di voto{]} (\emph{=che hanno})
+  \item
+    Possono votare i soci {[}arrivati prima delle 16{]} (\emph{=che sono arrivati})
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Questa è la maglietta da lavare (\emph{=che va lavata})
+  \item
+    Cerco qualcuno a cui affidare il gatto (\emph{=al quale io possa affidare})
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    *Cerco una segretaria da arrivare in orario
+  \item
+    Cerco una segretaria che arrivi in orario
+  \item
+    Cerco una segretaria arrivata in orario
+  \end{enumerate}
+\end{enumerate}
+
 \hypertarget{relative-appositive}{%
 \subsection{Relative appositive}\label{relative-appositive}}
 
@@ -3026,13 +3246,41 @@ Queste proposizioni estendono la descrizione di un certo SN (per questo vengono 
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{125}
+\setcounter{enumi}{138}
 \item
   \begin{enumerate}
   \def\labelenumii{\alph{enumii}.}
   \tightlist
   \item
-    Che belli i bambini, che sono felici! (\emph{tutti i bambini sono felici})
+    Che belli i bambini, che sono felici! (\emph{=tutti i bambini sono felici})
+  \end{enumerate}
+\end{enumerate}
+
+Il determinatore \enquote{zero} Ø che introduce nomi propri (non modificati) è possibile nelle relative appositive, ma non nelle restrittive:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{139}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Mario, che mangia sempre fuori, è senza soldi
+  \end{enumerate}
+\end{enumerate}
+
+L'antecedente di una relativa appositiva --e non di una restrittiva-- può essere formata da un'intera frase:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{140}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Mario si abbandonò a un pianto inconsolabile, al che tutti si commossero, quando vide sua madre partire
   \end{enumerate}
 \end{enumerate}
 
@@ -3043,7 +3291,7 @@ Sono dette \enquote{libere} quelle relative che non presentano l'antecedente. Mo
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{126}
+\setcounter{enumi}{141}
 \item
   \begin{enumerate}
   \def\labelenumii{\alph{enumii}.}
@@ -3055,7 +3303,37 @@ Sono dette \enquote{libere} quelle relative che non presentano l'antecedente. Mo
   \end{enumerate}
 \end{enumerate}
 
-Rientrano nella categoria delle relative senza antecedente quelle con valore locativo introdotte da \emph{dove}, \emph{dovunque} ecc.
+Rientrano nella categoria delle relative senza antecedente quelle con valore locativo introdotte da \emph{dove}, \emph{dovunque} ecc:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{142}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    La città nella quale sono nato è Roma
+  \item
+    La città dove vivo attualmente è Olomouc
+  \end{enumerate}
+\end{enumerate}
+
+All'interno della categoria delle relative senza antecedente possiamo definirne una delle \textbf{relative semi-libere}, dove l'antecedente è formato da elementi quale \emph{colui}:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{143}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    L'uomo più fortunato è colui che sa vivere nella contingenza al pari dei fiori (A. Soffici, \emph{Arcobaleno})
+  \end{enumerate}
+\end{enumerate}
+
+In italiano queste strutture non sono molto studiate e la definizione di \emph{semi-libere} è di natura puramente descrittiva, mentre in francese p.es. il loro nome è \emph{semi-substantives}.
 
 \hypertarget{pseudorelative}{%
 \subsection{Pseudorelative}\label{pseudorelative}}
@@ -3064,7 +3342,7 @@ Nel caso di una frase come:
 
 \begin{enumerate}
 \def\labelenumi{(\arabic{enumi})}
-\setcounter{enumi}{127}
+\setcounter{enumi}{144}
 \item
   \begin{enumerate}
   \def\labelenumii{\alph{enumii}.}
@@ -3077,22 +3355,328 @@ Nel caso di una frase come:
 \end{enumerate}
 
 ovvero quando l'antecedente è rappresentato dall'oggetto diretto di un verbo di percezione, ci troviamo di fronte ad una \emph{pseudorelativa}.
-Dal punto di vista sintattico si registra una differenza tra appositive e pseudorelative: laddove le appositive non permettono l'accumularsi di più appositive senza dare origine ad una frase agrammaticale, le pseudorelative permettono tale \emph{stacking} (Graffi, *Su alcune costruzioni pseudorelative").
+Dal punto di vista sintattico si registra una differenza tra appositive e pseudorelative: laddove le appositive non permettono l'accumularsi di più appositive senza dare origine ad una frase agrammaticale, le pseudorelative permettono tale \emph{stacking} (Graffi, \emph{Su alcune costruzioni pseudorelative}).
+
+\hypertarget{costruzioni-non-relative}{%
+\section{Costruzioni non relative}\label{costruzioni-non-relative}}
+
+Non tutte le costruzioni con \emph{che} identificano una proposizione relativa. Di seguito vedremo due costrutti non relativi.
+
+\hypertarget{relative-improprie}{%
+\subsection{Relative improprie}\label{relative-improprie}}
+
+Le relative improprie presentano un \emph{che} con un valore semanticamente affine ad altre subordinate non argomentali:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{145}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Causale\\
+    Richiamalo tu, che conosci la situazione (\emph{=poiché})
+  \item
+    Concessivo\\
+    L'antifurto, che pure era nuovo, non ha funzionato (\emph{=benché})
+  \item
+    Consecutivo-finale\\
+    Non è facile trovare un bravo meccanico che ripari l'auto (\emph{=affinché})
+  \end{enumerate}
+\end{enumerate}
+
+A orientarci verso un'interpretazione relativa o un'altra non argomentale è il tipo di legame semantico che si sviluppa con la reggente e al modo verbale.
+
+\hypertarget{il-che-polivalente}{%
+\subsection{\texorpdfstring{Il \enquote{che} polivalente}{Il ``che'' polivalente}}\label{il-che-polivalente}}
+
+Tratto tipico di un registro italiano non alto, soprattutto colloquiale e/o di uso medio, è la sovraestensione nell'utilizzo del \emph{che} in contesti non relativi, soggettivi, ecc. (come visto nelle rel. improprie):
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{146}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Vieni che ti pettino
+  \item
+    Vai a dormire che ne hai bisogno
+  \item
+    Che sogno che ho fatto
+  \end{enumerate}
+\end{enumerate}
+
+In alcuni casi il \emph{che} è usato per l'indiretto --questo tratto è marcato in senso diatopico:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{147}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Sono cose che uno ne deve parlare (\emph{=di cui})
+  \item
+    L'amico che stavo parlando un attimo fa è una vecchia conoscenza (\emph{=con cui})
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{ulteriori-costrutti-nel-periodo}{%
+\chapter{Ulteriori costrutti nel periodo}\label{ulteriori-costrutti-nel-periodo}}
 
 \hypertarget{proposizioni-incidentali}{%
-\chapter{Proposizioni incidentali}\label{proposizioni-incidentali}}
+\section{Proposizioni incidentali}\label{proposizioni-incidentali}}
 
-\hypertarget{il-discorso-riportato}{%
-\chapter{Il discorso riportato}\label{il-discorso-riportato}}
+Le incidentali (o \emph{parentetiche}) sono proposizioni che possono essere coordinate o subordinate poste tra virgole, trattini, parentesi.
+
+Le incidentali \emph{primarie} non hanno alcun legame con la frase nella quale sono inserite, e hanno il verbo all'indicativo, congiuntivo, condizionale o gerundio:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{148}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Il ragazzo di Maria, a quanto pare, è un giocatore d'azzardo
+  \item
+    Tu ed io --sembrerebbe-- siamo molto simili
+  \item
+    I due (stando alle indiscrezioni) si sposeranno l'anno prossimo
+  \end{enumerate}
+\end{enumerate}
+
+Le \emph{secondarie} presentano un legame con la frase in cui sono inserite. Sono introdotte da \emph{e,o} e da \emph{come, se, sebbene, che} e hanno il verbo all'indicativo, al congiuntivo, al condizionale o all'infinito:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{149}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    La vittoria --se non sbaglio-- è imminente
+  \item
+    L'unico assente, e non poteva essere altrimenti, era Mario
+  \end{enumerate}
+\end{enumerate}
+
+\hypertarget{discorso-riportato-e-citato}{%
+\section{Discorso riportato e citato}\label{discorso-riportato-e-citato}}
+
+L'italiano dispone di diverse possibilità per interpolare un discorso all'interno di un'altra situazione comunicativa:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{150}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Devo correre a pagare le tasse!
+  \item
+    Mario disse: \enquote{Devo correre a pagare le tasse!}
+  \item
+    Mario disse che doveva correre a pagare le tasse.
+  \end{enumerate}
+\end{enumerate}
+
+Il discorso riportato e citato fa uso di una \emph{cornice} che segnala il suo carattere di citazione (soprattutto attraverso verbi quali \emph{affermare, dire, dichiarare, ecc.}).
 
 \hypertarget{discorso-diretto}{%
-\section{Discorso diretto}\label{discorso-diretto}}
+\subsection{Discorso diretto}\label{discorso-diretto}}
+
+Il discorso diretto o \emph{riportato} inserisce il discorso originario così come si è verificato, all'interno della narrazione:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{151}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Torre Maura, l'adolescente che sfida Casapound: \enquote{Nessuno venga lasciato indietro} (Repubblica, 3/4/2019)
+  \end{enumerate}
+\end{enumerate}
+
+In maniera simile, il discorso riportato può essere riferito ad un \emph{pensiero riportato}:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{152}
+\tightlist
+\item
+  \enquote{Che m'importa del tuo saluto!} pensò Anna (E. Morante, \emph{Menzogna e sortilegio})
+\end{enumerate}
 
 \hypertarget{discorso-indiretto}{%
-\section{Discorso indiretto}\label{discorso-indiretto}}
+\subsection{Discorso indiretto}\label{discorso-indiretto}}
+
+Il discorso indiretto è un adattamento in senso narrativo del discorso diretto, dove l'enunciato viene incorporato nella struttura frasale. Poiché il contesto di enunciazione muta, si rende necessario adattare le forme linguistiche che esprimono questo contesto, come le indicazioni di tempo, luogo, persona.
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{153}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Mario disse \enquote{Mi licenzio!}
+  \item
+    Mario dice che si licenzia
+  \end{enumerate}
+\end{enumerate}
+
+L'adattamento dal contesto dell'enunciazione a quello della narrazione comporta una riscrittura dei verbi e delle altre forme di deissi. Nel caso in cui il verbo della reggente è al presente o al futuro è possibile non cambiare:
+
+\begin{longtable}[]{@{}lll@{}}
+\caption{Tabella di adattamento dei verbi nel discorso indiretto}\tabularnewline
+\toprule
+\begin{minipage}[b]{0.28\columnwidth}\raggedright
+Forme verbali\strut
+\end{minipage} & \begin{minipage}[b]{0.31\columnwidth}\raggedright
+Discorso diretto\strut
+\end{minipage} & \begin{minipage}[b]{0.32\columnwidth}\raggedright
+Discorso indiretto\strut
+\end{minipage}\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+\begin{minipage}[b]{0.28\columnwidth}\raggedright
+Forme verbali\strut
+\end{minipage} & \begin{minipage}[b]{0.31\columnwidth}\raggedright
+Discorso diretto\strut
+\end{minipage} & \begin{minipage}[b]{0.32\columnwidth}\raggedright
+Discorso indiretto\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+presente → imperfetto\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Luigi disse: \enquote{Mario lavora troppo}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+Luigi disse che Mario lavorava troppo\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+passato prossimo → trapassato prossimo\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Luigi disse:\enquote{Mario ha lavorato troppo}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+Luigi disse che Mario aveva lavorato troppo\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+futuro → condizionale passato\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Luigi disse:\enquote{Mario lavorerà troppo}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+Luigi disse che Mario avrebbe lavorato troppo\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+condizionale presente → condizionale passato\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Luigi disse:\enquote{Mario vorrebbe lavorare}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+Luigi disse che Mario avrebbe voluto lavorare\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+imperfetto → imperfetto\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Luigi disse:\enquote{Mario voleva lavorare ma non poteva}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+Luigi disse che Mario voleva lavorare ma non poteva\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.28\columnwidth}\raggedright
+imperativo → infinito combinato a di\strut
+\end{minipage} & \begin{minipage}[t]{0.31\columnwidth}\raggedright
+Luigi disse a Mario:\enquote{Lavora!}\strut
+\end{minipage} & \begin{minipage}[t]{0.32\columnwidth}\raggedright
+Luigi disse a Mario di lavorare\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+In maniera simile, anche la persona deve essere adattata
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{154}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Mario dice: \enquote{Non amo passeggiare}
+  \item
+    Mario dice che (lui) non ama passeggiare
+  \end{enumerate}
+\end{enumerate}
+
+e gli elementi spaziali:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{155}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Mario dice: \enquote{Qui da voi non ci vengo più!}
+  \item
+    Mario disse che lì da loro non sarebbe più andato
+  \end{enumerate}
+\end{enumerate}
+
+Nel passaggio dal discorso diretto a quello indiretto scompaiono i due punti e le virgolette ed hanno luogo le modifiche degli elementi deittici appena visti.
 
 \hypertarget{discorso-indiretto-libero}{%
-\section{Discorso indiretto libero}\label{discorso-indiretto-libero}}
+\subsection{Discorso indiretto libero}\label{discorso-indiretto-libero}}
+
+Il discorso indiretto libero si distanzia da quello indiretto per una serie di caratteristiche lessicali e sintattiche. Se in quello indiretto è necessario che l'elemento citato sia introdotto da un verbo come \emph{dire, giurare, urlare, ecc.}, in quello indiretto libero non vi è una restrizione di tal genere:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{156}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Vattene, adesso!
+  \item
+    Mi diede un ordine perentorio: dovevo andarmene subito.
+  \end{enumerate}
+\end{enumerate}
+
+A differenza del costrutto non libero, il discorso indiretto libero può contenere enunciati non dichiarativi, strutture sintatticamente non collegate, forme lessicali marcate. La \emph{cornice} può apparire in diverse posizioni --interrompendo la citazione, seguendola o precedendola-- oppure mancare del tutto:
+
+\begin{enumerate}
+\def\labelenumi{(\arabic{enumi})}
+\setcounter{enumi}{157}
+\item
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    Non era questa la fine che aveva desiderato; non qui almeno, rifletteva
+  \item
+    Rifletteva: non era questa la fine che aveva desiderato; non qui almeno
+  \end{enumerate}
+\end{enumerate}
+
+A differenza del discorso indiretto non libero, in cui si modificano le forme di deissi orientandole verso l'ascoltatore, nel caso di quello libero esse possono conservare un orientamento narrativo verso il parlante.
+
+L'indiretto libero nei testi letterari può mescolarsi a sua volta con frasi in discorso diretto o riportato, dialoghi, monologhi interiori e flusso di coscienza.
 
 \hypertarget{la-frase-marcata}{%
 \chapter{La frase marcata}\label{la-frase-marcata}}
