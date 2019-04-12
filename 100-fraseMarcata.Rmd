@@ -1,1 +1,81 @@
 # La frase marcata
+
+Con il termine "marcato" si designa in linguistica una costruzione che differisce dall'uso non-neutrale e che può riguardare tutti i campi dell'espressione --lessicale, morfologico, sintattico, prosodico, pragmatico, gestuale ecc.--. Il concetto di marcatezza, sviluppato in maniera sistematico all'interno degli studi fonologici, nasce sulla base della comparazione tra due o più forme, una forma base ed una marcata. Così p.es. il fonema /k/ si oppone a /g/ non per il luogo di articolazione che resta il medesimo (velare), né per il tipo di consonante (occlusiva), bensì per il tratto di sonorità ([- sonoro] per /k/, [+ sonoro] per /g/). 
+
+In maniera simile a quanto avviene negli studi fonologici, possiamo parlare di una *marcatezza* sintattica, che distingue tra una forma neutrale ed altre possibili, marcate per particolari esigenze di natura pragmatica, informativa ecc. Così, in italiano, se l'ordine della frase non marcata è rappresentato da AVO e SV^[Soggetti trans. e intrans., Verbo, Oggetto diretto ecc.], nelle frasi marcate ci troviamo di fronte ad uno spostamento dei costituenti rispetto all'ordine neutrale:
+
+(@)
+    a. Ho comprato il vestito
+    a. Il vestito, l'ho comprato
+    a. Il vestito, ho comprato (non l'ombrello)
+
+
+
+## Il complementatore C e la periferia sinistra
+
+Abbiamo mostrato come il Sintagma Verbale (SV) si divida a sua volta in tre costituenti principale (ma possiamo identificarne altri), secondo la struttura delle teste:
+
+(@) [ T [ v [ V ] ] ]
+
+a cui associamo le etichette corrispondenti e la struttura completa dei costituenti:
+
+(@) [ TP T [ vP v [ VP V ] ] ]
+
+e che ad un livello superiore di T troviamo un altro costituente dato dalla testa C, che abbiamo chiamato *complementatore*:
+
+(@) [ CP C [ TP T [ vP v [ VP V ] ] ] ]
+
+Abbiamo associato la testa C ad alcuni tratti specifici (p.es. [wh]) oppure al segnale di inizio di frase, silente a livello morfo-fonologico in italiano. 
+
+Similemente a quanto avvenuto a livello del costituente Verbale (prima) e flessionale (poi), si è discussa la possibilità di creare una certa gerarchia di costituenti all'interno di C, tale per cui lo spazio del Complementatore rappresenti un insieme di costituenti e non uno solo. 
+Facciamo subito riferimento ad una nozione specifica del modello generativo in analisi, dove la struttura della frase conosce 3 livelli [@rizzi1997]:
+
+* Il livello lessicale all'interno dell'area di VP;
+* Il livello flessivo (nell'area vP-TP);
+* Il livello pragmatico dell'enunciato all'interno dell'area di CP. 
+
+Questo livello pragmatico è stato definito "periferia sinistra della frase" per via della sua posizione strutturale, sopra il livello flessionale costituito da TP.
+A sua volta dunque, CP rappresenta un "livello" di costituenza formato da diversi costituenti. Tale approccio di scomposizione di costituenti dà vita ad un interessante e attivo filone di ricerca, particolarmente vitale in Italia, denominato "cartografia sintattica". Una configurazione schematica di tale struttura può così rappresentarsi come in Fig. \@ref(fig:treePeriferiaSinistra).
+
+
+```{r treePeriferiaSinistra, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Struttura della periferia sinistra della frase', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{tikzpicture}
+\Tree 
+[ .ForceP [ .{...} ] 
+[ [ .Force ]
+[ .Topic2P [ .{...} ] 
+[ [ .Topic2 ]
+[ .FocusP [ .{...} ] 
+[ [ .Focus ]
+[ .Topic1P [ .{...} ] 
+[ [ .Topic1 ]
+[ .FinitenessP [ .{...} ] 
+[ [ .Finiteness ]
+[ .TP [ .{...} ]
+[ [ .T ] 
+[ .{...} ]
+] ] ] ] ] ] ] ] ] ] ] ]
+\end{tikzpicture}
+```
+Facciamo riferimento ora ad una distinzione degli elementi della frase sulla base del loro aspetto comunicativo: *tema* e *rema*. 
+Il *tema* è il contenuto argomentale dell'enunciato, presentato dal parlante come elemento non controverso; di norma è un elemento già attivato nella comunicazione (informazione data).
+Il *rema* invece è un elemento maggiormente saliente, è l'obiettivo del messaggio e spesso è un elemento denotante un'informazione nota.
+L'ordine non marcato dell'enunciato affermativo in italiano presenta solitamente il tema in posizione finale e il rema in quella finale.
+
+Una costruzione marcata può attivarsi per necessità pragmatico-comunicative, col fine di modificare l'ordine consueto della struttura informativa, ponendo in risalto un elemento specifico.
+
+Sebbene in italiano la posizione del tema (o *topic*) è spesso sovrapponibile a quella di soggetto, è utile distinguere un piano puramente legato alla struttura informativa (tema), da quella semantica e sintattica. 
+Similemente va operata la medesima distinzione tra il rema (o *comment*) e l'oggetto, poiché rappresentano elementi di diversi livelli di analisi della lingua.
+In alcune lingue, dove l'ordine delle parole è caratterizzato da una struttura orientata in senso pragmatico, tale differenza è necessaria.
+
+## Topic e focus
+
+ 
+
+## Le dislocazioni
+
+## La frase scissa
+
+## La frase pseudoscissa
+
+## La frase presentativa
