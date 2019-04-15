@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.4.5)  12 APR 2019 10:08
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/Arch Linux) (preloaded format=xelatex 2019.4.5)  15 APR 2019 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3003,10 +3003,47 @@ File: sintassiIta2_files/figure-latex/treePeriferiaSinistra-1.pdf Graphic file
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[70] [71] [72
+[70] [71]
+File: sintassiIta2_files/figure-latex/treeTopicComment-1.pdf Graphic file (type
+ pdf)
+<use sintassiIta2_files/figure-latex/treeTopicComment-1.pdf>
+
+Underfull \hbox (badness 1158) in paragraph at lines 3803--3804
+[]\TU/IBMPlexSerif(0)/m/n/10.95 Questa opera di \TU/IBMPlexSerif(0)/m/it/10.95 
+tematizzatione \TU/IBMPlexSerif(0)/m/n/10.95 di un costituente può avvenire
+ []
 
 
-] (./sintassiIta2.bbl
+Underfull \hbox (badness 1642) in paragraph at lines 3803--3804
+\TU/IBMPlexSerif(0)/m/n/10.95 in italiano attraverso lo spostamento a sinistra 
+dell’elemento,
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 3803--3804
+\TU/IBMPlexSerif(0)/m/n/10.95 tale che questo movimento porta il costituente (o
+ gruppo di
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3833--3834
+[]\TU/IBMPlexSerif(0)/m/n/10.95 Diversamente, l’anteposizione dell’oggetto dire
+tto sembra
+ []
+
+[72]
+Underfull \hbox (badness 4739) in paragraph at lines 3928--3929
+[]\TU/IBMPlexSerif(0)/m/n/10.95 Similemente, possiamo dislocare i complementi i
+ndiretti, a
+ []
+
+[73]
+Underfull \hbox (badness 4328) in paragraph at lines 4009--4011
+\TU/IBMPlexSerif(0)/m/n/10.95 particolarmente marcata, usata soprattutto nel pa
+rlato o in
+ []
+
+[74] [75] [76] (./sintassiIta2.bbl
 chapter without number
 
 Overfull \hbox (10.95pt too wide) in paragraph at lines 1--1
@@ -3037,24 +3074,26 @@ Underfull \hbox (badness 1259) in paragraph at lines 63--66
 PlexSerif(0)/m/it/10.95 Satura\TU/IBMPlexSerif(0)/m/n/10.95 .  Lo specchio.
  []
 
-[73
+[77
 
 
-]) [74]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3767.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3767.
+
+
+]) [78]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4104.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4104.
 (./sintassiIta2.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 3767.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 3767.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 3767.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 4104.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 4104.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4104.
  ) 
 Here is how much of TeX's memory you used:
- 58798 strings out of 492933
- 1270285 string characters out of 6138668
- 1978734 words of memory out of 5000000
- 61919 multiletter control sequences out of 15000+600000
+ 58813 strings out of 492933
+ 1270654 string characters out of 6138668
+ 1979025 words of memory out of 5000000
+ 61933 multiletter control sequences out of 15000+600000
  538971 words of font info for 122 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 70i,12n,118p,9111b,1033s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,12n,118p,9111b,1036s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sintassiIta2.pdf (84 pages).
+Output written on sintassiIta2.pdf (88 pages).

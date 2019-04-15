@@ -35,47 +35,200 @@ Facciamo subito riferimento ad una nozione specifica del modello generativo in a
 * Il livello pragmatico dell'enunciato all'interno dell'area di CP. 
 
 Questo livello pragmatico è stato definito "periferia sinistra della frase" per via della sua posizione strutturale, sopra il livello flessionale costituito da TP.
-A sua volta dunque, CP rappresenta un "livello" di costituenza formato da diversi costituenti. Tale approccio di scomposizione di costituenti dà vita ad un interessante e attivo filone di ricerca, particolarmente vitale in Italia, denominato "cartografia sintattica". Una configurazione schematica di tale struttura può così rappresentarsi come in Fig. \@ref(fig:treePeriferiaSinistra).
+A sua volta dunque, CP rappresenta un "livello" di costituenza formato da diversi costituenti. Tale approccio di scomposizione di costituenti dà vita ad un interessante e attivo filone di ricerca, particolarmente vitale in Italia, denominato "cartografia sintattica". Una configurazione schematica di tale struttura può così rappresentarsi come in Fig. \@ref(fig:treePeriferiaSinistra)^[La notazione X\*P con asterisco indica che è possibile una struttura ricorsiva del costituente, come in Topic\*.].
 
 
-```{r treePeriferiaSinistra, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Struttura della periferia sinistra della frase', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+```{r treePeriferiaSinistra, echo=FALSE, engine='tikz', out.width='90%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Struttura della periferia sinistra della frase', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
 \begin{tikzpicture}
 \Tree 
 [ .ForceP [ .{...} ] 
 [ [ .Force ]
-[ .Topic2P [ .{...} ] 
-[ [ .Topic2 ]
+[ .Topic*P [ .{...} ] 
+[ [ .Topic* ]
+[ .IntP [ .{...} ] 
+[ [ .Int ]
+[ .Topic*P [ .{...} ] 
+[ [ .Topic* ]
 [ .FocusP [ .{...} ] 
 [ [ .Focus ]
-[ .Topic1P [ .{...} ] 
-[ [ .Topic1 ]
+[ .Topic*P [ .{...} ] 
+[ [ .Topic* ]
+[ .ModP [ .{...} ] 
+[ [ .Mod ]
+[ .Topic*P [ .{...} ] 
+[ [ .Topic* ]
 [ .FinitenessP [ .{...} ] 
 [ [ .Finiteness ]
 [ .TP [ .{...} ]
 [ [ .T ] 
 [ .{...} ]
-] ] ] ] ] ] ] ] ] ] ] ]
+] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ] ]
 \end{tikzpicture}
 ```
 Facciamo riferimento ora ad una distinzione degli elementi della frase sulla base del loro aspetto comunicativo: *tema* e *rema*. 
 Il *tema* è il contenuto argomentale dell'enunciato, presentato dal parlante come elemento non controverso; di norma è un elemento già attivato nella comunicazione (informazione data).
 Il *rema* invece è un elemento maggiormente saliente, è l'obiettivo del messaggio e spesso è un elemento denotante un'informazione nota.
-L'ordine non marcato dell'enunciato affermativo in italiano presenta solitamente il tema in posizione finale e il rema in quella finale.
+L'ordine non marcato dell'enunciato affermativo in italiano presenta solitamente il tema in posizione finale e il rema in quella finale:
+
+(@)
+        Luigi   lavora nel campo della cristallografia
+        TEMA    REMA
+
+Bisogna però sottolineare che la distinzione tema-rema ha luogo soprattutto in un contesto dialogico e che spesso può risultare difficile notare l'asimmetria tra informazione data (tema) e nuova (rema) se ci si riferisce ad una frase in isolamento.
 
 Una costruzione marcata può attivarsi per necessità pragmatico-comunicative, col fine di modificare l'ordine consueto della struttura informativa, ponendo in risalto un elemento specifico.
 
-Sebbene in italiano la posizione del tema (o *topic*) è spesso sovrapponibile a quella di soggetto, è utile distinguere un piano puramente legato alla struttura informativa (tema), da quella semantica e sintattica. 
-Similemente va operata la medesima distinzione tra il rema (o *comment*) e l'oggetto, poiché rappresentano elementi di diversi livelli di analisi della lingua.
+Sebbene in italiano la posizione del tema (o *topic*) è spesso sovrapponibile a quella di soggetto, è utile distinguere un piano puramente legato alla struttura informativa (tema), da quella semantica e argomentale. 
+Similemente va operata la medesima distinzione tra il rema (o *comment* o, secondo alcuni framework, *focus*) e l'oggetto, poiché rappresentano elementi di diversi livelli di analisi della lingua.
 In alcune lingue, dove l'ordine delle parole è caratterizzato da una struttura orientata in senso pragmatico, tale differenza è necessaria.
+
+
+```{r treeTopicComment, echo=FALSE, engine='tikz', out.width='70%', fig.ext=if (knitr:::is_latex_output()) 'pdf' else 'svg', fig.cap='Sistema topic-comment', engine.opts = list(template = "latex/tikz2pdf.tex"), fig.align='center'}
+\begin{tikzpicture}
+\Tree 
+[ .Utterance Topic
+[ .Comment  Background [ .Focus ] ] ]
+\end{tikzpicture}
+```
+
+Bisogna avvertire lo studente che nel caso delle strutture marcate vi è una grandissima polisemia e le strutture analizzate possono conoscere termini notevolmente diversi da uno studioso all'altro.
 
 ## Topic e focus
 
- 
+Le lingue dispongono di più meccanismi per segnalare la messa in tema di una parte del discorso: (a) sintattici (come la posizione nell'enunciato), (b) soprasegmentali (prosodia, intonazione, pause ecc.), (c) morfologici (come l'uso di marcatori specifici) [@simone1995 381].
+
+Questa opera di *tematizzatione* di un costituente può avvenire in italiano attraverso lo spostamento a sinistra dell'elemento, tale che questo movimento porta il costituente (o gruppo di costituenti) soggetto a movimento, nella posizione del tema. 
+
+Una struttura di tematizzazione è quella della *topicalizzazione*, vale a dire che il costituente risale nella posizione di Topic:
+
+(@)
+        Questo libro    dovresti leggere    <t>
+        TOPIC
+
+Possiamo topicalizzare un oggetto indiretto (argomento o elemento extranucleare) in maniera agevole:   
+
+(@)
+    a. A Mario ho regalato un libro
+    b. Ad Olomouc Mozart ha vissuto per qualche tempo
+
+Diversamente, l'anteposizione dell'oggetto diretto sembra maggiormente legato ad una interpretazione di *focus*:
+
+(@)
+    a. LUCIA hanno licenziato (, non Luigi)
+    a. FILOSOFIA ha insegnato Gadamer (, non diritto) 
+
+Il focus può essere contrastivo, vale a dire avere un fuoco e un elemento di comparazione negativo:
+
+(@)
+        Questo libro    dovresti leggere    <t>     , non quello
+        FOCUS
+
+In italiano, in una frase semplice, non può apparire un elemento wh e il focus contrastivo, in qualsiasi ordine:
+
+(@)
+    a. (*) A GIANNI che cosa hai detto, non a Piero?
+    a. (*) Che cosa A GIANNI hai detto, non a Piero?
+
+Questa costruzione può apparire --con margini di accettabilità-- all'interno di strutture incassate:
+
+(@) 
+    a. (?) Mi domando A GIANNI che cosa abbiano detto, non a Piero
+
+La topicalizzazione e la focalizzazione presentano in italiano una marca intonativa sull'elemento spostato e non hanno una ripresa pronominale.
+
 
 ## Le dislocazioni
 
-## La frase scissa
+La *dislocazione* è un processo sintattico che consente di tematizzare un ampio ventaglio di elementi. In questo caso però (a) l'elemento dislocato può trovarsi a sinistra o a destra dell'enunciato e (b) appare un clitico, *anaforico* nel caso in cui esso segue l'elemento di cui è referente e *cataforico* nel caso in cui lo anticipi:
 
-## La frase pseudoscissa
+(@)
+    a. Le birre, le abbiamo portate
+    a. Le abbiamo portate, le birre
+
+Rispetto a quei contesti che non permettono la topicalizzazione di un elemento, spesso possiamo operare la dislocazione:
+
+(@)
+    a. Lucia, l'hanno licenziata
+    a. Filosofia, l'ha insegnata Gadamer
+
+Similemente, possiamo dislocare i complementi indiretti, a sinistra o a destra, con comparsa del clitico in forma indiretta (*ci, ne*):
+
+(@)
+    a. Delle vacanze ne abbiamo già parlato
+    a. Ci pianto i chiodi, col martello
+
+o anche le preposizioni argomentali, ma non una non argomentale:
+
+(@)
+    a. Che Luisa faccia il mio lavoro lo desidero
+    a. (*) Se avrò voglia lo andrò al concerto
+
+Un primo esempio di dislocazione a sinistra in volgare si trova nel primo documento dei "Placiti cassinesi" (960-963):
+
+(@)
+    a. Sao ko kelle terre, per kelle fini que ki contene, trenta anni le possette parte Sancti Benedicti
+
+
+
+
+## Il tema sospeso
+
+Il *tema sospeso* (o *nominativus pendens* in latino) è una costruzione in cui l'elemento spostato si presenta maggiormente staccato dall'ambiente sintattico del resto dell'enunciato, e può essere associato ad una ripresa pronominale, a un sintagma nominale o a niente:
+
+(@)
+    a. Il dottor Santi, tutti parlano bene di quel brav'uomo
+    a. Mario, non l'ho invitato oggi
+
+Così come con le dislocazioni, il tema sospeso è una costruzione marcata in cui un elemento è spostato nella posizione della funzione di tema dell'enunciato, ma si differenzia da questo dal fatto che appare al caso zero/nominativo, mentre la ripresa pronominale presenta il caso argomentale (p.es. dativo):
+
+(@)
+    a. A quel ragazzaccio, non gli si può dire nulla    [DISLOCAZIONE SX]
+    a. Quel ragazzaccio, non gli si può dire nulla      [TEMA SOSPESO]
+
+Il tema sospeso --come le altre frasi segmentate-- ha una ricca tradizione letteraria, ma ancora oggi appare come una struttura particolarmente marcata, usata soprattutto nel parlato o in funzione mimetica del parlato.
+Da un punto di vista stilistico, spesso il tema sospeso viene descritto come parte dell'universo dell'*anacoluto*, termine che designa una sequenza sintattica irregolare.
+
+
+
+## La frase scissa e pseudoscissa
+
+La frase *scissa* è un costrutto che mette in evidenza una parte dell'enunciato creando una separazione tra reggente e subordinata:
+
+(@)
+    a. Io ti ringrazio
+    a. Sono io che ti ringrazio
+
+(@)
+    a. È Raffaele che ho incontrato oggi al mercato
+    a. È oggi che ho incontrato Raffaele  al mercato
+    a. È al mercato che ho incontrato Raffaele oggi
+    a. Sono io che ho incontrato oggi Raffaele al mercato
+
+La frase scissa può essere resa sia in maniera esplicita (esempi precedenti) che implicita con la preposizione "a" (o *ad* eufonica) + infinito :
+
+(@)
+    a. Sono io a ringraziarti
+    a. Sono stato io ad incontrare Raffaele
+
+Non è molto chiaro lo statuto del "che" della subordinata e dunque della frase stessa.
+
+Nella frase *pseudoscissa*, la reggente è formata da  Pronome + copula:
+
+(@)
+    a. Chi non lo ha mai abbandonato è stato il fratello
+    a. Quello che mi fa arrabbiare è come tu riesca sempre a farcela
+
+
+Rispetto ad una costruzione copulativa, il secondo SN (p.es. "*il fratello*") funge da soggetto --laddove nella copulativa è il primo--. Inoltre SN2 può essere sostituito con una frase argomentale soggetto, oggetto, obliqua e SN2 non può essere sostituita da un sintagma Aggettivale.
 
 ## La frase presentativa
+
+A differenza di altre costruzioni frammentate, la presentativa non possiede un fuoco necessariamente saliente, e presenta una divisione dell'enunciato in due blocchi di informazione --uno contenente il soggetto, l'altro il predicato. 
+
+Il soggetto è introdotto dalla struttura *ci + Essere*, mentre il predicato da *che*^[A volte queste costruzioni sono assimilate alle pseudoscisse, ma qui manca un fuoco primario.]:
+
+(@)
+    a. C'è Luigi che ti aspetta
+    a. C'è un premio che ti aspetta
+
+
